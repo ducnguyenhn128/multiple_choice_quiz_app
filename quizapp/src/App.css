@@ -12,12 +12,15 @@
   width: 80%;
   color: white;
   list-style-type: none;
+  text-align: left;
 }
 
-.choice li {
-  color: white;
-  align-items: start;
-  
+.choice.active {
+  background-color: brown;
+}
+
+.choice.active.rightAnswer {
+  background-color: rgb(14, 90, 7);
 }
 
 
