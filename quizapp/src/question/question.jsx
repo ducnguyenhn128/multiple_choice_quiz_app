@@ -1,13 +1,13 @@
 import '../App.css'
 import { useState } from 'react'
 
-const Question = ({problem}) => {
+const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_submit, setAnswerStatus, setActiveIndex}) => {
     // props must be an object 
     const {question, choices, answer} = problem
 
-    const [user_submmit, setUser_submit ] = useState(false)
-    const [answerStatus, setAnswerStatus] = useState(null)
-    const [activeIndex, setActiveIndex] = useState(null);
+    // const [user_submmit, setUser_submit ] = useState(false)
+    // const [answerStatus, setAnswerStatus] = useState(null)
+    // const [activeIndex, setActiveIndex] = useState(null);
 
         // console.log(question)
         // console.log(choices)
@@ -33,9 +33,9 @@ const Question = ({problem}) => {
     return (  
         <div>
             {/* Render question */}
-            <p> 
+            <h2> 
                 {question}
-            </p>
+            </h2>
 
             {/* Render list of choices */}
 
@@ -48,7 +48,7 @@ const Question = ({problem}) => {
                     // right answer : CSS for user select right answer, the box will change to green background
                     onClick = {() => handleClick(index)}
                 >
-                    {index}. {el}
+                    {el}
                 </li>
             ))}
         </div>

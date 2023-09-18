@@ -9,10 +9,11 @@
   background-color: #141c3a;
   padding: .75rem 1rem;
   border-radius: 2px;
-  width: 80%;
+  width: 50%;
   color: white;
   list-style-type: none;
   text-align: left;
+  font-size: 24px
 }
 
 .choice.active {
