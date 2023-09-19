@@ -52,10 +52,11 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
             {choices.map((el, index) => (
                 <li key={index} 
                     className= {`choice ${index === activeIndex ? 'active' : '' } ${answerStatus === true ? 'rightAnswer' : '' } ${(index === correctIndex && answerStatus === false) ? 'correct' : ''}`}
-                    // className contain 4 element: choice, active (or not), rightAnswer (2 elements)
+                    // className contain 4 element: choice, active (or not), rightAnswer (2 elements), display right Answer
                     // choice: default css for 4 choices 
                     // active: CSS for user select wrong answer, the box will change to red background
                     // right answer : CSS for user select right answer, the box will change to green background
+                    // display right answer: CSS when user choose incorrect, the right answer will display green background
                     onClick = {() => handleClick(index)}
                 >
                     {el}
