@@ -5,13 +5,19 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
     // props must be an object 
     const {question, choices, answer} = problem
 
-    // const [user_submmit, setUser_submit ] = useState(false)
-    // const [answerStatus, setAnswerStatus] = useState(null)
-    // const [activeIndex, setActiveIndex] = useState(null);
+    // console.log(question)
+    // console.log(choices)
+    // console.log(`Correct answer: ${answer}`)
 
-        // console.log(question)
-        // console.log(choices)
-        // console.log(`Correct answer: ${answer}`)
+    let correctIndex ;
+    for (let i = 0 ; i < 4; i++ ) {
+        if (choices[i] == answer) {
+            correctIndex = i
+        }
+    };
+
+    // console.log(`Right answer is ${correctIndex}`)
+
 
     const handleClick = (index) => {
         // console.log(`User answer: ${user_answer}`)
@@ -23,6 +29,10 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
             } else {
                 console.log('Wrong Answer')
                 setAnswerStatus(false)
+                
+                // correct index
+
+
             }
             setUser_submit(true)
             // setActiveIndex(index === activeIndex ? null : index);
@@ -41,8 +51,8 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
 
             {choices.map((el, index) => (
                 <li key={index} 
-                    className= {`choice ${index === activeIndex ? 'active' : '' }  ${answerStatus === true ? 'rightAnswer' : '' } `}
-                    // className contain 3 element: choice, active (or not), rightAnswer (or not)
+                    className= {`choice ${index === activeIndex ? 'active' : '' } ${answerStatus === true ? 'rightAnswer' : '' } ${(index === correctIndex && answerStatus === false) ? 'correct' : ''}`}
+                    // className contain 4 element: choice, active (or not), rightAnswer (2 elements)
                     // choice: default css for 4 choices 
                     // active: CSS for user select wrong answer, the box will change to red background
                     // right answer : CSS for user select right answer, the box will change to green background

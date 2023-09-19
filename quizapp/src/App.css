@@ -13,7 +13,11 @@
   color: white;
   list-style-type: none;
   text-align: left;
-  font-size: 24px
+  font-size: 20px
+}
+
+.choice:hover {
+  cursor: pointer;
 }
 
 .choice.active {
@@ -24,7 +28,28 @@
   background-color: rgb(14, 90, 7);
 }
 
+.choice.correct {
+  background-color: rgb(14, 90, 7);
+}
 
+.next_button {
+  background-color: #141c3a;
+  margin: 30px auto;
+  padding: 16px;
+  color: white;
+  border-radius: 8px;
+
+}
+
+.next_button:hover {
+  background-color: #ffffff;
+  border: 2px solid #141c3a;
+  margin: 30px auto;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  
+}
 
 .App-logo {
   height: 40vmin;

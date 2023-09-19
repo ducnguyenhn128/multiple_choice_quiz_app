@@ -3,16 +3,16 @@ import './question/question'
 import Question from './question/question';
 import questionBank from './QuestionBank';
 import { useState, useEffect } from 'react';
-const sample = {
-  question: "Result of 3 + 3 is",
-  choices: 
-    ['Whether you are an examiner or a research analyst, this blog will prepare you to ask the right MCQs at the right time and engage ', 
-      'help you rise above this challenge, we have created a list of different types of multiple-choice questions along with their examples', 
-      'you rise above this challenge, we have created a list of different types of multiple-choice questions along with their examples. Wheth', 
-      'A well-framed multiple-choice question offers two or more answer options to'
-    ],
-  answer: 'A well-framed multiple-choice question offers two or more answer options to'
-}
+// const sample = {
+//   question: "Result of 3 + 3 is",
+//   choices: 
+//     ['Whether you are an examiner or a research analyst, this blog will prepare you to ask the right MCQs at the right time and engage ', 
+//       'help you rise above this challenge, we have created a list of different types of multiple-choice questions along with their examples', 
+//       'you rise above this challenge, we have created a list of different types of multiple-choice questions along with their examples. Wheth', 
+//       'A well-framed multiple-choice question offers two or more answer options to'
+//     ],
+//   answer: 'A well-framed multiple-choice question offers two or more answer options to'
+// }
 
 function App() {
   const [questionNumber, setQuestionNumber ] = useState(0)
@@ -42,7 +42,7 @@ function App() {
           setActiveIndex = {setActiveIndex}
         />
 
-        <button onClick = {nextQuestion}>Next</button>
+        <button onClick = {nextQuestion} className='next_button'>Next</button>
     </div>
   );
 }
