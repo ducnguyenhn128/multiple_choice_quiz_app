@@ -2,27 +2,24 @@ import '../../App.css';
 import Question from '../../question/question.jsx';
 import questionBank from '../../QuestionBank';
 import { useState, useEffect } from 'react';
-// const sample = {
-//   question: "Result of 3 + 3 is",
-//   choices: 
-//     ['Whether you are an examiner or a research analyst, this blog will prepare you to ask the right MCQs at the right time and engage ', 
-//       'help you rise above this challenge, we have created a list of different types of multiple-choice questions along with their examples', 
-//       'you rise above this challenge, we have created a list of different types of multiple-choice questions along with their examples. Wheth', 
-//       'A well-framed multiple-choice question offers two or more answer options to'
-//     ],
-//   answer: 'A well-framed multiple-choice question offers two or more answer options to'
-// }
+import shuffleArray from '../../util/shuffleArray';
+// Select 7 question from question bank
+
+const ShuffleQuestion = shuffleArray(questionBank)
+const AllQuestion = ShuffleQuestion.slice(0,7)
 
 const Test = () =>  {
+
   const [questionNumber, setQuestionNumber ] = useState(0)
 
-  const [user_submmit, setUser_submit ] = useState(false)
+  const [user_submmit, setUser_submit ] = useState(false)  // user has submited question or not
   const [answerStatus, setAnswerStatus] = useState(null)
   const [activeIndex, setActiveIndex] = useState(null);
+  const [userPoint, setUserPoint] = useState(0)
 
   const nextQuestion = () => {
-    const randomIndex = Math.floor(Math.random() * questionBank.length);
-    setQuestionNumber(randomIndex);
+    // const randomIndex = Math.floor(Math.random() * questionBank.length);
+    setQuestionNumber(questionNumber => questionNumber + 1);
     setUser_submit(false);
     setAnswerStatus(null);
     setActiveIndex(null)
@@ -30,17 +27,25 @@ const Test = () =>  {
   return (
     <div className="Test">
         {/* <h2>Multiple choices</h2> */}
+        <h2>{`Question ${questionNumber + 1}/7`}</h2>
         <Question 
-          problem={questionBank[questionNumber]}
+          problem={AllQuestion[questionNumber]}
           user_submmit = {user_submmit}
           answerStatus = {answerStatus}
           activeIndex = {activeIndex}
           setUser_submit = {setUser_submit}
           setAnswerStatus = {setAnswerStatus}
           setActiveIndex = {setActiveIndex}
+          userPoint = {userPoint}
+          setUserPoint = {setUserPoint}
+
         />
 
-        <button onClick = {nextQuestion} className='next_button'>Next</button>
+        <button onClick = {nextQuestion} className='next_button' disabled={questionNumber === 6 || !user_submmit}>
+          Next
+        </button>
+
+        <h2>{`Your Score: ${userPoint}/7 `}</h2>
     </div>
   );
 }

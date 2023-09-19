@@ -19,6 +19,8 @@ const Practise = () =>  {
   const [user_submmit, setUser_submit ] = useState(false)
   const [answerStatus, setAnswerStatus] = useState(null)
   const [activeIndex, setActiveIndex] = useState(null);
+  const [userPoint, setUserPoint] = useState(0)
+
 
   const nextQuestion = () => {
     const randomIndex = Math.floor(Math.random() * questionBank.length);
@@ -38,6 +40,8 @@ const Practise = () =>  {
           setUser_submit = {setUser_submit}
           setAnswerStatus = {setAnswerStatus}
           setActiveIndex = {setActiveIndex}
+          userPoint = {userPoint}
+          setUserPoint = {setUserPoint}
         />
 
         <button onClick = {nextQuestion} className='next_button'>Next</button>

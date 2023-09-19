@@ -1,7 +1,7 @@
 import '../App.css'
 import { useState } from 'react'
 
-const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_submit, setAnswerStatus, setActiveIndex}) => {
+const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_submit, setAnswerStatus, setActiveIndex,userPoint,setUserPoint}) => {
     // props must be an object 
     const {question, choices, answer} = problem
 
@@ -26,13 +26,11 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
             if (choices[index] === answer) {
                 console.log('Right Answer')
                 setAnswerStatus(true)
+                setUserPoint(userPoint => userPoint + 1) // add 1 point for user cause correct answer
             } else {
                 console.log('Wrong Answer')
                 setAnswerStatus(false)
-                
                 // correct index
-
-
             }
             setUser_submit(true)
             // setActiveIndex(index === activeIndex ? null : index);
@@ -68,9 +66,3 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
  
 export default Question;
 
-
-const sample = {
-    question: "Result of 3 + 3 is",
-    choices: ['4', '5', '6', '7'],
-    answer: '6'
-}
