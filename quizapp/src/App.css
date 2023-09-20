@@ -73,10 +73,55 @@ h1 {
   
 }
 
+/* ----------------------------------------------- */
+
+.official_test_page {
+  display: flex;
+  
+}
+
+.official_test_page_question_list {
+  flex: 70%;
+  border: 1px solid black;
+  padding: 16px;
+  position: relative;
+}
+
+.official_test_page_question_list li {
+  list-style: none;
+}
+
+
+.official_test_page_summary {
+  flex: 30%;
+  
+}
+
+.official_test_page_summary_clock {
+  position: fixed;
+  /* border: 1px solid red; */
+  text-align: left;
+  top: 20px;
+  right: 100px
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.countdown_clock {
+  margin: 20px 0px;
+  width: 100px;
+  height: 60px;
+  border: 2px solid black;
+  line-height: 60px;
+  text-align: center;
+  color: red;
+  font-weight: 600;
+  font-size: 24px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

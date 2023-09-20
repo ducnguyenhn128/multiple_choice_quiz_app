@@ -17,6 +17,12 @@ const Homepage = () => {
                     </Link>
                 </div>
 
+                <div className='homepage_button'>
+                    <Link to = "/officialtest" className='homepage_link'> 
+                        Official Test (time control)
+                    </Link>
+                </div>
+
         </div>
     );
 }

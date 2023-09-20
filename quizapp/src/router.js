@@ -5,6 +5,7 @@ import {
 import Homepage from "./Page/Homepage/Homepage";
 import Practise from "./Page/Practise/Practise";
 import Test from "./Page/Test/Test";
+import OfficialTest from "./Page/OfficialTest/OfficialTest";
 
 
 const router =   createBrowserRouter([ 
@@ -19,6 +20,10 @@ const router =   createBrowserRouter([
     {
         path: '/test' ,
         element: <Test />
+    } ,
+    {
+        path: 'officialtest',
+        element: <OfficialTest />
     }
 ])
 
