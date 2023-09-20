@@ -3,6 +3,7 @@ import questionBank from '../../QuestionBank';
 import { useState, useEffect } from 'react';
 import CountDownClock from '../../util/CountDownClock';
 import Evaluation from '../../util/evaluation';
+import { useNavigate } from 'react-router-dom';
 
 const OfficialTest = () => {
     // count down
@@ -30,6 +31,9 @@ const OfficialTest = () => {
     //question
     const [UserAnswer, setUserAnswer] = useState(Array(10).fill(null)) 
     const [userScore, setUserScore] = useState(null)
+
+    const navigate = useNavigate();
+
     const submitAction = () => {
         const totalScore = Evaluation(UserAnswer);
         console.log('Total score is');
@@ -37,6 +41,7 @@ const OfficialTest = () => {
         setUserScore(totalScore);
         setRemainingTime(initialDuration)
         return(totalScore)
+        // navigate('/officialtest/result')
     }
 
     const handleChoiceChange = (questionIndex, choiceIndex) => {
@@ -44,6 +49,8 @@ const OfficialTest = () => {
         newAnswer[questionIndex] = choiceIndex;
         setUserAnswer(newAnswer)
     }
+
+    
 
     return (  
         <div className='official_test_page'>
@@ -80,7 +87,16 @@ const OfficialTest = () => {
                     </div>
                     <button onClick = {submitAction}>Submit yout test</button>
                     <p>Your test score is: {userScore}/10</p>
+
+                    <div className='official_test_page_summary_question'>
+                        {questionBank.map((el, questionIndex) => (
+                            <div className='official_test_page_summary_question_item' key={questionIndex}>
+                                {questionIndex + 1}
+                            </div>
+                        ))}
+                    </div>
                 </div>
+
             </div>
         </div>
     );

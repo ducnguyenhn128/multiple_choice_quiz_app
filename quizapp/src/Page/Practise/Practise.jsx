@@ -20,7 +20,7 @@ const Practise = () =>  {
   const [answerStatus, setAnswerStatus] = useState(null)
   const [activeIndex, setActiveIndex] = useState(null);
   const [userPoint, setUserPoint] = useState(0)
-
+``
 
   const nextQuestion = () => {
     const randomIndex = Math.floor(Math.random() * questionBank.length);

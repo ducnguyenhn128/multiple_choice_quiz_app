@@ -81,8 +81,9 @@ h1 {
 }
 
 .official_test_page_question_list {
+  margin: 10px 100px;
   flex: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 16px;
   position: relative;
 }
@@ -94,7 +95,7 @@ h1 {
 
 .official_test_page_summary {
   flex: 30%;
-  
+  border-left: 1px solid black;
 }
 
 .official_test_page_summary_clock {
@@ -102,7 +103,25 @@ h1 {
   /* border: 1px solid red; */
   text-align: left;
   top: 20px;
-  right: 100px
+  right: 15%
+}
+
+.official_test_page_summary_question {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 200px;
+}
+
+.official_test_page_summary_question_item {
+  width: 30px;
+  height: 30px;
+  background-color: #282c34;
+  margin: 5px;
+  color: white;
+  /* border: 1px solid rgb(6, 170, 94) */
+  line-height: 30px;
+  text-align: center;
 }
 
 .App-logo {
