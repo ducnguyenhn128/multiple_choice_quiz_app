@@ -6,6 +6,7 @@ import Homepage from "./Page/Homepage/Homepage";
 import Practise from "./Page/Practise/Practise";
 import Test from "./Page/Test/Test";
 import OfficialTest from "./Page/OfficialTest/OfficialTest";
+import ResultPage from "./Page/OfficialTest/ResultPage";
 
 
 const router =   createBrowserRouter([ 
@@ -24,6 +25,10 @@ const router =   createBrowserRouter([
     {
         path: 'officialtest',
         element: <OfficialTest />
+    },
+    {
+        path: 'officialtest/result',
+        element: <ResultPage />
     }
 ])
 

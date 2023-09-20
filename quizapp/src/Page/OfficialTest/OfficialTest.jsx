@@ -1,19 +1,42 @@
 import '../../App.css';
-import Question from '../../question/question.jsx';
 import questionBank from '../../QuestionBank';
 import { useState, useEffect } from 'react';
 import CountDownClock from '../../util/CountDownClock';
 import Evaluation from '../../util/evaluation';
 
 const OfficialTest = () => {
+    // count down
+    const initialDuration = 1800; // 1000 seconds
+    const [remainingTime, setRemainingTime] = useState(initialDuration);
 
+    useEffect(() => {
+        if (remainingTime === 0) {
+        // You can add code here to handle what happens when the countdown reaches zero
+        alert("Countdown is over!");
+        return;
+        }
+        // Create an interval to decrement the remaining time by 1 second every second
+        const interval = setInterval(() => {
+        setRemainingTime((prev) => prev - 1);
+        }, 1000);
+
+        // Clean up the interval when the component unmounts
+        return () => clearInterval(interval);
+    }, [remainingTime]);
+
+    const minutes = Math.floor(remainingTime/60);
+    const seconds = remainingTime % 60
+
+    //question
     const [UserAnswer, setUserAnswer] = useState(Array(10).fill(null)) 
+    const [userScore, setUserScore] = useState(null)
     const submitAction = () => {
         const totalScore = Evaluation(UserAnswer);
         console.log('Total score is');
         console.log(totalScore);
+        setUserScore(totalScore);
+        setRemainingTime(initialDuration)
         return(totalScore)
-        
     }
 
     const handleChoiceChange = (questionIndex, choiceIndex) => {
@@ -51,9 +74,12 @@ const OfficialTest = () => {
             <div className='official_test_page_summary'>
                 <div className='official_test_page_summary_clock'>
                     <h3>Time Remaining</h3>
-                    <CountDownClock />
+                    {/* <CountDownClock /> */}
+                    <div className='countdown_clock'>
+                        {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
+                    </div>
                     <button onClick = {submitAction}>Submit yout test</button>
-                    <p>Your test score is: </p>
+                    <p>Your test score is: {userScore}/10</p>
                 </div>
             </div>
         </div>
