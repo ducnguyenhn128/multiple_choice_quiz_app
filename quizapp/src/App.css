@@ -77,7 +77,7 @@ h1 {
 
 .official_test_page {
   display: flex;
-  
+  position: relative;
 }
 
 .official_test_page_question_list {
@@ -85,7 +85,7 @@ h1 {
   flex: 70%;
   /* border: 1px solid black; */
   padding: 16px;
-  position: relative;
+  
 }
 
 .official_test_page_question_list li {
@@ -103,7 +103,8 @@ h1 {
   /* border: 1px solid red; */
   text-align: left;
   top: 20px;
-  right: 15%
+  padding-left: 40px;
+  /* right: 15% */
 }
 
 .official_test_page_summary_question {
@@ -116,12 +117,26 @@ h1 {
 .official_test_page_summary_question_item {
   width: 30px;
   height: 30px;
-  background-color: #282c34;
-  margin: 5px;
-  color: white;
-  /* border: 1px solid rgb(6, 170, 94) */
+  
+  margin: 10px 10px 0px 0px;
+  
+  border: 1px solid #282c34;
   line-height: 30px;
   text-align: center;
+}
+
+.question_item_done {
+  background-color: #282c34;
+  color: white;
+}
+
+.question_item_not_done {
+  background-color: #dadada;
+}
+
+.question_item_review_later {
+  background-color: red;
+
 }
 
 .App-logo {

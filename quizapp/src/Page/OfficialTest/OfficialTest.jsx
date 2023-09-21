@@ -29,7 +29,7 @@ const OfficialTest = () => {
     const seconds = remainingTime % 60
 
     //question
-    const [UserAnswer, setUserAnswer] = useState(Array(10).fill(null)) 
+    const [UserAnswer, setUserAnswer] = useState(Array(10).fill(null)) // array user answer question
     const [userScore, setUserScore] = useState(null)
 
     const navigate = useNavigate();
@@ -50,7 +50,6 @@ const OfficialTest = () => {
         setUserAnswer(newAnswer)
     }
 
-    
 
     return (  
         <div className='official_test_page'>
@@ -90,7 +89,10 @@ const OfficialTest = () => {
 
                     <div className='official_test_page_summary_question'>
                         {questionBank.map((el, questionIndex) => (
-                            <div className='official_test_page_summary_question_item' key={questionIndex}>
+                            <div 
+                                key={questionIndex}
+                                className={`official_test_page_summary_question_item ${UserAnswer[questionIndex] === null ? 'question_item_not_done' : 'question_item_done'}`} 
+                            >
                                 {questionIndex + 1}
                             </div>
                         ))}
