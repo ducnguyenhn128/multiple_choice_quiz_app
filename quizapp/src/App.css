@@ -134,9 +134,16 @@ h1 {
   background-color: #dadada;
 }
 
-.question_item_review_later {
-  background-color: red;
+.review_later {
+  background-color: yellow;
+  color: black
 
+}
+
+.question_test_page_summary_detail {
+  margin-top: 30px;
+  border-top: 1px solid black;
+  padding-top: 10px;
 }
 
 .App-logo {
