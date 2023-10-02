@@ -14,13 +14,14 @@ import { useState, useEffect } from 'react';
 // }
 
 const Practise = () =>  {
-  const [questionNumber, setQuestionNumber ] = useState(0)
+  const randomNumber = Math.floor(Math.random() * questionBank.length);
+  const [questionNumber, setQuestionNumber ] = useState(randomNumber) // start at a random number
 
   const [user_submmit, setUser_submit ] = useState(false)
   const [answerStatus, setAnswerStatus] = useState(null)
   const [activeIndex, setActiveIndex] = useState(null);
   const [userPoint, setUserPoint] = useState(0)
-``
+
 
   const nextQuestion = () => {
     const randomIndex = Math.floor(Math.random() * questionBank.length);

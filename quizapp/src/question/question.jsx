@@ -57,7 +57,7 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
                     // display right answer: CSS when user choose incorrect, the right answer will display green background
                     onClick = {() => handleClick(index)}
                 >
-                    {el}
+                    {el.replace(/\n/g, '<br />')}
                 </li>
             ))}
         </div>
