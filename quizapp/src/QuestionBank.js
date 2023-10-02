@@ -72,7 +72,7 @@ const questionBank = [
         question: "Phạm vi hoạt động của VP đại diện CTCK, cty quản lý quỹ nước ngoài tại VN KHÔNG bao gồm nội dung nào" ,
         choices: [
             "Thực hiện chức năng văn phòng liên lạc & nghiên cứu thị trường", 
-            "Xúc tiến xây dựng các dự án hợp tắc trong lĩnh vực CK & TTCK tại VN" ,
+            "Xúc tiến xây dựng các dự án hợp tác trong lĩnh vực CK & TTCK tại VN" ,
             "Thúc đẩy, giám sát thực hiện dự án do công ty CK, công ty quản lý quỹ nước ngoài tài trợ tại VN", 
             "Thực hiện hoạt động kinh doanh CK tại VN"
         ],
@@ -232,7 +232,7 @@ const questionBank = [
         choices: [
             "I, II và III" , 'II, III, IV', 'II, III', 'I,II,IV',
         ],
-        answer: 'I, II, IV'
+        answer: 'I,II,IV'
 
     },
     {
@@ -324,6 +324,117 @@ const questionBank = [
             "Khoản vay phải được hoàn trả duy nhất bằng tiền sau khi được bên cho vay chấp thuận"
         ],
         answer: "Lãi suất cho vay được thoả thuận trên nguyên tắc tuân thủ pháp luật"
+    },
+    // 31 - 90
+    {
+        question: 'Công ty đại chúng được mua lại CP của chính mình không phải đáp ứng quy định nào \n I. Mua lại không quá 30% tổng số cổ phần phổ thông đã bán \nII.Phải thực hiện mua lại CP trong thời hạn 6 tháng, kể từ ngày kết thúc đợt chào bán cổ phiếu để tăng vốn \nIII. Có quyết định mua lại CP để giảm vốn điều lệ được DHCD thông qua\nIV.Có CTCK được chỉ định thực hiện giao dịch',
+        choices: [
+            'I, IV', 'II', 'II,IV', 'Tất cả các phương án trên'
+        ],
+        answer: 'II'
+    },
+    {
+        question:'Các hình thức xử phạt trong xử lý vi phạm hành chính trong lĩnh vực CK bao gồm \nI. Cảnh cáo \nII. Tước quyền sử dụng GCN đăng ký hoạt động văn phòng dại diện, chứng chỉ hành nghề CK từ 03 - 24 tháng \nIII.Tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính \nĐình chỉ giao dịch chứng khoán có thời hạn từ 01 - 12 tháng',
+        choices: [
+            'I',
+            'I, II',
+            'I, II, IV',
+            'Tất cả các phương án trên'
+        ],
+        answer: 'I, II, IV'
+    }, 
+    {
+        question: 'Điều kiện nào sau đây là điều kiện niêm yết trái phiếu trên Sở GDCK \nI. Có VĐL đã góp từ 10 tỷ trở lên \nII. Được HĐQT thông qua việc niêm yết \nIII. ROE năm liền trước năm đăng ký tối thiếu 15% \nIV.Phải là trái phiếu đã chào bán ra công chúng',
+        choices: [
+            'I, II', 'III, IV', 'I, II, III', 'IV'
+        ],
+        answer: 'IV'
+    }, 
+    {
+        question: 'Điều kiện về vốn, vốn chủ sở hữu đối với công ty chứng khoán thực hiện tự doanh chứng khoán phái sinh tối thiếu là',
+        choices: [
+            '500 tỷ',
+            '600 tỷ',
+            '800 tỷ',
+            '900 tỷ'
+        ],
+        answer: '600 tỷ'
+    }, 
+    {
+        question: 'Điều kiện là thành viên bù trử chung cho hoạt động thanh toán, bù trừ giao dịch chứng khoán phái sinh của CTCK \nI. Là thành viên lưu ký của Tổng công ty lưu ký bù trừ chứng khoán VN \nII. Vốn điều lệ, VCSH từ 1200 tỷ VND \nIII. Vốn điều lệ, VCSH từ 5000 tỷ VND \nIV.Không lỗ 2 năm gần nhất',
+        choices: [
+            'I, II, IV', 'II, IV', 'I, III, IV', 'Tất cả các phương án trên'
+        ],
+        answer: 'I, II, IV'
+    },
+    {
+        question: 'Theo quy định của Luật Chứng khoán, Sở giao dịch CK không có quyền nào sau đây, loại trừ \n I. Ban hành quy chế đăng ký, lưu ký, bù trừ, thanh toán CK sau khi được UBCK chấp thuật \nII. Tạm ngừng đình chỉ hoặc huỷ bỏ giao dịch chứng khoán \nIII.Cháp thuật, huỷ bỏ niêm yết CK tại SGDCK \nIV. Làm trung gian hoà giải theo yêu cầu của thành viên giao dịch khi phát sinh tranh chấp liên quan đến giao dịch CK',
+        choices: [
+            'I', 'I, IV', 'II, III', 'III, IV'
+        ],
+        answer: 'I'
+    },
+    {
+        question: 'Khi xử lý vi phạm hành chính trong lĩnh vực CK, Chủ tich UBCK được phạt tối đa',
+        choices: [
+            'Đến 100 triệu với tổ chức, 50 triệu với cá nhân',
+            'Đến 500 triệu với tổ chức, 250 triệu với cá nhân',
+            'Đến 2 tỷ với tổ chức, 1 tỷ với cá nhân',
+            'Đến 3 tỷ với tổ chức, 1.5 tỷ với cá nhân'
+        ],
+        answer: 'Đến 3 tỷ với tổ chức, 1.5 tỷ với cá nhân'
+    },
+    {
+        question: 'Đối tượng nào được phạt vi phạm hành chính trong lĩnh vực CK \nI. Bộ trưởng Bộ tài chính \nII. Chủ tịch UBCK \nIII. Chánh thanh tra UBCK \nIV. Chủ tịch UBND cấp tỉnh',
+        choices: [
+            'I, II, III', 'II, III', 'II, III, IV', 'Tất cả các phương án trên'
+        ],
+        answer: 'II, III, IV'
+    }, 
+    {
+        question: 'Tổ chức niêm yết không phải công bố thông tin trong 24 giờ kể từ khi xảy ra sự kiện nào' ,
+        choices: [
+            'có quyết định mua lại CP của chính mình', 
+            'có quyểt định thay đổi DN kiểm toán', 
+            'có quyết định của cơ quan thuế v/v vi phạm luật thuế',
+            'khi giá cổ phiếu tăng trần hoặc giảm sàn 10 phiên liên tiếp'
+        ],
+        answer: 'khi giá cổ phiếu tăng trần hoặc giảm sàn 10 phiên liên tiếp'
+    },
+    {
+        question: 'Tổ chức niêm yết CP, công ty đại chúng quy mô lớn phải công bố thông tin bất thường trong vòng 24h, kể từ khi vay có giá trị bao nhiêu % tổng tài sản của công ty',
+        choices: [
+            '10%', '20%', '25%', '30%'
+        ],
+        answer: '10%'
+    }, 
+    {
+        question: 'Sở giao dịch CK VN được chấp thuận các đối tượng nào trở thành thành viên \nI. Công ty CK \nII. Ngân hàng thương mại \nIII. Chi nhánh ngân hàng nước ngoài \nIV. Công ty đại chúng',
+        choices: [
+            'I', 'I, II', 'I, II, III', 'Tất cả các phương án trên'
+        ],
+        answer: 'I, II, III'
+    }, 
+    {
+        question: 'Loại trái phiếu DN nào được niêm yết trên Sở giao dịch CK VN theo nghị định 155/2020/NĐ-CP \nI. Trái phiếu đã chào bán ra công chúng \nII. Trái phiếu chào bán riêng lẻ \nIII.Trái phiếu chào bán riêng lẻ và chào bán ra công chúng của công ty đại chúng \nIV. Trái phiếu chào bán riêng lẻ và chào bán ra công chúng của tất cả các doanh nghiệp đáp ứng điều kiện về vốn, khả năng tài chính',
+        choices: [
+            'I', 'I, II', 'I, II, III', 'Tất cả các phương án trên'
+        ], 
+        answer: 'I'
+    },
+    {
+        question: 'Tổ chức, cá nhân nào có nghĩa vụ đăng ký mã số giao dịch trên TTCK \nI. NĐT nước ngoài \nII. Tổ chức phát hành chứng chỉ lưu ký tại nước ngoài \nIII. Tổ chức kinh tế có NĐT nước ngoài nắm trên 50% cổ phần \nIV. Tất cả NĐT tham gia TTCK',
+        choices: [
+            'I', 'I, II', 'I, II, III', 'IV' 
+        ],
+        answer: 'I, II, III'
+    }, 
+    {
+        question: 'Tổ chức, cá nhân đã được cấp mã số giao dịch CK phải báo cáo Tổng công ty lưu ký bù trừ CKCN v/v thay đổi thông tin liên quan đến mã số giao dịch CK trong các trường hợp nào \nI.Thay đổi thành viên lưu ký \nII.Thay đổi tên, quốc giá hoặc vùng lãnh thổ nơi đăng ký hoạt động, địa chỉ trụ sở chính, số giấy phép đăng ký kinh doanh đối với tổ chức \n III. Thay đổi tên, quốc tịch, địa chỉ liên lạc, số hộ chiếu hoặc chứng thực cá nhân hợp pháp khác đối với cá nhân \nIV. Thay đối số lượng CK nắm giữ',
+        choices: [
+            'I', 'II, III', 'I, II, III', 'Tất cả các phương án trên'
+        ],
+        answer: 'I, II, III'
     }
 ]
 

@@ -24,6 +24,19 @@ h1 {
   text-align: center;
 }
 
+.question_detail {
+  margin-top: 50px;
+  width: 50%;
+  margin-left: 25%;
+  align-self: start;
+  text-align: justify;
+  white-space: pre-wrap;
+  max-width:50%;
+  font-size: 22px;
+  font-family: sans-serif;
+  padding: 0;
+}
+
 .choice {
   /* height: 60px; */
   margin: 20px auto;
@@ -35,7 +48,7 @@ h1 {
   color: white;
   list-style-type: none;
   text-align: left;
-  font-size: 20px
+  font-size: 16px
 }
 
 .choice:hover {

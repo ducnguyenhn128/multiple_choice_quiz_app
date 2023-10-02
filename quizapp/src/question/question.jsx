@@ -1,9 +1,12 @@
 import '../App.css'
-import { useState } from 'react'
+import shuffleArray from '../util/shuffleArray';
 
 const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_submit, setAnswerStatus, setActiveIndex,userPoint,setUserPoint}) => {
     // props must be an object 
     const {question, choices, answer} = problem
+
+    const a1 = "Những thông tin nào sau đây về chứng khoán đăng ký biện pháp bảo đảm do Tổng công ty lưu ký và bù trừ chứng khoán cung cấp \n I. Bên bảo đảm và bên nhận bảo đảm \n II. Mã chứng khoán, số lượng CK đăng ký biện pháp bảo đảm \n III. Thông tin về việc xử lý tài sản bảo đảm \n IV. Thời điểm đăng ký biện pháp bảo đảm"
+    console.log(a1)
 
     // console.log(question)
     // console.log(choices)
@@ -41,9 +44,7 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
     return (  
         <div>
             {/* Render question */}
-            <h2> 
-                {question}
-            </h2>
+                <pre className='question_detail'>{question}</pre>
 
             {/* Render list of choices */}
 
@@ -57,7 +58,7 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
                     // display right answer: CSS when user choose incorrect, the right answer will display green background
                     onClick = {() => handleClick(index)}
                 >
-                    {el.replace(/\n/g, '<br />')}
+                    {el}
                 </li>
             ))}
         </div>

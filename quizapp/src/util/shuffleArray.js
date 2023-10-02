@@ -15,7 +15,7 @@ function shuffleArray(arr) {
   const originalArray = [1, 2, 3, 4, 5];
   const shuffledArray = shuffleArray(originalArray);
   
-  console.log(originalArray); // Original array remains unchanged
-  console.log(shuffledArray); // Shuffled array
+  // console.log(originalArray); // Original array remains unchanged
+  // console.log(shuffledArray); // Shuffled array
 
   export default shuffleArray
