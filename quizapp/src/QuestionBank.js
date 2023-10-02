@@ -234,6 +234,96 @@ const questionBank = [
         ],
         answer: 'I, II, IV'
 
+    },
+    {
+        question: "Người sở hữu CK đã lưu ký nhận quyền, lợi ích được phân bổ thông qua" ,
+        choices: [
+            "Sở giao dịch CK", "Tổ chức phát hành, công ty đại chúng", 
+            "Tổng công ty lưu ký và bù trừ CKVN & các thành viên lưu ký nơi người sử hữu CK mở tài khoản lưu ký CK " ,
+            "Tổng công ty lưu ký và bù trừ CKVN"
+        ],
+        answer: "Tổng công ty lưu ký và bù trừ CKVN & các thành viên lưu ký nơi người sử hữu CK mở tài khoản lưu ký CK "
+    },
+    {
+        question: "Câu nào sau đây miêu tả đầy đủ, chính xác về nguyên tắc lưu ký chứng khoán",
+        choices: [
+            "Khách hàng lưu ký CK tại thành viên lưu ký", 
+            "Khách hàng lưu ký CK tại thành viên lưu ký & thành viên tái lưu ký CK của KH tại Tổng công ty lưu ký CK VN" , 
+            "Khách hàng lưu ký trực tiếp tại Tổng công ty lưu ký CK VN", 
+            "Khách hàng lưu ký CK qua công ty phát hành"
+        ],
+        answer: "Khách hàng lưu ký CK tại thành viên lưu ký & thành viên tái lưu ký CK của KH tại Tổng công ty lưu ký CK VN"
+    }, 
+    {
+        question: "Thành viên lưu ký là CTCK đã chấm dứt tư cách thành viên tại sở giao dịch CKVN được phép",
+        choices: [
+            "Mở tài khoản lưu ký CK tại 1 ngân hàng duy nhất khác để tất toán các tài khoản lưu ký cho CK của khách hàng", 
+            "Mở tài khoản lưu ký CK tại 1 công ty CK khác để giao dịch chứng khoán của chính mình", 
+            "Mở tài khoản lưu ký CK tại các thành viên lưu ký khác để xử lý số chứng khoán còn lại trên tài khoản tự doanh",
+            "Mở tài khoản giao dịch CK tại các CTCK khác để xử lý số chứng khoán còn lại trên tài khoản tự doanh"
+        ],
+        answer: "Mở tài khoản lưu ký CK tại các thành viên lưu ký khác để xử lý số chứng khoán còn lại trên tài khoản tự doanh"
+    },
+    {
+        question: "Miêu tả nào sau đây chính xác nhất về giao dịch bán khống tài sản có đảm bảo", 
+        choices: [
+            "giao dịch bán khống tài sản có đảm bảo là giao dịch bán CK mà NĐT đã mua trên hệ thống GDCK tại các ngày giao dịch trước đó và đang trong quá trình hoàn tất chuyển quyền sở hữu",
+            "giao dịch bán khống tài sản có đảm bảo là giao dịch bán CK đã được vay trên hệ thống vay và cho vay CK của Tổng công ty lưu ký và bù trừ CKVN. Người bán sau đó có nghĩa vụ mua lại số CK đã để hoàn trả khoản đã vay",
+            "giao dịch bán khống tài sản có đảm bảo là giao dịch bán CK khi NĐT không sở hữu CK đó và sử dụng các tài sản hiện có để làm tài sản đảm bảo", 
+            "giao dịch bán khống tài sản có đảm bảo là giao dịch bán CK khi NĐT không sở hữu CK tại thời điểm bán nhưng tại ngày thanh toán đã có đủ số chứng khoán để chuyển giao cho bên mua dựa trên hợp đồng thoả thuận với bên mua"
+        ],
+        answer: "giao dịch bán khống tài sản có đảm bảo là giao dịch bán CK đã được vay trên hệ thống vay và cho vay CK của Tổng công ty lưu ký và bù trừ CKVN. Người bán sau đó có nghĩa vụ mua lại số CK đã để hoàn trả khoản đã vay"
+    }, 
+    {
+        question: "Chi nhánh công ty quản lý quỹ nước ngoài tại VN được mở", 
+        choices: [
+            "01 tài khoản lưu ký chứng khoán duy nhất tại 1 thành viên lưu ký duy nhất", 
+            "02 tài khoản lưu ký chứng khoán trong đó 01 tài khoản lưu ký CK tại ngân hàng lưu ký và 01 tài khoản tại CTCK",
+            "02 tài khoản lưu ký chứng khoán tại thành viên lưu ký trong đó 01 tài khoản lưu ký cho chính mình và 01 tài khoản lưu ký CK để quản lý danh mục CK cho NĐT nước ngoài", 
+            "02 tài khoản lưu ký chứng khoán tại 01 thành viên duy nhất"
+        ],
+        answer: "02 tài khoản lưu ký chứng khoán tại thành viên lưu ký trong đó 01 tài khoản lưu ký cho chính mình và 01 tài khoản lưu ký CK để quản lý danh mục CK cho NĐT nước ngoài"
+    },
+    {
+        question: "Tài khoản ký quỹ bù trừ của NĐT không được sử dụng cho hoạt động nào",
+        choices: [
+            "Nhận và hoàn trả tài sản ký quỹ cho thành viên bù trừ", 
+            "Nhận hoặc thanh toán tiền giao dịch CK của NĐT, nhận thanh toán lãi tiền gửi ngân hàng theo mức lãi suất thoả thuận giữa thành viên bù trừ và ngân hàng quản lý tài khoản", 
+            "Nhận hoặc chuyển giao chứng khoán vào ngày thanh toán",
+            "Nhận quyền lợi và lợi ích phát sinh đối với CK trên tài khoản ký quỹ bù trừ"
+        ],
+        answer: "Nhận và hoàn trả tài sản ký quỹ cho thành viên bù trừ"
+    }, 
+    {
+        question: "Chứng khoán được Tổng công ty lưu ký bù trừ CKVN chấp thuận là tài sản ký quỹ bù trừ cho các giao dịch chứng khoán cơ sở phải đáp ứng điều kiện nào", 
+        choices: [
+            "Thuộc nhóm VN30" , 
+            "Là CK đang được sử dụng làm tài sản đảm bảo trong các giao dịch theo quy định pháp luật dân sự về giao dịch tài sản bảo đảm", 
+            "Không bị phong toả, tạm giữ tại Tổng công ty lưu ký bù trừ CKVN",
+            "Là CK có thanh khoản cao, giao dịch lớn"
+        ],
+        answer: "Không bị phong toả, tạm giữ tại Tổng công ty lưu ký bù trừ CKVN"
+    },
+    {
+        question: "Trường hợp thiếu CK do sửa lỗi giao dịch hoặc xử lý lỗi tự doanh, thành viên bù trừ được áp dụng các biện pháp hỗ trợ sau, ngoại trừ",
+        choices: [
+            "Sử dụng CK vay qua hệ thống vay và cho vay do Tổng công ty lưu ký bù trừ CKVN quản lý", 
+            "Trường hợp đến thời điểm thanh toán theo quy định, thành viên bù trừ vẫn không đủ CK để thanh toán, Tổng công ty lưu ký bù trừ CKVN sẽ thực hiện huỷ thanh toán đối với số CK thiếu cuả thành viên bù trừ",
+            "Mua bắt buộc qua hệ thống giao dịch CK", 
+            "Thanh toán bằng tiền nếu CK thiếu không được vay và mua bắt buộc theo quy định của Tổng công ty lưu ký bù trừ CKVN và Sở GDCKVN", 
+        ],
+        answer: "Trường hợp đến thời điểm thanh toán theo quy định, thành viên bù trừ vẫn không đủ CK để thanh toán, Tổng công ty lưu ký bù trừ CKVN sẽ thực hiện huỷ thanh toán đối với số CK thiếu cuả thành viên bù trừ"
+    },
+    {
+        question: "Hệ thống vay và cho vay CK được thực hiện theo nguyên tắc nào",
+        choices: 
+        [
+            "Hệ thống vay và cho vay CK được thực hiện theo cơ chế khớp lệnh giữa bên vay và bên cho vay trên nguyên tắc ưu tiên về thời gian",
+            "Tài sản bảo đảm bắt buộc là chứng khoán niêm yết trên Sở giao dịch CK",
+            "Lãi suất cho vay được thoả thuận trên nguyên tắc tuân thủ pháp luật",
+            "Khoản vay phải được hoàn trả duy nhất bằng tiền sau khi được bên cho vay chấp thuận"
+        ],
+        answer: "Lãi suất cho vay được thoả thuận trên nguyên tắc tuân thủ pháp luật"
     }
 ]
 
