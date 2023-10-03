@@ -430,7 +430,7 @@ const questionBank = [
         answer: 'I, II, III'
     }, 
     {
-        question: 'Tổ chức, cá nhân đã được cấp mã số giao dịch CK phải báo cáo Tổng công ty lưu ký bù trừ CKCN v/v thay đổi thông tin liên quan đến mã số giao dịch CK trong các trường hợp nào \nI.Thay đổi thành viên lưu ký \nII.Thay đổi tên, quốc gia hoặc vùng lãnh thổ nơi đăng ký hoạt động, địa chỉ trụ sở chính, số giấy phép đăng ký kinh doanh đối với tổ chức \nIII. Thay đổi tên, quốc tịch, địa chỉ liên lạc, số hộ chiếu hoặc chứng thực cá nhân hợp pháp khác đối với cá nhân \nIV. Thay đổi số lượng CK nắm giữ',
+        question: 'Tổ chức, cá nhân đã được cấp mã số giao dịch CK phải báo cáo Tổng công ty lưu ký bù trừ CKCN v/v thay đổi thông tin liên quan đến mã số giao dịch CK trong các trường hợp nào \nI. Thay đổi thành viên lưu ký \nII. Thay đổi tên, quốc gia hoặc vùng lãnh thổ nơi đăng ký hoạt động, địa chỉ trụ sở chính, số giấy phép đăng ký kinh doanh đối với tổ chức \nIII. Thay đổi tên, quốc tịch, địa chỉ liên lạc, số hộ chiếu hoặc chứng thực cá nhân hợp pháp khác đối với cá nhân \nIV. Thay đổi số lượng CK nắm giữ',
         choices: [
             'I', 'II, III', 'I, II, III', 'Tất cả các phương án trên'
         ],
@@ -474,7 +474,7 @@ const questionBank = [
         answer: 'IV'
     },
     {
-        question: 'Theo quy định pháp luật, tỷ lệ sở hữu nước ngoài được xác định là tổng tỷ lệ sở hữu cổ phần , phần vốn góp tính trên VĐL là',
+        question: 'Theo quy định pháp luật, tỷ lệ sở hữu nước ngoài được xác định là tổng tỷ lệ sở hữu cổ phần, phần vốn góp tính trên VĐL là',
         choices: [
             'Tất cả NĐT nước ngoài và tổ chức kinh tế có NĐT nước ngoài nắm giữ từ 51% VĐL trở lên trong một công ty đại chúng, tổ chức kinh doanh CK hoặc quỹ đầu tư CK',
             'Tất cả các tổ chức thành lập theo pháp luật nước ngoài thực hiện đầu tư kinh doanh tại VN',
@@ -542,7 +542,7 @@ const questionBank = [
         answer: 'I, IV'
     }, 
     {
-        question: 'Khẳng định nào sau đây không đúng về phạm vi hoạt động của văn phòng tại diện công ty chứng khoán, công ty quản lý quỹ nước ngoài tại việt nam \nI. Xúc tiến xây dựng các dự án hợp tác trong lĩnh vực chứng khoán và thị trường chứng khoán tại việt nam \nII. Tư vấn khách hàng đầu tư chứng khoán \nIII. Thực hiện các hợp đồng thỏa thuận đã ký kết giữa công ty chứng khoán, công ty quan lý quỹ nước ngoài với các tổ chức kinh tế tại việt nam \nIV. Giám sát thực hiện các dự án do công ty chứng khoán, công ty quản lý quỹ nước ngoài tài trợ tại việt nam ',
+        question: 'Khẳng định nào sau đây không đúng về phạm vi hoạt động của văn phòng đại diện công ty chứng khoán, công ty quản lý quỹ nước ngoài tại việt nam \nI. Xúc tiến xây dựng các dự án hợp tác trong lĩnh vực chứng khoán và thị trường chứng khoán tại việt nam \nII. Tư vấn khách hàng đầu tư chứng khoán \nIII. Thực hiện các hợp đồng thỏa thuận đã ký kết giữa công ty chứng khoán, công ty quan lý quỹ nước ngoài với các tổ chức kinh tế tại việt nam \nIV. Giám sát thực hiện các dự án do công ty chứng khoán, công ty quản lý quỹ nước ngoài tài trợ tại việt nam ',
         choices: [
             'I, II', 'II, III', 'II, IV', 'III, IV'
         ],
@@ -561,7 +561,7 @@ const questionBank = [
     {
         question: 'Người hành nghề chứng khoán không được thực hiện các hành vi sau đây, ngoại trừ ',
         choices: [
-            'Mở, quản lý tài khoản giao dịch chứng khoán tại công ty chứng khoán nơi minh đang làm việc và phải duy trì tài khoản giao dịch chứng khoán tại công ty chủng khoản khác đã mở trước đó',
+            'Mở, quản lý tài khoản giao dịch chứng khoán tại công ty chứng khoán nơi minh đang làm việc và phải duy trì tài khoản giao dịch chứng khoán tại công ty chứng khoản khác đã mở trước đó',
             'Đồng thời làm việc cho công ty chứng khoán và chi nhánh công ty quản lý quỹ nước ngoài tại việt nam',
             'thực hiện hành vi vượt quá phạm vi ủy quyền của công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, nơi mình dùng làm việc',
             'Không có phương án nào đúng'
@@ -594,7 +594,7 @@ const questionBank = [
         answer: 'hoàn thành thành quyết toán các vấn đề liên quan đến dịch vụ đòi nợ này trước 01/01/2021'
     },
     {
-        question: 'Với tư cách là nhân viên một công ty chứng khoán, được khách hàng là ngân hàng thương mại có cổ phiếu trên sở giao dịch chứng khoán, yêu cầu tư vấn về việc bầu thành viên HĐQT tại đại hội đồng cổ đông thường niên sắp tới.  bạn sẽ tư vấn liên quan đến số lượng thành viên HĐQT như thế nào',
+        question: 'Với tư cách là nhân viên một công ty chứng khoán, được khách hàng là ngân hàng thương mại có cổ phiếu trên sở giao dịch chứng khoán, yêu cầu tư vấn về việc bầu thành viên HĐQT tại đại hội đồng cổ đông thường niên sắp tới, bạn sẽ tư vấn liên quan đến số lượng thành viên HĐQT như thế nào',
         choices: [
             'Số lượng thành viên HĐQT ủy thuộc vào quyết định của đa số cổ đông tham dự cuộc họp đại hội đồng cổ đông',
             'Số lượng thành viên HĐQT tùy thuộc vào kết quả bầu lại cuộc họp đại hội đồng cổ đông',
@@ -635,7 +635,7 @@ const questionBank = [
         answer: 'HĐQT tự quyết định việc gia hạn'
     },
     {
-        question: 'Một cổ đông muốn uỷ quyền cho một cá nhân khác đại diện dự họp DHCD của một công ty niêm yết thì làm như nào', 
+        question: 'Một cổ đông muốn uỷ quyền cho một cá nhân khác đại diện dự họp ĐHCĐ của một công ty niêm yết thì làm như nào', 
         choices:[
             'lập văn bản thông báo cho công ty niêm yết v/v uỷ quyền trước khi diễn ra cuộc họp',
             'lập văn bản uỷ quyền theo mẫu do công ty niêm yết phát hành',
@@ -873,7 +873,7 @@ const questionBank = [
         choices: [
             'Trước khi giao dịch cổ phiếu, quyền mua cổ phiếu trái phiếu chuyển đổi, quyền trải phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng',
             'Sau khi giao dịch cổ phiếu trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chi quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán dại chúng, quỹ đại chúng',
-            'Khi có thay dổi sở hữu đối với cổ phiếu, quyền mua cổ phiếu, trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dặm bảo dựa trên chứng khoán của công ty đại chúng, công ty dầu tư chứng khoán đại chúng, quỹ đại chúng',
+            'Khi có thay dổi sở hữu đối với cổ phiếu, quyền mua cổ phiếu, trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có đảm bảo dựa trên chứng khoán của công ty đại chúng, công ty dầu tư chứng khoán đại chúng, quỹ đại chúng',
             'Cả  a, b',
             'Cả a, b, c'
         ],
@@ -917,7 +917,7 @@ const questionBank = [
             'I, IV, V',
             'III, IV'
         ],
-        answer: ''
+        answer: 'I, IV'
     },
     // end of 95
     {
@@ -956,7 +956,7 @@ const questionBank = [
         answer: 'III, IV'
     },
     {
-        question: 'Theo quy định hiện nay các hành vi mà UBCKNN có thẩm quyền xử lý người hành nghề chứng khoán vi phạm pháp luật là \nI. Cảnh cáo \nII. Phạt tiền \nIII. Áp dụng biện pháp khắc phục hậu quả \nIV. ÁP dụng biện pháp xử phạt bổ sung',
+        question: 'Theo quy định hiện nay các hành vi mà UBCKNN có thẩm quyền xử lý người hành nghề chứng khoán vi phạm pháp luật là \nI. Cảnh cáo \nII. Phạt tiền \nIII. Áp dụng biện pháp khắc phục hậu quả \nIV. Áp dụng biện pháp xử phạt bổ sung',
         choices: [
             'II, III, IV', 'I, II, IV', 'II, III, I', 'I, II, IV'
         ],
@@ -984,13 +984,13 @@ const questionBank = [
         answer: 'I, IV'
     },
     {
-        question: 'Hành vi trực tiếp hoặc gián tiếp mua hoặc cam kết mua cổ phiếu, quyền mua cổ phần và trái phiếu chuyển đổi của công ty mục tiêu hoặc chứng chỉ quỹ đầu tư mục tiêu, quyền mua chứng chỉ quỹ của quỹ đầu tư mục tiêu bên ngoài đợt chờ mua công khai bị xử lý vi phạm như sau: \nI. Phạt tiền từ 100 triệu đồng đến 150 triệu đồng \nII.Phạt tiền từ 200 triệu đồng đến 300 triệu đồng \nIII. Đình chỉ hoạt động chào mua công khai trong thời gian từ 1 đến 3 tháng \nIV. Đình chỉ hoạt động chào mua công khai trong thời gian từ 3 đến 6 tháng \nV. Buộc nộp số bất lợi hợp pháp thu được từ hành vi trên',
+        question: 'Hành vi trực tiếp hoặc gián tiếp mua hoặc cam kết mua cổ phiếu, quyền mua cổ phần và trái phiếu chuyển đổi của công ty mục tiêu hoặc chứng chỉ quỹ đầu tư mục tiêu, quyền mua chứng chỉ quỹ của quỹ đầu tư mục tiêu bên ngoài đợt chào mua công khai bị xử lý vi phạm như sau: \nI. Phạt tiền từ 100 triệu đồng đến 150 triệu đồng \nII.Phạt tiền từ 200 triệu đồng đến 300 triệu đồng \nIII. Đình chỉ hoạt động chào mua công khai trong thời gian từ 1 đến 3 tháng \nIV. Đình chỉ hoạt động chào mua công khai trong thời gian từ 3 đến 6 tháng \nV. Buộc nộp số lợi bất hợp pháp thu được từ hành vi trên',
         choices: [
             'II, III', 'I, III', 'II, IV', 'I, III, V'
         ],
         answer: 'I, III'
     }
-    // end 106
+    // end 105
 ]
 export default questionBank
 

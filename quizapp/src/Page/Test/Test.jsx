@@ -6,7 +6,7 @@ import shuffleArray from '../../util/shuffleArray';
 // Select 7 question from question bank
 
 const ShuffleQuestion = shuffleArray(questionBank)
-const AllQuestion = ShuffleQuestion.slice(0,7)
+const AllQuestion = ShuffleQuestion.slice(0,30)
 
 const Test = () =>  {
 
@@ -27,7 +27,7 @@ const Test = () =>  {
   return (
     <div className="Test">
         {/* <h2>Multiple choices</h2> */}
-        <h2>{`Question ${questionNumber + 1}/7`}</h2>
+        <h2>{`Question ${questionNumber + 1}/30`}</h2>
         <Question 
           problem={AllQuestion[questionNumber]}
           user_submmit = {user_submmit}
@@ -41,11 +41,11 @@ const Test = () =>  {
 
         />
 
-        <button onClick = {nextQuestion} className='next_button' disabled={questionNumber === 6 || !user_submmit}>
+        <button onClick = {nextQuestion} className='next_button' disabled={questionNumber === 29 || !user_submmit}>
           Next
         </button>
 
-        <h2>{`Your Score: ${userPoint}/7 `}</h2>
+        <h2>{`Your Score: ${userPoint}/30 `}</h2>
     </div>
   );
 }
