@@ -327,14 +327,14 @@ const questionBank = [
     },
     // 31 - 90
     {
-        question: 'Công ty đại chúng được mua lại CP của chính mình không phải đáp ứng quy định nào \n I. Mua lại không quá 30% tổng số cổ phần phổ thông đã bán \nII.Phải thực hiện mua lại CP trong thời hạn 6 tháng, kể từ ngày kết thúc đợt chào bán cổ phiếu để tăng vốn \nIII. Có quyết định mua lại CP để giảm vốn điều lệ được DHCD thông qua\nIV.Có CTCK được chỉ định thực hiện giao dịch',
+        question: 'Công ty đại chúng được mua lại CP của chính mình không phải đáp ứng quy định nào \nI. Mua lại không quá 30% tổng số cổ phần phổ thông đã bán \nII. Phải thực hiện mua lại CP trong thời hạn 6 tháng, kể từ ngày kết thúc đợt chào bán cổ phiếu để tăng vốn \nIII. Có quyết định mua lại CP để giảm vốn điều lệ được DHCD thông qua\nIV. Có CTCK được chỉ định thực hiện giao dịch',
         choices: [
             'I, IV', 'II', 'II,IV', 'Tất cả các phương án trên'
         ],
         answer: 'II'
     },
     {
-        question:'Các hình thức xử phạt trong xử lý vi phạm hành chính trong lĩnh vực CK bao gồm \nI. Cảnh cáo \nII. Tước quyền sử dụng GCN đăng ký hoạt động văn phòng dại diện, chứng chỉ hành nghề CK từ 03 - 24 tháng \nIII.Tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính \nĐình chỉ giao dịch chứng khoán có thời hạn từ 01 - 12 tháng',
+        question:'Các hình thức xử phạt trong xử lý vi phạm hành chính trong lĩnh vực CK bao gồm \nI. Cảnh cáo \nII. Tước quyền sử dụng GCN đăng ký hoạt động văn phòng dại diện, chứng chỉ hành nghề CK từ 03 - 24 tháng \nIII. Tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính \nIV. Đình chỉ giao dịch chứng khoán có thời hạn từ 01 - 12 tháng',
         choices: [
             'I',
             'I, II',
@@ -368,7 +368,7 @@ const questionBank = [
         answer: 'I, II, IV'
     },
     {
-        question: 'Theo quy định của Luật Chứng khoán, Sở giao dịch CK không có quyền nào sau đây, loại trừ \n I. Ban hành quy chế đăng ký, lưu ký, bù trừ, thanh toán CK sau khi được UBCK chấp thuật \nII. Tạm ngừng đình chỉ hoặc huỷ bỏ giao dịch chứng khoán \nIII.Cháp thuật, huỷ bỏ niêm yết CK tại SGDCK \nIV. Làm trung gian hoà giải theo yêu cầu của thành viên giao dịch khi phát sinh tranh chấp liên quan đến giao dịch CK',
+        question: 'Theo quy định của Luật Chứng khoán, Sở giao dịch CK không có quyền nào sau đây, loại trừ \n I. Ban hành quy chế đăng ký, lưu ký, bù trừ, thanh toán CK sau khi được UBCK chấp thuật \nII. Tạm ngừng đình chỉ hoặc huỷ bỏ giao dịch chứng khoán \nIII. Chấp thuận, huỷ bỏ niêm yết CK tại SGDCK \nIV. Làm trung gian hoà giải theo yêu cầu của thành viên giao dịch khi phát sinh tranh chấp liên quan đến giao dịch CK',
         choices: [
             'I', 'I, IV', 'II, III', 'III, IV'
         ],
@@ -430,12 +430,251 @@ const questionBank = [
         answer: 'I, II, III'
     }, 
     {
-        question: 'Tổ chức, cá nhân đã được cấp mã số giao dịch CK phải báo cáo Tổng công ty lưu ký bù trừ CKCN v/v thay đổi thông tin liên quan đến mã số giao dịch CK trong các trường hợp nào \nI.Thay đổi thành viên lưu ký \nII.Thay đổi tên, quốc giá hoặc vùng lãnh thổ nơi đăng ký hoạt động, địa chỉ trụ sở chính, số giấy phép đăng ký kinh doanh đối với tổ chức \n III. Thay đổi tên, quốc tịch, địa chỉ liên lạc, số hộ chiếu hoặc chứng thực cá nhân hợp pháp khác đối với cá nhân \nIV. Thay đối số lượng CK nắm giữ',
+        question: 'Tổ chức, cá nhân đã được cấp mã số giao dịch CK phải báo cáo Tổng công ty lưu ký bù trừ CKCN v/v thay đổi thông tin liên quan đến mã số giao dịch CK trong các trường hợp nào \nI.Thay đổi thành viên lưu ký \nII.Thay đổi tên, quốc gia hoặc vùng lãnh thổ nơi đăng ký hoạt động, địa chỉ trụ sở chính, số giấy phép đăng ký kinh doanh đối với tổ chức \nIII. Thay đổi tên, quốc tịch, địa chỉ liên lạc, số hộ chiếu hoặc chứng thực cá nhân hợp pháp khác đối với cá nhân \nIV. Thay đổi số lượng CK nắm giữ',
         choices: [
             'I', 'II, III', 'I, II, III', 'Tất cả các phương án trên'
         ],
         answer: 'I, II, III'
+    }, 
+    {
+        question: 'Đâu là điều kiện để trở thành thành viên bù trừ chung trên TTCK cơ sở',
+        choices: [
+            'có VĐL, VSCH tổi thiểu 1000 tỷ VND (đối với NHTM, chi nhánh NH nước ngoài) hoặc tối thiểu 250 tỷ VNĐ (đói với CTCK',
+            'có VĐL, VSCH tổi thiểu 3000 tỷ VND (đối với NHTM, chi nhánh NH nước ngoài) hoặc tối thiểu 500 tỷ VNĐ (đói với CTCK',
+            'có VĐL, VSCH tổi thiểu 7000 tỷ VND (đối với NHTM, chi nhánh NH nước ngoài) hoặc tối thiểu 900 tỷ VNĐ (đói với CTCK',
+            'có VĐL, VSCH tổi thiểu 10,000 tỷ VND (đối với NHTM, chi nhánh NH nước ngoài) hoặc tối thiểu 1200 tỷ VNĐ (đói với CTCK'
+        ],
+        answer: 'có VĐL, VSCH tổi thiểu 7000 tỷ VND (đối với NHTM, chi nhánh NH nước ngoài) hoặc tối thiểu 900 tỷ VNĐ (đói với CTCK'
+    },
+    {
+        question: 'Ngân hàng thanh toán có thể là tổ chức nào dưới đây, ngoại trừ',
+        choices: [
+            'Chi nhánh ngân hàng nước ngoài tại VN',
+            'Ngân hàng thương mại',
+            'Ngân hàng nhà nước VN',
+            'Không có đáp án'
+        ],
+        answer: 'Chi nhánh ngân hàng nước ngoài tại VN'
+    },
+    {
+        question: 'Theo quy định pháp luật VN, DN nào được chào bán cổ phiếu , ngoại trừ \nI. Công ty cổ phần \nII. Công ty TNHH chuyển thành công ty cổ phần \nIII. Doanh nghiệp nhà nước cổ phần hoá \nIV. Công ty hợp danh \n V. Doanh nghiệp tư nhân' ,
+        choices: [
+            'I, II',
+            'I, II, III',
+            'IV, V',
+            'I, II, IV'
+        ],
+        answer: 'IV, V'
+    }, 
+    {
+        question: 'Khẳng định nào sau đây không chính xác về NHTM \nI. NHTM là thành viên giao dịch đặc biệt khi được sở giao dịch CKVN chấp thuận \nII. NHTM là NĐTCK chuyên nghiệp khi có năng lực tài chính và được mua chứng khoán theo quy định của pháp luật \nIII. Các NHTM là thành viên lưu ký, thành viên bù trừ khi được UBCL cấp GCN đăng ký hoạt động lưu ký CK và được Tổng công ty lưu ký bù trừ CKVN chấp thuận \nIV. Các NHTM đều được thực hiện cung cấp dịch vụ thanh toán tiền cho các giao dịch CK trên hệ thống giao dịch CK',
+        choices: [
+            'I, II', 'II', 'II, IV', 'IV'
+        ],
+        answer: 'IV'
+    },
+    {
+        question: 'Theo quy định pháp luật, tỷ lệ sở hữu nước ngoài được xác định là tổng tỷ lệ sở hữu cổ phần , phần vốn góp tính trên VĐL là',
+        choices: [
+            'Tất cả NĐT nước ngoài và tổ chức kinh tế có NĐT nước ngoài nắm giữ từ 51% VĐL trở lên trong một công ty đại chúng, tổ chức kinh doanh CK hoặc quỹ đầu tư CK',
+            'Tất cả các tổ chức thành lập theo pháp luật nước ngoài thực hiện đầu tư kinh doanh tại VN',
+            'Tất cả NĐT nước ngoài và tổ chức kinh tế có NĐT nước ngoài nắm giữ từ 50% VĐL trở lên trong một công ty đại chúng, tổ chức kinh doanh chứng khoán hoặc quỹ đầu tư CK',
+            'Tất cả nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài'
+        ],
+        answer: 'Tất cả NĐT nước ngoài và tổ chức kinh tế có NĐT nước ngoài nắm giữ từ 50% VĐL trở lên trong một công ty đại chúng, tổ chức kinh doanh chứng khoán hoặc quỹ đầu tư CK',
+    },
+    {
+        question: 'Tỷ lệ sở hữu nước ngoài đối với cổ phiếu của công ty đại chúng theo pháp luật là \nI. 49% \nII. Không hạn chế, trừ trường hợp điều ước quốc tế mà VN là thành viên, pháp luật về đầu tư quy định tỷ lệ sở hữu nước ngoài \nIII. 50% VĐL trong trường hợp công ty đại chúng hoạt động trong ngành nghề đầu tư kinh doanh có điều kiện áp dụng với NĐT nước ngoài mà chưa có quy định cụ thể về sở hữu nước ngoài',
+        choices: [
+            'I', 'I, II', 'Ii, III', 'Tất cả các phương án trên'
+        ],
+        answer: 'Ii, III'
+    },
+    {
+        question: 'Nguyên tắc hoạt động về chứng khoán và TTCK nào không đúng',
+        choices: [
+            'bảo về quyền lợi và lợi ích hợp pháp của NĐT',
+            'công bằng, công khai, minh bạch',
+            'chính phủ thống nhất quản lý nhà nước về CK và TTCK',
+            'tôn trọng quyền sở hữu tài sản trong hoạt động CK và TTCK'
+        ],
+        answer: 'chính phủ thống nhất quản lý nhà nước về CK và TTCK'
+    },
+    {
+        question: 'Khẳng định nào sau đây đúng nhất về người hành nghề chứng khoán \nI. Người làm việc tại CTCK, công ty quản lý quỹ đầu tư CK, chi nhánh công ty CK nước ngoại tại VN, chi nhánh công ty quản lý quỹ nước ngoài tại VN, công ty đầu tư CK \nII. Người làm việc cho công ty đầu tư CK và được UBCK cấp chứng chỉ hành nghề chứng khoán \nIII. Người được UBCK cấp chứng chỉ hành nghề CK',
+        choices: [
+            'I, III', 'I, II', 'II', 'III'
+        ],
+        answer: 'II'
+    },
+    {
+        question: 'Đối tượng nào dưới đây không phải người nội bộ theo pháp luật',
+        choices: [
+            'thư ký công ty',
+            'người phụ trách quản trị công ty',
+            'người được uỷ quyền công bố thông tin',
+            'tổ chức cá nhân sở hữu trên 10% cổ phần có quyền biểu quyết DN'
+        ],
+        answer: 'tổ chức cá nhân sở hữu trên 10% cổ phần có quyền biểu quyết DN'
+    },
+    {
+        question: 'Tổ chức nào không được cấp phép nghiệp vụ tư vấn chứng khoán',
+        choices: [
+            'Công ty chứng khoán', 'Chi nhánh công ty CK nước ngoài tại VN', 'Công ty quản lý quỹ đầu tư CK', 'Chi nhánh công ty quản lý quỹ đầu tư nước ngoài tại VN'
+        ],
+        answer: 'Chi nhánh công ty quản lý quỹ đầu tư nước ngoài tại VN'
+    }, 
+    {
+        question: 'Khẳng định nào sau đây là đúng với công ty đại chúng \nI. Công ty cổ phần có VĐL đã góp từ 30 tỷ trở lên, có tối thiếu 10% số cổ phiếu có quyèn biểu quyết do ít nhất 10 NĐT chuyên nghiệp không phải là cổ đông lớn nắm giữ \nII. Công ty đã thực hiện chào bán thành công cổ phiếu lần đầu ra công chúng \nIII. Công ty có VĐL đã góp tw 50 tỷ trở lên',
+        choices: [
+            'I', 'II', 'I, II', 'III'
+        ],
+        answer: 'II'
+    }, 
+    {
+        question: 'Tỷ lệ sở hữu nước ngoài đối với cổ phiếu của công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán theo pháp luật Việt Nam là \nI. Không hạn chế với NĐT nước ngoài là tổ chức \nII. 50% \nIII. 49% \nIV. 49% đối với NĐT nước ngoài là cá nhân',
+        choices: [
+            'I',
+            'I, II',
+            'III',
+            'I, IV'
+        ],
+        answer: 'I, IV'
+    }, 
+    {
+        question: 'Khẳng định nào sau đây không đúng về phạm vi hoạt động của văn phòng tại diện công ty chứng khoán, công ty quản lý quỹ nước ngoài tại việt nam \nI. Xúc tiến xây dựng các dự án hợp tác trong lĩnh vực chứng khoán và thị trường chứng khoán tại việt nam \nII. Tư vấn khách hàng đầu tư chứng khoán \nIII. Thực hiện các hợp đồng thỏa thuận đã ký kết giữa công ty chứng khoán, công ty quan lý quỹ nước ngoài với các tổ chức kinh tế tại việt nam \nIV. Giảm sát thực hiện các dự án do công ty chứng khoán, công ty quản lý quỹ nước ngoài tài trợ tại việt nam ',
+        choices: [
+            'I, II', 'II, III', 'II, IV', 'III, IV'
+        ],
+        answer: 'II, IV'
+    },
+    {
+        question: 'Nghĩa vụ nào không phải nghĩa vụ của công ty chứng khoán, chi nhánh công ty chứng khoán nước ngoài tại Việt Nam',
+        choices: [
+            'thực hiện quản lý tách biệt tài sản của từng khách hàng', 
+            'bảo đảm tối thiểu 03 nhân viên làm việc tại bộ phận nghiệp vụ phải có chứng chỉ hành nghề phù hợp với nghiệp vụ thực hiện',
+            'Ký hợp đồng bằng văn ban với khách hàng khi thực hiện dịch vụ cho khách hàng',
+            'Thu thập thông tin về tình hình tài chính, khả năng chấp nhận rủi ro của khách hàng'
+        ],
+        answer: 'bảo đảm tối thiểu 03 nhân viên làm việc tại bộ phận nghiệp vụ phải có chứng chỉ hành nghề phù hợp với nghiệp vụ thực hiện'
+    },
+    {
+        question: 'Người hành nghề chứng khoán không được thực hiện các hành vi sau đây, ngoại trừ ',
+        choices: [
+            'Mở, quản lý tài khoản giao dịch chứng khoán tại công ty chứng khoán nơi minh đang làm việc và phải duy trì tài khoản giao dịch chứng khoán tại công ty chủng khoản khác đã mở trước đó',
+            'Đồng thời làm việc cho công ty chứng khoán và chi nhánh công ty quản lý quỹ nước ngoài tại việt nam',
+            'thực hiện hành vi vượt quá phạm vi ủy quyền của công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, nơi mình dùng làm việc',
+            'Không có phương án nào đúng'
+        ],
+        answer: 'Không có phương án nào đúng'
+    },
+    {
+        question: 'Tổ chức nào dưới dây là đối tượng được xem xét chấp thuận cung cấp dịch vụ bù trừ, thanh toán giao dịch chứng khoán \nI. Công ty chứng khoán \nII. Chỉ thành công ty chứng khoán nước ngoài tại việt nam \nIII. Ngân hàng thương mại \nIV. Chi nhánh ngân hàng nước ngoài tại việt nam',
+        choices: [
+            'I,III', 'I, II', 'I, III, IV', 'Tất cả các phương án trên'
+        ],
+        answer: 'I, III, IV'
+    },
+
+    {
+        question: 'Hạn chế đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán bao gồm \nI. Công ty chứng khoán được góp vốn thành lập, mua cổ phần, phần vốn góp để sở hữu hoặc cùng với người có liên quan (nếu có) sở hữu không quá 5% số cổ phiếu có quyền biểu quyết đang lưu hành của 1 công ty chứng khoán khác tại việt nam \nII. Công ty quản lý quỹ được góp vốn thành lập, mua cổ phần, phần vốn góp của 01 công ty quản lý quỹ để thực hiện hợp nhất, sát nhập  \nIII. Không được đưa ra nhận định hoặc đảm bảo với khách hàng về mức thu nhập hoặc lợi nhuận đạt được trên khoản đầu tư của mình hoặc đảm bao khách hàng không bị thua lỗ, trừ trường hợp đầu tư vào chứng khoán có thu nhập cố định \nIV. cổ đông sáng lập, thành viên góp vốn khi thành lập của công ty chứng khoán, công ty quản lý quỹ không được chuyển nhượng cổ phần hoặc phần vốn góp của mình trong thời hạn 05 năm kể từ ngày được cấp giấy phép, trừ trường hợp chuyển nhượng giữa các cổ đông sáng lập, thành viên góp vốn khi thành lập công ty',
+        choices: [
+            'I, II', 'Ii, III', 'III, IV', "Tất cả các phương án trên"
+        ],
+        answer: 'III, IV'
+    },
+    {
+        question: 'Một doanh nghiệp có kinh doanh dịch vụ đòi nợ với mức vốn điều lệ là 10 tỷ đồng. Năm 2020, đặt mục tiêu trở thành công ty đại chúng theo luật chứng khoán năm 2019 thì doanh nghiệp phải thực hiện công việc nào trước tiên',
+        choices: [
+            'tăng vốn điều lệ lên 30 tỷ đồng',
+            'Tăng số lượng cố đông lên trên 100 người không kể cổ đông lớn',
+            'chào bán cổ phiếu ra công chúng',
+            'hoàn thành thành quyết toán các vấn đề liên quan đến dịch vụ đòi nợ này trước 01/01/2021'
+        ],
+        answer: 'hoàn thành thành quyết toán các vấn đề liên quan đến dịch vụ đòi nợ này trước 01/01/2021'
+    },
+    {
+        question: 'Với tư cách là nhân viên một công ty chứng khoán, được khách hàng là ngân hàng thương mại có cổ phiếu trên sở giao dịch chứng khoán, yêu cầu tư vấn về việc bầu thành viên HĐQT tại đại hội đồng cổ đông thường niên sắp tới.  bạn sẽ tư vấn liên quan đến số lượng thành viên HĐQT như thế nào',
+        choices: [
+            'Số lượng thành viên HĐQT ủy thuộc vào quyết định của đa số cổ đông tham dự cuộc họp đại hội đồng cổ đông',
+            'Số lượng thành viên HĐQT tùy thuộc vào kết quả bầu lại cuộc họp đại hội đồng cổ đông',
+            'Số lượng thành viên HĐQT ít nhất là 3 người và nhiều nhất là 11 người',
+            'Số lượng thành viên HĐQT không ít hơn 5 người và nhiều nhất 11 người'
+        ],
+        answer: 'Số lượng thành viên HĐQT không ít hơn 5 người và nhiều nhất 11 người'
+    },
+    {
+        question: ' Với tư cách là nhân viên một công ty chứng khoán, được khách hàng là ngân hàng thương mại đồng thời là công ty đại chúng yêu cầu tư vấn về việc bầu thành viên HĐQT tại đại hội đồng cổ đông thường niên sắp tới hạn sẽ tư vẫn liên quan đến số lượng thành viên HĐQT như thế nào?',
+        choices: [
+            'cơ cấu thành viên HĐQT phải đảm bảo tối thiểu 17 tổng số thành viên HĐQT là thành viên độc lập',
+            'cơ cấu thành viên HĐQT phải đảm bảo có tối thiểu 01 thành viên độc lập nếu HĐQT có từ 03 đến 05 thành viên hoặc tối thiểu 02 thành viên cộc lập nếu HĐQT có từ 6 đến 8 thành viên hoặc tối thiểu 03 thành viên độc lập nếu HĐQT có từ 6 đến 11 thành viên',
+            'cơ cấu thành viên HĐQT phải có ít nhất 01 thành viên độc lập',
+            'cơ cấu thành viên HĐQT phải dảm bảo tối thiểu 1/5 tổng số thành viên HĐQT là thành viên độc lập'
+        ],
+        answer: 'cơ cấu thành viên HĐQT phải có ít nhất 01 thành viên độc lập'
+    },
+    {
+        question: 'Trong trường hợp nào dưới đây, hợp đồng mở tài khoản giao dịch chứng khoán giữa CTCK và KH có thể yêu cầu Toà án tuyên vô hiệu',
+        choices: [
+            'hợp đồng mở tài khoản giao dịch chứng khoán có thoả thuận nhằm trốn tránh nghĩa vụ pháp lý của CTCK nhưng có lý do chính đáng',
+            'hợp đồng mở tài khoản giao dịch chứng khoán có thoả thuận buộc KH có nghĩa vụ bồi thường một cách không công bằng nhưng có lý do chính đáng',
+            'hợp đồng mở tài khoản giao dịch chứng khoán có thoả thuận hạn chế phạm vi bồi thường của CTCK nhưng có lý do chính đáng',
+            'Khách hàng chưa điền đủ thông tin trên hợp đồng mở tài khoản giao dịch CK'
+        ],
+        answer: 'hợp đồng mở tài khoản giao dịch chứng khoán có thoả thuận buộc KH có nghĩa vụ bồi thường một cách không công bằng nhưng có lý do chính đáng'
+    },
+
+    {
+        question: 'Với tình hình diễn biến khó lường của dịch covid19, cuộc họp DHCD thường niên năm 2021 của nhiều công ty đại chúng có thể không đảm bảo tổ chức trong thời hạn 04 tháng kể từ ngày kết thúc năm tài chính. Việc gia hạn được thực hiện như nào',
+        choices: [
+            'HĐQT đề nghị đại hội đồng cổ đông quyết định gia hạn',
+            'HĐQT tự quyết định việc gia hạn',
+            'HĐQT đề nghị cơ quan đăng ký kinh doanh gia hạn',
+            'HĐQT đề nghị UBCKNN gia hạn'
+        ],
+        answer: 'HĐQT tự quyết định việc gia hạn'
+    },
+    {
+        question: 'Một cổ đông muốn uỷ quyền cho một cá nhân khác đại diện dự họp DHCD của một công ty niêm yết thì làm như nào', 
+        choices:[
+            'lập văn bản thông báo cho công ty niêm yết v/v uỷ quyền trước khi diễn ra cuộc họp',
+            'lập văn bản uỷ quyền theo mẫu do công ty niêm yết phát hành',
+            'lập văn bản uỷ quyền nêu rõ tên cá nhân được uỷ quyền và số lượng cổ phần được uỷ quyền',
+            'lập văn bản uỷ quyền theo quy định pháp luật về dân sự và nêu rõ tên cá nhân được uỷ quyền, số lượng cổ phần uỷ quyền'
+        ],
+        answer: 'lập văn bản uỷ quyền theo quy định pháp luật về dân sự và nêu rõ tên cá nhân được uỷ quyền, số lượng cổ phần uỷ quyền'
+    }, 
+    {
+        question: 'Trường hợp chủ toạ, thư ký từ chối ký biên bản họp ĐHCD thì biên bản nào có hiệu lực pháp luật hay không',
+        choices: [
+            'Biên bản có hiệu lực nếu ghi rõ việc chủ toạ, thư ký từ chối ký biên bản',
+            'Biên bản có hiệu lực nếu có đầy đủ nội dung theo quy định tại điểm a,b,c,d,đ,e,g,h Khoản 1 , điều 50 luật DN',
+            'Biên bản có hiệu lực nếu tất cả thành viên HĐQT tham gia dự họp ký',
+            'Biên bản có hiệu lực nếu đáp ứng các yếu tố a,b,c trên'
+        ],
+        answer: 'Biên bản có hiệu lực nếu đáp ứng các yếu tố a,b,c trên'
+    },
+    {
+        question: 'Một DN niêm yết trên SGDCK muốn thay đổi mẫu dấu do vừa thay đổi tên DN, theo đó DN phải thực hiện thủ tục nào',
+        choices: [
+            'đề nghị cơ quan công an cấp mẫu dấu mới',
+            'tự quyết định mẫu dấu và phải thông báo với cơ quan đăng ký kinh doanh trước khi sử dụng',
+            'tự quyết định mẫu dấu và phải đăng ký với cơ quan đăng ký kinh doanh trước khi sử dụng',
+            'tự quyết định mẫu dấu và thực hiện công bố thông tin theo quy định pháp luật CK'
+        ],
+        answer: 'tự quyết định mẫu dấu và thực hiện công bố thông tin theo quy định pháp luật CK'
+    },
+    {
+        question: 'Loại hình DN nào sau đây được tham gia mua, bán cổ phiếu trên TTCK \nI. Công ty cổ phần \nII. Công ty TNHH \nIII. Công ty hợp danh \nIV. Doanh nghiệp tư nhân',
+        choices: [
+            'Chi công ty cổ phần là loại hình duy nhất có quyền phát hành cổ phiếu',
+            'Công ty cổ phần và công ty TNHH do công ty TNHH cũng được phát hành cổ phần để chuyển đổi thành công ty cổ phần',
+            'Công ty cổ phần, công ty TNHH và công ty hợp danh',
+            'Tất cả các loại hình DN nêu trên'
+        ],
+        answer: 'Công ty cổ phần, công ty TNHH và công ty hợp danh'
     }
+    // end question 71
 ]
 
 export default questionBank
