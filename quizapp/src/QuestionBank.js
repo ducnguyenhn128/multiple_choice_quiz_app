@@ -918,8 +918,79 @@ const questionBank = [
             'III, IV'
         ],
         answer: ''
-    }
+    },
     // end of 95
+    {
+        question: 'Giả sử tỷ lệ ký quỹ trên tài khoản ký quỹ là 50%. Một khách hàng mua 2.000 Cổ phiếu của công ty A với giá trị là 100.000₫/cổ phiếu. Sau đó giá cổ phiếu A giảm xuống còn mức 70.000 trên cổ phiếu. Quy định hiện hành về mức duy trì tỷ lệ ký quỹ bắt buộc là 30% vậy công ty chứng khoán có thể yêu cầu ký quỹ bổ sung là',
+        choices: [
+            '10 triệu', '8 triệu', '6 triệu', '2 triệu'
+        ],
+        answer: '2 triệu'
+    },
+    {
+        question: 'Theo quy định hiện hành, công ty chứng khoán, chi nhánh công ty chứng khoán nước ngoài ở Việt Nam bị phạt tiền từ 50 đến 70 triệu đồng khi thực hiện những hành vi vi phạm sau: \nI. Không thu thập tìm hiểu, cập nhật đầy đủ thông tin về khách hàng trừ trường hợp khách hàng không cung cấp đầy đủ thông tin, không cung cấp đầy đủ, trung thực cho khách hàng theo quy định của pháp luật \nII. Không lưu giữ đầy đủ hồ sơ thông tin khách hàng, không lưu giữ đầy đủ hồ sơ dữ liệu chứng từ liên quan đến hoạt động của công ty chứng khoán, chi nhánh công ty chứng khoán nước ngoài ở Việt Nam. Hồ sơ dữ liệu tài liệu chứng từ lưu giữ không phản ánh chi tiết chính xác các giao dịch của khách hàng của công ty chứng khoán nước ngoài ở Việt Nam theo quy định pháp luật, chi nhánh công ty chứng khoán nước ngoài ở Việt Nam trực tiếp quản lý giao dịch chứng khoán và nhận mở tài khoản giao dịch chứng khoán cho nhà đầu tư trong nước. \nIII. Đưa ra nhận định hoặc đảm bảo với khách hàng với mức thu nhập hoặc lợi nhuận đạt được trên khoản đầu tư của khách hàng hoặc đảm bảo khách hàng không bị thua lỗ trừ trường hợp đầu tư chứng khoán có thu nhập cố định',
+        choices: [
+            'I, II', 'I', 'II, III', 'I, III'
+        ],
+        answer: 'I'
+    },
+    {
+        question: 'Theo quy định hiện hành, công ty quản lỹ quỹ bị phạt tiền từ 50 đến 70 triệu đồng khi thực hiện những hành vi vi phạm sau \nI. Không ký kết hợp đồng bằng văn bản với khách hàng khi cung cấp dịch vụ cho khách hàng hoặc hợp đồng ký két với khách hàng không có đầy đủ nội dung theo quy định của pháp luật \nII. Không tuân thủ điều lệ quỹ đầu tư, điều lệ công ty đầu tư CK, hợp đồng quản lý đầu tư \nIII. Vi phạm về việc cho vay hoặc giao vốn của công ty cho tổ chức, cá nhân \nIV. Thực hiện giao dịch tài sản cho khách hàng uỷ thác đầu tư với khối lượng, giá trị giao dịch trong năm thông qua một CTCK vượt quá giới hạn về tỷ lệ tổng khối lượng, giá trị giao dịch trong năm của khách hàng uỷ thác ',
+        choices: [
+            'I, II', 'I, III', 'II, III', 'I, II, III'
+        ],
+        answer: 'I, II'
+    },
+    {
+        question: 'Theo quy định hiện hành, công ty chứng khoán bị phạt tiền từ 50 đến 70 triệu đồng khi thực hiện những hành vi vi phạm sau: \nI. Không tuân thủ quy định của pháp luật chứng khoán, pháp luật doanh nghiệp về quản trị điều hành đối với công ty chứng khoán không phải là công ty đại chúng, chi nhánh công ty chứng khoán nước ngoài tại Việt Nam \nII. Không ban hành đầy đủ các quy trình nội bộ, quy trình nghiệp vụ quy trình kiểm soát nội bộ và quản trị rủi ro, quy tắc đạo đức nghề nghiệp phù hợp với nghiệp vụ kinh doanh dịch vụ cung cấp \nIII. Vi phạm quy định về mở tài khoản giao dịch chứng khoán cho khách hàng \nIV. Vi phạm quy định về ủy thác quản lý tài khoản giao dịch chứng khoán của nhà đầu tư cá nhân',
+        choices: [
+            'I, II', 'I, II, III', 'I', 'III, IV'
+        ],
+        answer: 'I, II'
+    },
+    {
+        question: 'Hình thức xử lý vi phạm người hành nghề chứng khoán khi sử dụng tài khoản, tài sản của khách hàng khi không được khách hàng ủy thác hoặc không đúng nội dung ủy thác, sử dụng tài khoản hoặc tiền, chứng khoán trên tài khoản của khách hàng khi chưa được công ty chứng khoán ủy quyền theo sự ủy thác của khách hàng cho công ty chứng khoán bằng văn bản là \nI. Khiển trách \nII. Cảnh cáo \nIII. Bị phạt tiền \nIV. Bị tước quyền sử dụng CCHNCK trong thời hạn từ 6 - 12 tháng',
+        choices: [
+            'I, IV', 'I, III, IV', 'II, IV', 'III, IV'
+        ],
+        answer: 'III, IV'
+    },
+    {
+        question: 'Theo quy định hiện nay các hành vi mà UBCKNN có thẩm quyền xử lý người hành nghề chứng khoán vi phạm pháp luật là \nI. Cảnh cáo \nII. Phạt tiền \nIII. Áp dụng biện pháp khắc phục hậu quả \nIV. ÁP dụng biện pháp xử phạt bổ sung',
+        choices: [
+            'II, III, IV', 'I, II, IV', 'II, III, I', 'I, II, IV'
+        ],
+        answer: 'II, III, IV'
+    },
+    {
+        question: 'Trong hoạt động của văn phòng đại diện công ty chứng khoán, công ty Quản lý Quỹ nước ngoài tại Việt Nam, hành vi vi phạm làm đại diện cho tổ chức khác, thực hiện chuyển nhượng giấy chứng nhận đăng ký hoạt động văn phòng đại diện cho tổ chức, cá nhân bị xử lý như sau \nI. Phạt từ 50 triệu đồng đến 70 triệu đồng \nII. Phạt từ 70 triệu đồng đến 100 triệu đồng \nIII. Đình chỉ hoạt động văn phòng đại diện trong thời hạn từ 1 tháng đến 3 tháng \nIV. Tịch thu giấy chứng nhận đăng ký hoạt động văn phòng đại diện',
+        choices: [
+            'II, II, IV', 'I, III', 'II, III', 'I, II, IV'
+        ],
+        answer: 'I, III'
+    },
+    {
+        question: 'Hành vi thực hiện một hoặc một số dung dịch nhằm che dấu thông tin về quyền sở hữu thực sự đối với một chứng khoán để trốn tránh hoặc để hỗ trợ người khác trốn tránh nghĩa vụ công bố thông tin theo quy định hoặc nghĩa vụ phải tuân thủ trong thực hiện chào mua công khai hoặc quy định phải tuân thủ về tỷ lệ sở hữu nước ngoài trên thị trường chứng khoán Việt Nam bị xử lý ra sao \nI. Cảnh cáo \nII. Phạt tiền từ 400 triệu đến 500 triệu đồng \nIII. Phạt tiền từ 500 triệu đến 600 triệu đồng \nIV. Tước quyền sử dụng chứng chỉ hành nghề chứng khoán trong thời hạn từ 18 đến 24 tháng \nV. Buộc nộp lại số lợi ích bất hợp pháp có được do hành vi vi phạm nói trên',
+        choices: [
+            'III, IV', 'II, IV, V', 'III, IV, V', 'IV, V'
+        ],
+        answer: 'II, IV, V'
+    },
+    {
+        question: 'Hành vi vi phạm ghi nhận không chính xác tài sản các quyền tài sản và các lợi ích có liên quan đến tài sản và các lợi ích có liên quan đến tài sản nhận lưu ký của khách hàng; hạch toán tài khoản trên tài khoản lưu ký chứng khoán, tài khoản vị thế hoặc tài khoản ký quỹ; thanh toán không đúng thời hạn thời hiện chuyển quyền sở hữu chứng khoán đã đăng ký không qua Tổng công ty Lưu Ký và bù trừ chứng khoán Việt Nam; thành viên lưu ký thành viên bù trừ và nhân viên sẽ bị xử lý như sau: \n I.Phạt tiền từ 100 triệu đồng đến 150 triệu đồng đối với thành viên Lưu Ký và thành viên bù trừ \nII. Phạt tiền từ 50 triệu đồng đến 75 triệu đồng đối với nhân viên thành viên lưu ký, thành viên bù trừ \nII. Phạt tiền từ 200 triệu đến 300 triệu đồng đối với thành viên Lưu Ký và thành viên bù trừ; phạt tiền từ 75 triệu đến 100 triệu đồng đối với nhân viên thành viên lưu ký, thành viên bù trừ \nIII. Đình chỉ hoạt động lưu ký chứng khoán đối với thành viên lưu ký, bù trừ vi phạm \nIV. Tước quyền sử dụng chứng chỉ hành nghề từ 1 tháng đến 3 tháng đối với người hành nghề vi phạm',
+        choices: [
+            'I, III, IV', 'II, III, IV', 'I, IV', 'I, III'
+        ],
+        answer: 'I, IV'
+    },
+    {
+        question: 'Hành vi trực tiếp hoặc gián tiếp mua hoặc cam kết mua cổ phiếu, quyền mua cổ phần và trái phiếu chuyển đổi của công ty mục tiêu hoặc chứng chỉ quỹ đầu tư mục tiêu, quyền mua chứng chỉ quỹ của quỹ đầu tư mục tiêu bên ngoài đợt chờ mua công khai bị xử lý vi phạm như sau: \nI. Phạt tiền từ 100 triệu đồng đến 150 triệu đồng \nII.Phạt tiền từ 200 triệu đồng đến 300 triệu đồng \nIII. Đình chỉ hoạt động chào mua công khai trong thời gian từ 1 đến 3 tháng \nIV. Đình chỉ hoạt động chào mua công khai trong thời gian từ 3 đến 6 tháng \nV. Buộc nộp số bất lợi hợp pháp thu được từ hành vi trên',
+        choices: [
+            'II, III', 'I, III', 'II, IV', 'I, III, V'
+        ],
+        answer: 'I, III'
+    }
+    // end 106
 ]
 export default questionBank
 
