@@ -673,8 +673,116 @@ const questionBank = [
             'Tất cả các loại hình DN nêu trên'
         ],
         answer: 'Công ty cổ phần, công ty TNHH và công ty hợp danh'
-    }
+    },
     // end question 71
+    {
+        question: 'UBCKNN có thẩm quyền quyết định tạm ngưng, đình chỉ một phần hoặc toàn bộ giao dịch của Sở GDCK khi xảy ra sự cố hệ thống giao dịch làm ảnh hưởng đến hoạt động giao dịch bình thường của TTCK trong thời gian tối đa bao lâu',
+        choices: [
+            '05 ngày', '05 ngày làm việc', 'không có quy định thời gian tạm ngưng, đình chỉ', 
+            'đến thời điểm những nguyên nhân dẫn đến việc tạm ngừng, đình chỉ một phần hoặc toàn bộ giao dịch của Sở giao dịch CKVN được khắc phục'
+        ],
+        answer: '05 ngày làm việc'
+    },
+    {
+        question: 'Quỹ đầu tư chứng khoán F là quỹ thành viên được thành lập năm 2020, trong đó có 1 tổ chức góp vốn vào quỹ thành viên là công ty TNHH có vốn điều lệ 100 tỷ đồng và hoạt động trong lĩnh vực nông nghiệp. Đến thời điểm luật chứng khoán 2019 có hiệu lực, theo đó quỹ thành viên là quỹ ĐTCK có số thành viên tham gia góp vốn từ 02 đến 99 thành viên và chỉ bao gồm thành viên là NĐTCK chuyên nghiệp, tổ chức góp vốn nêu trên phải làm gì để được tiếp tục sở hữu chứng chỉ quỹ tương ứng với phần vốn đã góp vào quỹ thành viên',
+        choices: [
+            'Tổ chức góp vốn phải thực hiện tăng VĐL trên 100 tỷ VNĐ',
+            'Tổ chức góp vốn phải thực hiện chào bán cổ phiếu lần đầu ra công chúng để chuyển đổi thành công ty cổ phần và sau đó thực hiện niêm yết hoặc đăng ký giao dịch cổ phiếu',
+            'Tổ chức góp vốn không thể tiếp tục sở hữu chứng chỉ quỹ mà phải chuyển nhượng cho cá nhân, tổ chức khá đủ điều kiện tham gia',
+            'Đương nhiên được tiếp tục sở hữu CCQ tương ứng phần vốn đã góp'
+        ],
+        answer: 'Đương nhiên được tiếp tục sở hữu CCQ tương ứng phần vốn đã góp'
+    },
+    {
+        question: 'Đối với các Dn được chuyển đổi thành công ty cổ phần theo pháp luật về chuyển DNNN và CTTNHH MTV của DN do NN nắm giữ 100% VĐL thành công ty CP, đã thực hiện đăng ký giao dịch trên hệ thống Upcom trước ngày 1/1/21 nhưng chưa được UBCKNN xác nhận hoàn tất đăng ký công ty đại chúng, thời điểm bị huỷ đăng ký giao dịch',
+        choices: [
+            'Ngay khi Nghị định quy định chi tiết thi hành một số điều của Luật chứng khoán 2019 có hiệu lực',
+            'Sau 01 năm kể từ ngày Nghị định quy định chi tiết thi hành một số điều của Luật chứng khoán 2019 có hiệu lực',
+            'Sau 02 năm kể từ ngày Nghị định quy định chi tiết thi hành một số điều của Luật chứng khoán 2019 có hiệu lực',
+            'Không bị huỷ đăng ký giao dịch'
+        ],
+        answer: 'Sau 01 năm kể từ ngày Nghị định quy định chi tiết thi hành một số điều của Luật chứng khoán 2019 có hiệu lực'
+    }, 
+    {
+        question: 'Trường hợp công ty quản lý quỹ có hơn 1 người đại diện pháp luật thì người nào sẽ chịu trách nhiệm cung cấp tài liệu và làm việc với UBCKNN',
+        choices: [
+            'Đương nhiên là Chủ tịch HĐQT',
+            'Đương nhiên là Tổng Giám đóc/ giám đốc',
+            'Là người đại diện pháp luật mà công ty đăng ký',
+            'Là Chủ tịch HĐQT hoặc Tổng Giám đóc/ giám đốc mà công ty đăng ký'
+        ],
+        answer: 'Là Chủ tịch HĐQT hoặc Tổng Giám đóc/ giám đốc mà công ty đăng ký'
+    },
+    {
+        question: 'Một công ty chúng khoán là công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sử hữu. Tổng giám đốc công ty đồng thời là người đại diện theo pháp luật duy nhất đi công tác đột xuất nên chưa kịp làm thủ tục ủy quyền cho người khác thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật. Do tình hình dịch bệnh Covid-19, người này bị mắc kẹt tại nước ngoài từ ngày 01/01/2021, để đảm bảo tuân thủ quy định doanh nghiệp phải có ít nhất 1 người đại diện theo pháp luật cư trú tại Việt Nam, công ty chúng khoản phải làm thế nào?',
+
+        choices: [
+            'Chủ tịch công ty đương nhiên trở thành người đại diện theo pháp luật',
+            'Người đại diện theo pháp luật của tổ chức là chủ sở hữu công ty dương nhiên trở thành người đại diện theo pháp luật',
+            'Chủ sở hữu công ty cả người khác làm đại diện pháp luật' , 
+            'Chủ tịch công ty cử người khác làm đại diện pháp luật',
+        ],
+        answer: 'Chủ sở hữu công ty cả người khác làm đại diện pháp luật'
+    },
+    {
+        question: 'Mức phạt tiền tối đa trong lĩnh vực CK và TTCK đối với tổ chức vi phạm là',
+        choices: [
+            '1 tỷ', '2 tỷ', '3 tỷ', 'Không giới hạn'
+        ],
+        answer: '3 tỷ'
+    },
+    {
+        question: 'Các hình thức xử phạt dưới đây thuộc thẩm quyền xử phạt vi phạm hành chính của Chánh thanh tra UBCKNN, ngoại trừ', 
+        choices:[
+            'Phạt cảnh cáo',
+            'Phạt tiền tối đa 3.000.000.000 VNĐ đối với tổ chức và tối đa 1.500.000.000 VNĐ với cá nhân',
+            'Tước quyền sử dụng GCN đăng ký hoạt động VP đại diện, CCHNCK theo quy định',
+            'Đình chỉ giao dịch CK theo quy định'
+        ],
+        answer: 'Phạt tiền tối đa 3.000.000.000 VNĐ đối với tổ chức và tối đa 1.500.000.000 VNĐ với cá nhân'
+    },
+    {
+        question:'Chủ tịch UBCKNN có quyền',
+        choices: [
+            'Phạt tiền tối đa đến 100.000.000 đối với tổ chức và tối đa 50.000.000 đối với cá nhân có hành vi vi phạm khác trong lĩnh vực CK',
+            'Phạt tiền tối đa đến 500.000.000 đối với tổ chức và tối đa 100.000.000 đối với cá nhân có hành vi vi phạm khác trong lĩnh vực CK',
+            'Phạt tiền tối đa đến 1.500.000.000 đối với tổ chức và tối đa 500.000.000 đối với cá nhân có hành vi vi phạm khác trong lĩnh vực CK',
+            'Phạt tiền tối đa đến 3.000.000.000 đối với tổ chức và tối đa 1.500.000.000 đối với cá nhân có hành vi vi phạm khác trong lĩnh vực CK'
+        ],
+        answer: 'Phạt tiền tối đa đến 3.000.000.000 đối với tổ chức và tối đa 1.500.000.000 đối với cá nhân có hành vi vi phạm khác trong lĩnh vực CK'
+    },
+    {
+        question: 'Thời điểm tính thời hiệu xử phạt vi phạm hành chính trong lĩnh vực CK được quy định như sau',
+        choices: [
+            'Đối với hành vi vi phạm hành chính đang được thực hiện thì thời hiệu tính từ khi người có thẩm quyền thi hành công vụ phát hiện hành vi vi phạm',
+            'Đối với hành vi vi phạm hành chính đã kết thúc thì thời hiệu tính từ khi người có thẩm quyền thi hành công vụ phát hiện hành vi vi phạm',
+            'Đối với hành vi vi phạm hành chính đã kết thúc thì thời hiệu tính từ khi chấm dứt vi phạm',
+            'Cả a và c'
+        ],
+        answer: 'Cả a và c'
+    },
+    {
+        question: 'Chào bán chứng khoán riêng lẻ là việc chào bán chứng khoán theo một trong các phương thực sau đây',
+        choices: [
+            'Chào bán cho dưới 100 NĐT, không kể NĐT CK chuyên nghiệp',
+            'Chào bán cho từ 100 NĐT trở lên, không kể NĐT CK chuyên nghiệp',
+            'Chỉ chào bán cho NĐT CK chuyên nghiệp',
+            'Cả a, c ',
+            'Cả b, c'
+        ],
+        answer: 'Cả a, c '
+    },
+    {
+        question: 'Chào bán chứng khoán ra công chúng là việc chào bán CK theo một trong các phương thức sau đây, ngoại trừ',
+        choices: [
+            'Chào bán qua phương tiện thông tin đại chúng',
+            'Chào bán cho từ 100 NĐT trở lên, không kể NĐT CK chuyên nghiệp' ,
+            'Chỉ chào bán cho NĐT CK chuyên nghiệp',
+            'Chào bán cho các NĐT không xác định'
+        ],
+        answer: 'Chỉ chào bán cho NĐT CK chuyên nghiệp'
+    }
+    // end 82
 ]
 
 export default questionBank

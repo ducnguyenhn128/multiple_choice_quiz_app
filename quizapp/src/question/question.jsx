@@ -13,7 +13,7 @@ const Question = ({problem, user_submmit, answerStatus, activeIndex, setUser_sub
     // console.log(`Correct answer: ${answer}`)
 
     let correctIndex ;
-    for (let i = 0 ; i < 4; i++ ) {
+    for (let i = 0 ; i < choices.length; i++ ) {
         if (choices[i] == answer) {
             correctIndex = i
         }
