@@ -361,7 +361,7 @@ const questionBank = [
         answer: '600 tỷ'
     }, 
     {
-        question: 'Điều kiện là thành viên bù trử chung cho hoạt động thanh toán, bù trừ giao dịch chứng khoán phái sinh của CTCK \nI. Là thành viên lưu ký của Tổng công ty lưu ký bù trừ chứng khoán VN \nII. Vốn điều lệ, VCSH từ 1200 tỷ VND \nIII. Vốn điều lệ, VCSH từ 5000 tỷ VND \nIV.Không lỗ 2 năm gần nhất',
+        question: 'Điều kiện là thành viên bù trừ chung cho hoạt động thanh toán, bù trừ giao dịch chứng khoán phái sinh của CTCK \nI. Là thành viên lưu ký của Tổng công ty lưu ký bù trừ chứng khoán VN \nII. Vốn điều lệ, VCSH từ 1200 tỷ VND \nIII. Vốn điều lệ, VCSH từ 5000 tỷ VND \nIV. Không lỗ 2 năm gần nhất',
         choices: [
             'I, II, IV', 'II, IV', 'I, III, IV', 'Tất cả các phương án trên'
         ],
@@ -457,7 +457,7 @@ const questionBank = [
         answer: 'Chi nhánh ngân hàng nước ngoài tại VN'
     },
     {
-        question: 'Theo quy định pháp luật VN, DN nào được chào bán cổ phiếu , ngoại trừ \nI. Công ty cổ phần \nII. Công ty TNHH chuyển thành công ty cổ phần \nIII. Doanh nghiệp nhà nước cổ phần hoá \nIV. Công ty hợp danh \n V. Doanh nghiệp tư nhân' ,
+        question: 'Theo quy định pháp luật VN, DN nào được chào bán cổ phiếu, ngoại trừ \nI. Công ty cổ phần \nII. Công ty TNHH chuyển thành công ty cổ phần \nIII. Doanh nghiệp nhà nước cổ phần hoá \nIV. Công ty hợp danh \nV. Doanh nghiệp tư nhân' ,
         choices: [
             'I, II',
             'I, II, III',
@@ -486,9 +486,9 @@ const questionBank = [
     {
         question: 'Tỷ lệ sở hữu nước ngoài đối với cổ phiếu của công ty đại chúng theo pháp luật là \nI. 49% \nII. Không hạn chế, trừ trường hợp điều ước quốc tế mà VN là thành viên, pháp luật về đầu tư quy định tỷ lệ sở hữu nước ngoài \nIII. 50% VĐL trong trường hợp công ty đại chúng hoạt động trong ngành nghề đầu tư kinh doanh có điều kiện áp dụng với NĐT nước ngoài mà chưa có quy định cụ thể về sở hữu nước ngoài',
         choices: [
-            'I', 'I, II', 'Ii, III', 'Tất cả các phương án trên'
+            'I', 'I, II', 'II, III', 'Tất cả các phương án trên'
         ],
-        answer: 'Ii, III'
+        answer: 'II, III'
     },
     {
         question: 'Nguyên tắc hoạt động về chứng khoán và TTCK nào không đúng',
@@ -719,10 +719,10 @@ const questionBank = [
         choices: [
             'Chủ tịch công ty đương nhiên trở thành người đại diện theo pháp luật',
             'Người đại diện theo pháp luật của tổ chức là chủ sở hữu công ty dương nhiên trở thành người đại diện theo pháp luật',
-            'Chủ sở hữu công ty cả người khác làm đại diện pháp luật' , 
+            'Chủ sở hữu công ty cử người khác làm đại diện pháp luật' , 
             'Chủ tịch công ty cử người khác làm đại diện pháp luật',
         ],
-        answer: 'Chủ sở hữu công ty cả người khác làm đại diện pháp luật'
+        answer: 'Chủ sở hữu công ty cử người khác làm đại diện pháp luật'
     },
     {
         question: 'Mức phạt tiền tối đa trong lĩnh vực CK và TTCK đối với tổ chức vi phạm là',
