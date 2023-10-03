@@ -200,7 +200,7 @@ const questionBank = [
         answer: "Chấp thuận, huỷ bỏ tư cách thành viên của Tổng công ty lưu ký và bù trừ CKVN"
     }, 
     {
-        question: "Những loạt CK nào sau đây phải được niêm yết, đăng ký giao dịch trên hệ thống giao dịch CK \nI. CK đã chào bán ra công chúng, cổ phiếu của công ty đại chúng \nII. Chứng chỉ quỹ đóng, chứng chỉ quỹ hoán đổi danh mục \nIII. Công cụ nợ của chính phủ, trái phiếu được chính phủ bảo lãnh và trái phiếu chính quyền địa phương  \nIV.Chứng quyền có bảo đảm, hợp đồng tương lai, hợp đồng quyền chọn do UBCKNN chấp thuận" ,
+        question: "Những loạt CK nào sau đây phải được niêm yết, đăng ký giao dịch trên hệ thống giao dịch CK \nI. CK đã chào bán ra công chúng, cổ phiếu của công ty đại chúng \nII. Chứng chỉ quỹ đóng, chứng chỉ quỹ hoán đổi danh mục \nIII. Công cụ nợ của chính phủ, trái phiếu được chính phủ bảo lãnh và trái phiếu chính quyền địa phương  \nIV. Chứng quyền có bảo đảm, hợp đồng tương lai, hợp đồng quyền chọn do UBCKNN chấp thuận" ,
         choices: [ 
             "I, II và III", "I, III và IV", "I, II và IV", "I, II, III và IV"
         ],
@@ -230,9 +230,9 @@ const questionBank = [
     {
         question: "Những thông tin nào sau đây về chứng khoán đăng ký biện pháp bảo đảm do Tổng công ty lưu ký và bù trừ chứng khoán cung cấp \n I. Bên bảo đảm và bên nhận bảo đảm \n II. Mã chứng khoán, số lượng CK đăng ký biện pháp bảo đảm \n III. Thông tin về việc xử lý tài sản bảo đảm \n IV. Thời điểm đăng ký biện pháp bảo đảm", 
         choices: [
-            "I, II và III" , 'II, III, IV', 'II, III', 'I,II,IV',
+            "I, II và III" , 'II, III, IV', 'II, III', 'I, II, IV',
         ],
-        answer: 'I,II,IV'
+        answer: 'I, II, IV'
 
     },
     {
@@ -344,7 +344,7 @@ const questionBank = [
         answer: 'I, II, IV'
     }, 
     {
-        question: 'Điều kiện nào sau đây là điều kiện niêm yết trái phiếu trên Sở GDCK \nI. Có VĐL đã góp từ 10 tỷ trở lên \nII. Được HĐQT thông qua việc niêm yết \nIII. ROE năm liền trước năm đăng ký tối thiếu 15% \nIV.Phải là trái phiếu đã chào bán ra công chúng',
+        question: 'Điều kiện nào sau đây là điều kiện niêm yết trái phiếu trên Sở GDCK \nI. Có VĐL đã góp từ 10 tỷ trở lên \nII. Được HĐQT thông qua việc niêm yết \nIII. ROE năm liền trước năm đăng ký tối thiếu 15% \nIV. Phải là trái phiếu đã chào bán ra công chúng',
         choices: [
             'I, II', 'III, IV', 'I, II, III', 'IV'
         ],
@@ -525,7 +525,7 @@ const questionBank = [
         answer: 'Chi nhánh công ty quản lý quỹ đầu tư nước ngoài tại VN'
     }, 
     {
-        question: 'Khẳng định nào sau đây là đúng với công ty đại chúng \nI. Công ty cổ phần có VĐL đã góp từ 30 tỷ trở lên, có tối thiếu 10% số cổ phiếu có quyèn biểu quyết do ít nhất 10 NĐT chuyên nghiệp không phải là cổ đông lớn nắm giữ \nII. Công ty đã thực hiện chào bán thành công cổ phiếu lần đầu ra công chúng \nIII. Công ty có VĐL đã góp tw 50 tỷ trở lên',
+        question: 'Khẳng định nào sau đây là đúng với công ty đại chúng \nI. Công ty cổ phần có VĐL đã góp từ 30 tỷ trở lên, có tối thiếu 10% số cổ phiếu có quyèn biểu quyết do ít nhất 10 NĐT chuyên nghiệp không phải là cổ đông lớn nắm giữ \nII. Công ty đã thực hiện chào bán thành công cổ phiếu lần đầu ra công chúng \nIII. Công ty có VĐL đã góp từ 50 tỷ trở lên',
         choices: [
             'I', 'II', 'I, II', 'III'
         ],
@@ -569,7 +569,7 @@ const questionBank = [
         answer: 'Không có phương án nào đúng'
     },
     {
-        question: 'Tổ chức nào dưới dây là đối tượng được xem xét chấp thuận cung cấp dịch vụ bù trừ, thanh toán giao dịch chứng khoán \nI. Công ty chứng khoán \nII. Chỉ thành công ty chứng khoán nước ngoài tại việt nam \nIII. Ngân hàng thương mại \nIV. Chi nhánh ngân hàng nước ngoài tại việt nam',
+        question: 'Tổ chức nào dưới dây là đối tượng được xem xét chấp thuận cung cấp dịch vụ bù trừ, thanh toán giao dịch chứng khoán \nI. Công ty chứng khoán \nII. Chi nhánh công ty chứng khoán nước ngoài tại việt nam \nIII. Ngân hàng thương mại \nIV. Chi nhánh ngân hàng nước ngoài tại việt nam',
         choices: [
             'I,III', 'I, II', 'I, III, IV', 'Tất cả các phương án trên'
         ],
@@ -694,7 +694,7 @@ const questionBank = [
         answer: 'Đương nhiên được tiếp tục sở hữu CCQ tương ứng phần vốn đã góp'
     },
     {
-        question: 'Đối với các Dn được chuyển đổi thành công ty cổ phần theo pháp luật về chuyển DNNN và CTTNHH MTV của DN do NN nắm giữ 100% VĐL thành công ty CP, đã thực hiện đăng ký giao dịch trên hệ thống Upcom trước ngày 1/1/21 nhưng chưa được UBCKNN xác nhận hoàn tất đăng ký công ty đại chúng, thời điểm bị huỷ đăng ký giao dịch',
+        question: 'Đối với các DN được chuyển đổi thành công ty cổ phần theo pháp luật về chuyển DNNN và CTTNHH MTV của DN do NN nắm giữ 100% VĐL thành công ty CP, đã thực hiện đăng ký giao dịch trên hệ thống Upcom trước ngày 1/1/21 nhưng chưa được UBCKNN xác nhận hoàn tất đăng ký công ty đại chúng, thời điểm bị huỷ đăng ký giao dịch',
         choices: [
             'Ngay khi Nghị định quy định chi tiết thi hành một số điều của Luật chứng khoán 2019 có hiệu lực',
             'Sau 01 năm kể từ ngày Nghị định quy định chi tiết thi hành một số điều của Luật chứng khoán 2019 có hiệu lực',
@@ -781,8 +781,145 @@ const questionBank = [
             'Chào bán cho các NĐT không xác định'
         ],
         answer: 'Chỉ chào bán cho NĐT CK chuyên nghiệp'
-    }
+    },
     // end 82
+    {
+        question: 'Công ty đại chúng mua lại CK của chính mình phải đáp ứng các điều kiện sau đây, ngoại trừ',
+        choices: [
+            'Có quyết định của ĐHCĐ thông qua việc mua lại CP để giảm VĐL, phương án mua lại , trong đó nêu rõ số lượng, thời gian thực hiện, nguyên tắc xác định giá mua lại, có đủ nguồn vốn để mua lại cổ phiếu từ các nguồn sau: thặng dư vốn cổ phần, quỹ đầu tư phát triển, lợi nhuận sau thuế chưa phân phối, quỹ khác thuộc VCSH để bổ sung vốn điều lệ theo quy định của pháp luật',
+            'Có CTCK được chỉ định thực hiện giao dịch, trừ trường hợp CTCK là thành viên của Sở giao dịch CKVN mua lại cổ phiếu của chính mình',
+            'Đang trong quá trình chào bán, phát hành cổ phiếu để huy động thêm vốn',
+            'Đáp ứng các điều kiện theo quy định của pháp luật trong trường hợp công ty đại chúng thuộc ngành, nghề đầu tư kinh doanh có điều kiện'
+        ],
+        answer: 'Đang trong quá trình chào bán, phát hành cổ phiếu để huy động thêm vốn'
+    },
+    {
+        question: 'NHTM được UBCKNN lựa chọn làm ngân hàng thanh toán khi đáp ứng các điều kiện sau đây, ngoại trừ',
+        choices: [
+            'Có giấy phép thành lập và hoạt động tại VN theo quy định',
+            'Có VĐL dưới 10.000 tỷ VNĐ',
+            'Hoạt động kinh doanh có lãi 02 năm gần nhất',
+            'Đáp ứng tỷ lệ an toàn vốn tối thiếu theo quy định của pháp luật ngân hàng',
+            'Có hệ thống cơ sở vật chất, kỹ thuật bảo đảm thực hiện thanh toán giao dịch và kết nối với hệ thống của Tổng công ty lưu ký bù trừ CKVN'
+        ],
+        answer: 'Có VĐL dưới 10.000 tỷ VNĐ'
+    },
+    {
+        question: 'Công ty đại chúng phải công bố thông tin bất thường khi xảy ra một trong các sự kiện sau đây, ngoại trừ',
+        choices: [
+            'Tài khoản của công ty tại ngân hàng, chi nhánh ngân hàng nước ngoài bị phong toả hoặc được phép hoạt động trở lại sau khi bị phong toả',
+            'Tạm ngừng kinh doanh, thay đổi nội dung đăng ký doanh nghiệp, thu hồi GCN đăng ký DN, sửa đổi, bổ sung hoặc bị đình chỉm thu hồi giấy phép thành lập và hoạt động hoặc giấy phép hoạt động',
+            'BCTC năm đã được kiểm toán, BCTC 6 tháng đã dược soát xét bởi tổ chức kiểm toán được chấp thuận',
+            'Quyết định mua lại cổ phiếu của công ty',
+            'Thay đổi, bổ nhiệm mới người nội bộ'
+        ],
+        answer: 'BCTC năm đã được kiểm toán, BCTC 6 tháng đã dược soát xét bởi tổ chức kiểm toán được chấp thuận'
+    },
+    {
+        question: 'Tổ chức cá nhân, nhóm người liên quan, nhóm NĐT nước ngoài có liên quan phải công bố thông tin khi:',
+        choices: [
+            'Khi trở thành cổ đông lớn của công ty đại chúng, công ty đầu tư chứng khoán đại chúng',
+            'Khi không còn là cổ đông lớn của công ty đại chúng, công ty đầu tư chứng khoán đại chúng',
+            'Trước và sau khi giao dịch CP của công ty đại chúng, công ty đầu tư chứng khoán đại chúng',
+            'Cả a và b',
+            'Cả a, b, c'
+        ],
+        answer: 'Cả a và b'
+    },
+    {
+        question: 'Nhà đầu tư, nhóm người liên quan, nhóm NĐT nước ngoài có liên quan phải công bố thông tin khi:',
+        choices: [
+            'Khi sở hữu từ 5% trở lên chứng chỉ quỹ của quỹ đóng',
+            'Khi không còn sở hữu từ 5% trở lên chứng chỉ quỹ của quỹ đóng',
+            'Trước và sau khi giao dịch CCQ của quỹ đóng',
+            'Cả a , b' ,
+            'Cả a, b, c'
+        ],
+        answer: 'Cả a , b'
+    },
+    {
+        question: 'Tổ chức cá nhân, nhóm người liên quan, nhóm NĐT nước ngoài có liên quan là cổ đông lớn phải công bố thông tin khi có sự thay đổi về số lượng CP sở hữu:',
+        choices: [
+            'Qua các ngưỡng 1% số CP có quyền biểu quyết của công ty đại chúng, công ty đầu tư chứng khoán đại chúng',
+            '1% số CP có quyền biểu quyết của công ty đại chúng, công ty đầu tư chứng khoán đại chúng',
+            '3% số CP có quyền biểu quyết của công ty đại chúng, công ty đầu tư chứng khoán đại chúng',
+            '5% số CP có quyền biểu quyết của công ty đại chúng, công ty đầu tư chứng khoán đại chúng'
+        ],
+        answer: 'Qua các ngưỡng 1% số CP có quyền biểu quyết của công ty đại chúng, công ty đầu tư chứng khoán đại chúng'
+    },
+    {
+        question: 'Thanh tra chứng khoán là:',
+        choices: [
+            'Thanh tra chuyên ngành về CK và TTCK',
+            'Thanh tra hành chính về CK và TTCK',
+            'Thanh tra nhà nước về CK và TTCK',
+            'Cả a và b'
+        ],
+        answer: 'Thanh tra chuyên ngành về CK và TTCK'
+    },
+    {
+        question: 'Người có thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực CK là',
+        choices: [  
+            'Chủ tịch UBCKNN',
+            'Chánh thanh tra UBCKNN',
+            'Trưởng đoàn thanh tra chuyên ngành CK',
+            'Cả a và b',
+            'Cả a, b, c'
+        ],
+        answer: 'Cả a, b, c'
+    },
+    {
+        question: 'Người nội bộ của công ty đại chúng, công ty đầu tư chứng khoán dại chúng, quỹ đại chúng và người có liên quan của các đối tượng này phải công bố thông tin:',
+        choices: [
+            'Trước khi giao dịch cổ phiếu, quyền mua cổ phiếu trái phiếu chuyển đổi, quyền trải phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng',
+            'Sau khi giao dịch cổ phiếu trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chi quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán dại chúng, quỹ đại chúng',
+            'Khi có thay dổi sở hữu đối với cổ phiếu, quyền mua cổ phiếu, trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dặm bảo dựa trên chứng khoán của công ty đại chúng, công ty dầu tư chứng khoán đại chúng, quỹ đại chúng',
+            'Cả  a, b',
+            'Cả a, b, c'
+        ],
+        answer: 'Cả a, b, c'
+    },
+    {
+        question: 'Theo quy định hiện nay, người hành nghề CK có hành vi vi phạm quy định về nhận lệnh và thực hiện lệnh giao dịch của KH sẽ bị phạt: \nI. 70 - 100 triệu VNĐ \n II. 100 - 150 triệu VNĐ \nIII. 150 - 200 triệu VNĐ \nIV. Tước quyền sử dụng CCHNCK trong thời hạn từ 1 - 3 tháng \nV. Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán của tổ chức kinh doanh chứng khoán trong thời gian từ 1 - 3 tháng',
+        choices: [
+            'I, IV',
+            'II, V',
+            'III, IV, V',
+            'II, IV, V'
+        ],
+        answer: 'II, V'
+    },
+    {
+        question: 'Theo quy định hiện nay, khi mượn thuê CCHNCK hoặc cho mượn , thuê CCHNCK sẽ bị phạt: \nI. 50 - 70 triệu VNĐ \nII. 70 - 100 triệu VNĐ \nIII. 100 - 150 triệu VNĐ \nIV. Tước quyền sử dụng CCHNCK trong thời hạn từ 1 - 3 tháng \nV. Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán của tổ chức kinh doanh chứng khoán trong thời gian từ 1 - 3 tháng',
+        choices: [
+            'I, IV',
+            'II, V',
+            'III, IV',
+            'III, IV, V'
+        ],
+        answer: 'III, IV'
+    },
+    {
+        question: 'Theo quy định hiện nay, khi sử dụng tài khoản, tài sản của KH khi không được KH uỷ thác hoặc không đúng nội dung uỷ thác, sử dụng tài khoản hoặc tiền, chứng khoán trên tài khoản của KH khi chưa được công ty chứng khoán uỷ quyền theo sự uỷ thác của KH cho CTCK bằng văn bản, người hành nghề CK sẽ bị phạt và áp dụng khắc phục: \nI. 100 - 200 triệu VNĐ \nII. 299 - 300 triệu VNĐ \nIII. 400 - 500 triệu VNĐ \nIV. Tước quyền sử dụng CCHN trong thời hạn từ 6 - 12 tháng \nV. Buộc hoàn trả CK, tiền thuộc sở hữu KH thời gian tối đa 60 ngày kể từ ngày quyết định áp dụng biện pháp này có hiệu lực thi hành đối với hành vi vi phạm nói trên' ,
+        choices: [  
+            'I, IV',
+            'II, IV, V',
+            'III, IV',
+            'III, IV, V'
+        ],
+        answer: 'III, IV, V'
+    },
+    {
+        question: 'Theo quy định hiện nay, khi có hành vi môi giới giao dịch vay, mượn tài sản giữa các khách hàng hoặc giữa khách hàng và bên thứ ba, trừ trường hợp vay chứng khoán để sửa lỗi giao dịch hoặc vay để thực hiện các giao dịch hoán đổi chứng chỉ quỹ hoán đổi danh mục, người hành nghề chứng khoán sẽ bị phạt: \nI. 150-200 triệu đồng \nII. 200-250 triệu đồng \nIII. 300-400 triệu đồng \nIV. Tước quyền sử dụng chững chỉ hành nghề chứng khoán trong thời hạn từ 06 tháng đến 12 tháng \nV. Buộc hoàn trả chứng khoản, tiền thuộc sở hữu của khách hàng thời gian tối đa 60 ngày kể từ ngày quyết định áp dụng biện pháp này có hiệu lực thi hành đối với hành vi vi phạm nói trên',
+        choices: [
+            'I, IV',
+            'II, IV, V',
+            'I, IV, V',
+            'III, IV'
+        ],
+        answer: ''
+    }
+    // end of 95
 ]
-
 export default questionBank
+
