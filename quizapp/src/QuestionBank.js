@@ -1079,6 +1079,7 @@ const questionBank = [
         ],
         answer: 'Lấy ý kiến Đại hội cổ động căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 60 ngày giao dịch liên tiếp liền trước ngày chốt danh sách cổ động hoặc họp Đại hội cổ đông thông qua phương án phát hành có xác nhận của tổ chức tư vấn hồ sơ đăng ký chào bán cổ phiếu ra công chúng'
     },
+    //end 115
 ]
 export default questionBank
 
