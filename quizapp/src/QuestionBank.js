@@ -890,7 +890,7 @@ const questionBank = [
         answer: 'II, V'
     },
     {
-        question: 'Theo quy định hiện nay, khi mượn thuê CCHNCK hoặc cho mượn , thuê CCHNCK sẽ bị phạt: \nI. 50 - 70 triệu VNĐ \nII. 70 - 100 triệu VNĐ \nIII. 100 - 150 triệu VNĐ \nIV. Tước quyền sử dụng CCHNCK trong thời hạn từ 1 - 3 tháng \nV. Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán của tổ chức kinh doanh chứng khoán trong thời gian từ 1 - 3 tháng',
+        question: 'Theo quy định hiện nay, khi mượn thuê CCHNCK hoặc cho mượn, thuê CCHNCK sẽ bị phạt: \nI. 50 - 70 triệu VNĐ \nII. 70 - 100 triệu VNĐ \nIII. 100 - 150 triệu VNĐ \nIV. Tước quyền sử dụng CCHNCK trong thời hạn từ 1 - 3 tháng \nV. Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán của tổ chức kinh doanh chứng khoán trong thời gian từ 1 - 3 tháng',
         choices: [
             'I, IV',
             'II, V',
@@ -910,7 +910,7 @@ const questionBank = [
         answer: 'III, IV, V'
     },
     {
-        question: 'Theo quy định hiện nay, khi có hành vi môi giới giao dịch vay, mượn tài sản giữa các khách hàng hoặc giữa khách hàng và bên thứ ba, trừ trường hợp vay chứng khoán để sửa lỗi giao dịch hoặc vay để thực hiện các giao dịch hoán đổi chứng chỉ quỹ hoán đổi danh mục, người hành nghề chứng khoán sẽ bị phạt: \nI. 150-200 triệu đồng \nII. 200-250 triệu đồng \nIII. 300-400 triệu đồng \nIV. Tước quyền sử dụng chững chỉ hành nghề chứng khoán trong thời hạn từ 06 tháng đến 12 tháng \nV. Buộc hoàn trả chứng khoản, tiền thuộc sở hữu của khách hàng thời gian tối đa 60 ngày kể từ ngày quyết định áp dụng biện pháp này có hiệu lực thi hành đối với hành vi vi phạm nói trên',
+        question: 'Theo quy định hiện nay, khi có hành vi môi giới giao dịch vay, mượn tài sản giữa các khách hàng hoặc giữa khách hàng và bên thứ ba, trừ trường hợp vay chứng khoán để sửa lỗi giao dịch hoặc vay để thực hiện các giao dịch hoán đổi chứng chỉ quỹ hoán đổi danh mục, người hành nghề chứng khoán sẽ bị phạt: \nI. 150 - 200 triệu đồng \nII. 200 - 250 triệu đồng \nIII. 300 - 400 triệu đồng \nIV. Tước quyền sử dụng chững chỉ hành nghề chứng khoán trong thời hạn từ 06 tháng đến 12 tháng \nV. Buộc hoàn trả chứng khoản, tiền thuộc sở hữu của khách hàng thời gian tối đa 60 ngày kể từ ngày quyết định áp dụng biện pháp này có hiệu lực thi hành đối với hành vi vi phạm nói trên',
         choices: [
             'I, IV',
             'II, IV, V',

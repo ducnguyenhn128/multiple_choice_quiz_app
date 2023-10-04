@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^16.4.0"
+    "netlify-cli": "^16.5.1"
   }
 }
