@@ -989,8 +989,103 @@ const questionBank = [
             'II, III', 'I, III', 'II, IV', 'I, III, V'
         ],
         answer: 'I, III'
-    }
+    },
     // end 105
+    {
+        question: 'Hành vi làm giả giấy tờ, xác nhận trên giấy tờ giả mạo chứng minh đủ điều kiện niêm yết trên hồ sơ niêm yết CK hoặc làm giả giấy tờ, xác nhận trên giấy tờ giả mạo trong hồ sơ đăng ký giao dịch CK sẽ bị xử lý như sau \nI. Phạt tiền từ 1000 triệu đến 2000 triệu \nII. Phạt tiền từ 2500 triệu đến 3000 triệu \nIII. Tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính là giấy tờ giả mạo đối với hành vi vi phạm này \nIV. Buộc nộp lại số lợi bất hợp pháp thu được từ hành vi này',
+        choices: [
+            'I, III, IV', 'II, III, IV', 'II, III', 'I, IV'
+        ],
+        answer: 'II, III'
+    },
+    {
+        question: 'Báo cáo tổng hợp thông tin tài chính theo quy ước là',
+        choices: [
+            'Báo cáo tài chính được lập để minh họa ảnh hưởng của sự kiện hoặc giao dịch trọng yếu đến thông tin tài chính chưa điều chỉnh của đơn vị với giả định sự kiện đã xảy ra hoặc giao dịch đã được thực hiện tại một ngày trước đó được chọn cho mục đích minh họa theo hướng dẫn của Bộ Tài Chính' ,
+            'Báo cáo được lập để minh họa ảnh hưởng đến sự kiện hoặc giao dịch trong yếu đến thông tin tài chính chưa điều chỉnh của đơn vị với giả định sự kiện đã xảy ra hoặc giao dịch đã được thực hiện tại một ngày trước đó được chọn cho mục đích minh hoạ theo hưởng dẫn của Bộ Tài Chính' ,
+            'Báo cáo được lập để nêu rõ ảnh hưởng của sự kiện hoặc giao dịch liên quan đến thông tin tài chính chưa điều chỉnh của đơn vị với giả định sự kiện đã xảy ra hoặc giao dịch được thực hiện tại một ngày trước đó dược chọn cho mục đích minh họa theo hướng dẫn của Bộ Tài Chính' ,
+            'Báo cáo được lập để để minh họa ảnh hưởng của sự kiện trọng yếu đến thông tin tài chính chưa điều chỉnh của đơn vị với giả định sự kiện đã xảy ra hoặc giao dịch được thực hiện tại một ngày trước đó được chọn cho mục đích minh họa theo hướng hãn của Bộ Tài Chính'
+        ],
+        answer: 'Báo cáo được lập để minh họa ảnh hưởng đến sự kiện hoặc giao dịch trong yếu đến thông tin tài chính chưa điều chỉnh của đơn vị với giả định sự kiện đã xảy ra hoặc giao dịch đã được thực hiện tại một ngày trước đó được chọn cho mục đích minh hoạ theo hưởng dẫn của Bộ Tài Chính' 
+    },
+    {
+        question: 'Ngày kết thúc đợt phát hành cổ phiếu để hoán đổi là',
+        choices: [
+            'Ngày chốt danh sách cổ đông, thành viên để hoát đổi',
+            'Ngày được tổ chức phát hành xác định để hoán đổi cổ phiếu của tổ chức phát hành với khoản nợ của tổ chức phát hành với chủ nợ',
+            'Ngày được tổ chức phát hành xác định để hoán đổi cổ phiếu của tổ chức phát hành với cổ phần, phần vốn góp của tổ chức, cá nhân khác',
+            'Ngày đăng ký cuối cùng để phân bổ quyền'
+        ],
+        answer: 'Ngày được tổ chức phát hành xác định để hoán đổi cổ phiếu của tổ chức phát hành với cổ phần, phần vốn góp của tổ chức, cá nhân khác'
+    },
+    {
+        question: 'Nhà đầu tư chứng khoán chuyên nghiệp là nhà đầu tư sau',
+        choices: [
+            'Cá nhân có thu nhập chịu thuế năm gần nhất tối thiểu là 02 tỷ đồng tính đến thời điểm cá nhân đó được xác định tư cách là nhà đầu tư chứng khoán chuyên nghiệp theo hồ sơ khai thuế đã nộp cho cơ quan thuế hoặc chứng từ khấu trừ thuế của tổ chức, cá nhân chi trả' , 
+            'Cá nhân có thu nhập chịu thuế năm gần nhất tối thiểu là 01 tỷ đồng tính đến thời điểm cá nhân đó được xác định tư cách là nhà đầu tư chứng khoán chuyên nghiệp theo hồ sơ khai thuế đã nộp cho cơ quan thuế hoặc chứng từ khấu trừ thuế của tổ chức, cá nhân chi trả' ,
+            'Công ty có vốn điều lệ đã góp đạt trên 150 tỷ đồng hoặc tổ chức niêm yết, tổ chức đăng ký giao dịch' ,
+            'Công ty có vốn điều lệ đã góp đạt trên 100 tỷ đồng hoặc tổ chức niêm yết, tổ chức đăng ký giao dịch'
+        ],
+        answer: 'Công ty có vốn điều lệ đã góp đạt trên 100 tỷ đồng hoặc tổ chức niêm yết, tổ chức đăng ký giao dịch'
+    },
+    {
+        question: 'Một trong những điều kiện chào bán trái phiếu có bảo đảm ra công chúng là được bảo đảm thanh toán một phần hoặc toàn bộ gốc và lãi trái phiếu bằng một hoặc một số phương thức sau: \nI. Bảo lãnh thanh toán của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài \nII. Bảo đảm bằng nguồn thu của tổ chức phát hành. Nguồn thu của tổ chức phát hành phải đủ thanh toán gốc và lãi trái phiếu \nIII. Bảo đảm bằng cam kết của bên thứ ba. Cam kết phải cụ thể trách nhiệm của từng bên \nIV. Bảo đảm bằng tài sản của tổ chức phát hành, tài sản của bên thứ ba. Tài sản bảo đảm phải được định giá bởi tổ chức có chức năng thẩm định giả và được dăng ký, xử lý theo quy định của pháp luật về đăng ký giao dịch bảo đảm.',
+        choices: [
+            'I và II' , 'I và III', 'II và IV', 'II và III'
+        ],
+        answer: 'II và IV'
+    },
+    {
+        question: 'Công ty đại chúng mua lại cổ phiếu của chính mình được bán ra cổ phiếu ngay sau khi mua lại trong các trường hợp sau đây: \nI. Công ty chứng khoán mua lại cổ phiếu của chính mình để sửa lỗi giao dịch hoặc mua lại cổ phiếu lô lẻ \nII. Công ty đại chúng mua lại cổ phiếu lô lẻ \nIII. Công ty đại chúng mua lại cổ phiếu lô lẻ theo phương án phát hành cổ phiếu để trả cổ tức, phương án phát hành cổ phiếu từ nguồn vốn chủ sở hữu \nIV. Công ty đại chúng mua lại cổ phiếu lô lẻ theo yêu cầu của cổ đông.',
+        choices: [
+            'I, III, IV', 'II, III, IV', 'II, III', 'III, IV'
+        ],
+        answer: 'III, IV'
+    },
+    {
+        question: 'Trừ trường hợp mua lại cổ phiếu trong ứng với tỷ lệ sở hữu trong công ty hoặc mua lại cổ phiếu theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc mua lại cổ phiếu thông qua giao dịch thực hiện theo phương thức khớp lệnh, công ty không được mua lại cổ phiếu của đối tượng nào sau đây: \nI. Người nội bộ và người có liên quan của người nội bộ theo quy định của Luật chứng khoán \nII. Người sở hữu cổ phiếu có hạn chế chuyển nhượng theo quy định của pháp luật và Điều lệ công ty \nIII. Cổ đông lớn theo quy định của Luật chứng khoán \nIV. Người lao động trong công ty',
+        choices: [
+            'I, II', 'II, III', 'I, II, III', 'Tất cả các phương án trên'
+        ],
+        answer: 'I, II, III'
+    },
+    {
+        question: 'Khi được Đại hội đồng cổ đông ủy quyền và theo quy định tại điều lệ công ty, Hội đồng quản trị chỉ được thay đối phương án sử dụng vốn, số tiền thu được từ đợt chào bán, đợt phát hành với giá trị thay đổi là bao nhiêu? (trừ trường hợp chào bán trái phiếu không chuyển đổi, không kèm chứng quyền theo phương ăn được Hội đồng quản trị thông qua)',
+        choices: [
+            'Giá trị thay đổi nhỏ hơn 70% số vốn, số tiền thu dược từ đợt chào bản, đợt phát hành',
+            'Giá trị thay đổi nhỏ hơn 50% số vốn, số tiền thu được từ đợt chào bán, đợt phát hành',
+            'Khi được Đại hội cổ đông ủy quyền, Hội đồng quản trị được thay đổi toàn bộ phương án sử dụng số tiền thu được từ đợt chào bản và thực hiện báo cáo Đại hội đồng cổ đông tại cuộc họp gần nhất',
+            'Hội đồng quản trị không được thay đổi phương án sử dụng vốn, số tiền thu được từ dợi chào bán, phát hành sau khi hoàn thành đợt chào bán, phát hành'
+        ],
+        answer: 'Giá trị thay đổi nhỏ hơn 50% số vốn, số tiền thu được từ đợt chào bán, đợt phát hành'
+    },
+    {
+        question: 'Tất cả các câu sau đều mô tả đúng việc xử lý cổ phiếu nhà đầu tư không đăng ký mua, không nộp tiền mua, số cổ phiếu lẻ, ngoại trừ',
+        choices: [
+            'Tổ chức phát hành hiện thực phân phối số cổ phiếu nhà đầu tư không đăng ký, không nộp tiền mua số cổ phiếu lẻ cho một hoặc một số nhà đầu tư xác định phải bảo đảm điều kiện chào bản, diều kiện về quyền, nghĩa vụ của nhà đầu tư không thuận lợi hơn so với điều kiện chào bản cho cổ đông hiện hữu, trừ trường hợp Đại hội cổ đông có chấp thuận khác' ,
+            'Đại hội cổ đông hoặc Hội đồng quản trị phải xác định tiêu chí, danh sách nhà đầu tư được mua cổ phiếu, Số cổ phiếu này bị hạn chế chuyển nhượng trong thời hạn tối thiểu I năm kể từ ngày kết thúc đợt chào bán' ,
+            'Việc phân phối cổ phiếu cho tổ chức, cá nhân và người có liên quan dẫn đến tỷ lệ sở hữu của các đối tượng này vượt mức sở hữu theo quy định của Luật Chứng khoán về chào mua công khai phải được Đại hội cổ đông thông qua;' ,
+            'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng vẫn nhất'
+        ],
+        answer: 'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng vẫn nhất'
+    },
+    {
+        question: 'Công ty đại chúng đăng ký chào bán thêm cổ phiếu ra công chúng với giá thấp hơn mệnh giá, giá dự kiến chào bán được xác định như thế nào?',
+        choices: [
+            'Lấy ý kiến Đại hội cổ đông căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 30 ngày giao dịch liên tiếp trước ngày chốt danh sách cổ đông',
+            'Giá dự kiến chào bản là giá tham chiếu cổ phiếu trong tối thiểu 30 ngày và tối da 60 ngày giao dịch liên tiếp liên tiếp ngày chốt danh sách cổ đông',
+            'Lấy ý kiến Đại hội cổ động căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 60 ngày giao dịch liên tiếp liền trước ngày chốt danh sách cổ động hoặc họp Đại hội cổ đông thông qua phương án phát hành có xác nhận của tổ chức tư vấn hồ sơ đăng ký chào bán cổ phiếu ra công chúng' ,
+            'Tất cả các phương án trên không đúng'
+        ],
+        answer: 'Lấy ý kiến Đại hội cổ động căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 60 ngày giao dịch liên tiếp liền trước ngày chốt danh sách cổ động hoặc họp Đại hội cổ đông thông qua phương án phát hành có xác nhận của tổ chức tư vấn hồ sơ đăng ký chào bán cổ phiếu ra công chúng'
+    },
 ]
 export default questionBank
 
+// {
+//     question: '',
+//     choices: [
+
+//     ],
+//     answer: ''
+// },
