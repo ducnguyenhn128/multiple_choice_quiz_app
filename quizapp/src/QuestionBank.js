@@ -1079,7 +1079,54 @@ const questionBank = [
         ],
         answer: 'Lấy ý kiến Đại hội cổ động căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 60 ngày giao dịch liên tiếp liền trước ngày chốt danh sách cổ động hoặc họp Đại hội cổ đông thông qua phương án phát hành có xác nhận của tổ chức tư vấn hồ sơ đăng ký chào bán cổ phiếu ra công chúng'
     },
-    //end 115
+    {
+        question: 'Khi đăng ký chào bán trái phiếu ra công chúng. Tổ chức phát hành hoặc trái phiếu dăng ký chào bán phải được xếp hạng tín nhiệm bởi tổ chức xếp hạng tín nhiệm được Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh trong các trường hợp nào? \nI. Tổng giá trị trái phiếu theo mệnh giá huy động trong mỗi 12 tháng lớn hơn 1 tỷ đồng và lớn hơn 100% vốn chủ sở hữu căn cứ trên báo cáo tài chính kỳ gần nhất \nII. Tổng giá trị trái phiếu theo mệnh giá huy động trong mỗi 12 tháng lớn hơn 500 tỷ đồng và lớn hơn 50% vốn chủ sở hữu căn cứ trên báo cáo tài chính kỳ gần nhất \nIII. Tổng dư nợ trái phiếu theo mệnh giá tính đến thời điểm 100% vốn chủ sở hữu căn cứ trên báo cáo tài chính gần nhất \nIV. Tổng dư nợ trái phiếu theo mệnh giá tính đến thời điểm 50% vốn chủ sở hữu căn cứ trên báo cáo tài chính gần nhất',
+        choices: [
+            'I hoặc II', 'II hoặc III', 'I hoặc IV', 'II hoặc IV'
+        ],
+        answer: 'II hoặc III'
+    },
+    {
+        question: 'Tổ chức tài chính quốc tế chào bán trái phiếu ra công chúng bằng đồng Việt Nam, trái phiếu chào bán là trái phiếu có kỳ hạn: ',
+        choices: [
+            '2 năm trở lên',
+            'Không dưới 5 năm',
+            'Từ 5 đến 10 năm',
+            'Không dưới 10 năm'
+        ],
+        answer: 'Không dưới 10 năm'
+    },
+    {
+        question: 'Công ty đại chúng chào bán cổ phiếu riêng lẻ với giá trị thấp hơn mệnh giá:',
+        choices: [
+            'Đối tượng tham gia đợt chào bán chỉ bao gồm nhà dầu tư chứng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợi chào bán' ,
+            'Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chiến lược và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợt chào bán' ,
+            'Đối tượng tham gia đợt chào bán có thể là nhà dầu tư chiến lược và/hoặc nhà đầu tư chứng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợt chào bán',
+            ' Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chúng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 1 năm kể từ ngày kết thúc đợt chào bán'
+        ],
+        answer: 'Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chiến lược và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợt chào bán'
+    },
+    {
+        question: 'Tổ chức thực hiện bảo lãnh phát hành chứng khoán ra công chúng pháp đáp ứng điều kiện nào sau đây \nI. Được UBCKNN cấp phép thực hiện hoạt động bảo lãnh phát hành CK theo quy định Luật CK \nII. Đáp ứng các chỉ tiêu an toàn tài chính theo quy định pháp luật \nIII. Có vốn điều lệ trên 100 tỷ và không có nợ quá hạn căn cứ BCTC gần nhất \nIV. Không phải là người có liên quan đến tổ chức phát hành',
+        choices: [  
+            'I, II, III' ,
+            'I, II, IV',
+            'I, III, IV',
+            'Tất cả các phương án trên'
+        ],  
+        answer: 'I, II, IV'
+    },
+    {
+        question: 'Đối với trường hợp phát hành cổ phiếu theo chương trình lựa chọn cho người lao động tài liệu báo cáo kết quả đợi phát hành gửi UBCKNN kèm theo tài liệu nào? \nI. Quy chế phát hành ESOP \nII. Danh sách người lao động tham gia chương trình trong do nêu cụ thể về số lượng cổ phiếu của từng người lao động dã nộp tiền mua hoặc được phân phối (đối với trường hợp phát hành cổ phiếu thưởng cho người lao động) \nIII. Văn bản xác nhận của ngân hàng chi nhánh ngân hàng nước ngoài nơi mở tài khoản phong tỏa về số tiền thụ được từ đợt phát hành, trừ trường hợp phát hành cổ phiếu thưởng cho người lao động \nIV. Văn bản xác định tỷ lệ sở hữu nước ngoài trong trường hợp phát hành cho người lao động là nhà đầu tư nước ngoài',
+        choices: [
+            'I, II, III',
+            'II, III, IV',
+            'II, III',
+            'III'
+        ],
+        answer: 'II, III'
+    },
+    //end 120
 ]
 export default questionBank
 
