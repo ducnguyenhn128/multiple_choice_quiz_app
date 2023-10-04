@@ -368,7 +368,7 @@ const questionBank = [
         answer: 'I, II, IV'
     },
     {
-        question: 'Theo quy định của Luật Chứng khoán, Sở giao dịch CK không có quyền nào sau đây, loại trừ \n I. Ban hành quy chế đăng ký, lưu ký, bù trừ, thanh toán CK sau khi được UBCK chấp thuật \nII. Tạm ngừng đình chỉ hoặc huỷ bỏ giao dịch chứng khoán \nIII. Chấp thuận, huỷ bỏ niêm yết CK tại SGDCK \nIV. Làm trung gian hoà giải theo yêu cầu của thành viên giao dịch khi phát sinh tranh chấp liên quan đến giao dịch CK',
+        question: 'Theo quy định của Luật Chứng khoán, Sở giao dịch CK không có quyền nào sau đây, loại trừ \n I. Ban hành quy chế đăng ký, lưu ký, bù trừ, thanh toán CK sau khi được UBCK chấp thuận \nII. Tạm ngừng đình chỉ hoặc huỷ bỏ giao dịch chứng khoán \nIII. Chấp thuận, huỷ bỏ niêm yết CK tại SGDCK \nIV. Làm trung gian hoà giải theo yêu cầu của thành viên giao dịch khi phát sinh tranh chấp liên quan đến giao dịch CK',
         choices: [
             'I', 'I, IV', 'II, III', 'III, IV'
         ],
@@ -542,7 +542,7 @@ const questionBank = [
         answer: 'I, IV'
     }, 
     {
-        question: 'Khẳng định nào sau đây không đúng về phạm vi hoạt động của văn phòng đại diện công ty chứng khoán, công ty quản lý quỹ nước ngoài tại việt nam \nI. Xúc tiến xây dựng các dự án hợp tác trong lĩnh vực chứng khoán và thị trường chứng khoán tại việt nam \nII. Tư vấn khách hàng đầu tư chứng khoán \nIII. Thực hiện các hợp đồng thỏa thuận đã ký kết giữa công ty chứng khoán, công ty quan lý quỹ nước ngoài với các tổ chức kinh tế tại việt nam \nIV. Giám sát thực hiện các dự án do công ty chứng khoán, công ty quản lý quỹ nước ngoài tài trợ tại việt nam ',
+        question: 'Khẳng định nào sau đây không đúng về phạm vi hoạt động của văn phòng đại diện công ty chứng khoán, công ty quản lý quỹ nước ngoài tại việt nam \nI. Xúc tiến xây dựng các dự án hợp tác trong lĩnh vực chứng khoán và thị trường chứng khoán tại việt nam \nII. Tư vấn khách hàng đầu tư chứng khoán \nIII. Thực hiện các hợp đồng thỏa thuận đã ký kết giữa công ty chứng khoán, công ty quản lý quỹ nước ngoài với các tổ chức kinh tế tại việt nam \nIV. Giám sát thực hiện các dự án do công ty chứng khoán, công ty quản lý quỹ nước ngoài tài trợ tại Việt Nam ',
         choices: [
             'I, II', 'II, III', 'II, IV', 'III, IV'
         ],
@@ -579,7 +579,7 @@ const questionBank = [
     {
         question: 'Hạn chế đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán bao gồm \nI. Công ty chứng khoán được góp vốn thành lập, mua cổ phần, phần vốn góp để sở hữu hoặc cùng với người có liên quan (nếu có) sở hữu không quá 5% số cổ phiếu có quyền biểu quyết đang lưu hành của 1 công ty chứng khoán khác tại việt nam \nII. Công ty quản lý quỹ được góp vốn thành lập, mua cổ phần, phần vốn góp của 01 công ty quản lý quỹ để thực hiện hợp nhất, sát nhập  \nIII. Không được đưa ra nhận định hoặc đảm bảo với khách hàng về mức thu nhập hoặc lợi nhuận đạt được trên khoản đầu tư của mình hoặc đảm bao khách hàng không bị thua lỗ, trừ trường hợp đầu tư vào chứng khoán có thu nhập cố định \nIV. cổ đông sáng lập, thành viên góp vốn khi thành lập của công ty chứng khoán, công ty quản lý quỹ không được chuyển nhượng cổ phần hoặc phần vốn góp của mình trong thời hạn 05 năm kể từ ngày được cấp giấy phép, trừ trường hợp chuyển nhượng giữa các cổ đông sáng lập, thành viên góp vốn khi thành lập công ty',
         choices: [
-            'I, II', 'Ii, III', 'III, IV', "Tất cả các phương án trên"
+            'I, II', 'II, III', 'III, IV', "Tất cả các phương án trên"
         ],
         answer: 'III, IV'
     },
