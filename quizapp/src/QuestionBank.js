@@ -707,11 +707,11 @@ const questionBank = [
         question: 'Trường hợp công ty quản lý quỹ có hơn 1 người đại diện pháp luật thì người nào sẽ chịu trách nhiệm cung cấp tài liệu và làm việc với UBCKNN',
         choices: [
             'Đương nhiên là Chủ tịch HĐQT',
-            'Đương nhiên là Tổng Giám đóc/ giám đốc',
+            'Đương nhiên là Tổng Giám đốc/ giám đốc',
             'Là người đại diện pháp luật mà công ty đăng ký',
-            'Là Chủ tịch HĐQT hoặc Tổng Giám đóc/ giám đốc mà công ty đăng ký'
+            'Là Chủ tịch HĐQT hoặc Tổng Giám đốc/ giám đốc mà công ty đăng ký'
         ],
-        answer: 'Là Chủ tịch HĐQT hoặc Tổng Giám đóc/ giám đốc mà công ty đăng ký'
+        answer: 'Là Chủ tịch HĐQT hoặc Tổng Giám đốc/ giám đốc mà công ty đăng ký'
     },
     {
         question: 'Một công ty chúng khoán là công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sử hữu. Tổng giám đốc công ty đồng thời là người đại diện theo pháp luật duy nhất đi công tác đột xuất nên chưa kịp làm thủ tục ủy quyền cho người khác thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật. Do tình hình dịch bệnh Covid-19, người này bị mắc kẹt tại nước ngoài từ ngày 01/01/2021, để đảm bảo tuân thủ quy định doanh nghiệp phải có ít nhất 1 người đại diện theo pháp luật cư trú tại Việt Nam, công ty chúng khoản phải làm thế nào?',
