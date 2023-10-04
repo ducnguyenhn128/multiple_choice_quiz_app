@@ -1220,6 +1220,91 @@ const questionBank = [
         answer: 'Chứng khoán được phát hành cùng với việc phát hành trái phiếu hoặ cổ phiếu ưu đãi, cho phép người sở hữu được quyền mua một số cổ phiếu phổ thông nhất định theo mức giá đã được xác định trong khoảng thời gian xác định'
     },
     //end 130
+    {
+        question: 'Nhà đầu tư nước ngoài là cá nhân được sở hữu bao nhiêu vốn điều lệ của công ty chứng khoán',
+        choices: [
+            'DƯới 49%',
+            '49%',
+            'Trên 49%',
+            '51%'
+        ],
+        answer: '49%'
+    },
+    {
+        question: 'Trường hợp xác định được ứng cử viên Hội đồng quản trị, Công ty đại chúng phải công bố thông tin liên quan đến các ứng cử viên tối thiểu bao nhiêu ngày',
+        choices: [
+            '3 ngày trước ngày gửi thông bào mời họp',
+            '5 ngày trước ngày khai mạc họp ĐHĐCĐ',
+            '10 ngày trước ngày gửi thông bào mời họp',
+            '10 ngày trước ngày khai mạc họp ĐHĐCĐ',
+        ],
+        answer: '10 ngày trước ngày khai mạc họp ĐHĐCĐ'
+    },
+    {
+        question: 'Theo quy định của Luật Chứng khoán, tổng công ty lưu kỳ và bù trừ chứng khoán Việt Nam có các quyền và nghĩa vụ sau đây, ngoại trừ',
+        choices: [
+            'Ban hành các quy chế dăng ký, lưu ký, bù trừ và thanh toán chứng khoán và các quy ché nghiệp vụ khác sau khi được UBCKNN chấp thuận;',
+            'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu kỳ. bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
+            'Chấp thuận, thay đổi, hủy bỏ tư cách thành viên lưu ký của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam; đình chỉ hoạt động lưu ký chứng khoán của thành viên lưu ký; ',
+            'Cung cấp dịch vụ đăng ký, lưu ký, bù trừ và thanh toán chứng khoán; dăng ký biện pháp dám bao đối với chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam theo yêu cầu theo yêu cầu của khách hàng; cung cấp dịch vụ khác theo quy định tại Điều lệ của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam'
+        ],
+        answer: 'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu kỳ. bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
+    },
+    {
+        question: 'Trách nhiệm xác định Nhà đầu tư chứng khoán chuyên nghiệp tham gia mua chứng khoán khi thực hiện chào bán riêng lẻ, đăng ký lập quỹ thành viên thuộc về: ',
+        choices: [
+            'Ủy ban Chứng khoán Nhà nước',
+            'Công ty chứng khoán',
+            'Tổ chức phát hành, công ty quản lý quỹ đầu tư chứng khoán',
+            'Không phải các phương án trên'
+        ],
+        answer: 'Tổ chức phát hành, công ty quản lý quỹ đầu tư chứng khoán'
+    },
+    {
+        question: 'Trong thời hạn bao lâu kể từ ngày được công ty chứng khoán xác định nhà đầu tư chứng khoán chuyên nghiệp, nhà đầu tư không phải thực hiện xác định lại Nhà đầu tư chứng khoán chuyên nghiệp tham gia mua chứng khoán khi thực hiện chào bán riêng lẻ, đăng ký lập quỹ thành viên:',
+        choices: [  
+            '6 tháng', '1 năm', '1.5 năm','2 năm'
+        ],
+        answer: '1 năm'
+    },
+    {
+        question: 'Trường hợp, thay đổi, bổ nhiệm thành viên lưu ký, thành viên bù trừ phải thông báo bằng văn bản cho Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam kể từ khi việc thay đổi có hiệu lực trong thời hạn:',
+        choices: [
+            '3 ngày', '5 ngày', '7 ngày', '10 ngày'
+        ],
+        answer: '10 ngày'
+    },
+    {
+        question: 'Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam đình chỉ hoạt động bù trừ, thanh toán chứng khoán đối với thành viên bù trừ của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam sau khi được Ủy ban Chứng khoán Nhà nước chấp thuận khi để ra thiếu sót gây thiệt hại nghiệm trọng cho khách hàng tối đa:',
+        choices: [
+            '30 ngày', '60 ngày', '90 ngày', '120 ngày'
+        ],
+        answer: '90 ngày'
+    },
+    {
+        question: 'Người được quyền mua cổ phần ưu đãi cổ tức, cổ phần ưu đãi hoàn lại và cổ phần ưu đãi khác do \nI. Điều lệ công ty quy định \nII. Đại hội đồng cổ động quyết định \nIII. Hội đồng Quản trị quyết định',
+        choices: [
+            'I, II', 'II', 'I, II, III', 'II'
+        ],
+        answer: 'I, II'
+    },
+    {
+        question: 'Trưởng ban kiểm soát, kiểm soát viên bị cách chức khi không thực hiện nghĩa vụ nhiệm vụ, công việc được phân công (trừ trường hợp bất khả kháng) trong:',
+        choices: [
+            '3 tháng liên tục', '6 tháng liên tục', '9 tháng liên tục', '1 năm liên tục'
+        ],
+        answer: '3 tháng liên tục'
+    },
+    {
+        question: 'Cuộc họp Đại hội đồng cổ đông khi có tổng số cổ đông tham dự họp đại diện trên',
+        choices: [
+            '50% tổng số phiếu biểu quyết',
+            '51% tổng số phiếu biểu quyết',
+            '65% tổng số phiếu biểu quyết',
+            '70% tổng số phiếu biểu quyết'
+        ],
+        answer: '50% tổng số phiếu biểu quyết'
+    },
 ]
 export default questionBank
 
