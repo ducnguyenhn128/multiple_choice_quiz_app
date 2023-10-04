@@ -919,7 +919,6 @@ const questionBank = [
         ],
         answer: 'I, IV'
     },
-    // end of 95
     {
         question: 'Giả sử tỷ lệ ký quỹ trên tài khoản ký quỹ là 50%. Một khách hàng mua 2.000 Cổ phiếu của công ty A với giá trị là 100.000₫/cổ phiếu. Sau đó giá cổ phiếu A giảm xuống còn mức 70.000 trên cổ phiếu. Quy định hiện hành về mức duy trì tỷ lệ ký quỹ bắt buộc là 30% vậy công ty chứng khoán có thể yêu cầu ký quỹ bổ sung là',
         choices: [
@@ -990,7 +989,6 @@ const questionBank = [
         ],
         answer: 'I, III'
     },
-    // end 105
     {
         question: 'Hành vi làm giả giấy tờ, xác nhận trên giấy tờ giả mạo chứng minh đủ điều kiện niêm yết trên hồ sơ niêm yết CK hoặc làm giả giấy tờ, xác nhận trên giấy tờ giả mạo trong hồ sơ đăng ký giao dịch CK sẽ bị xử lý như sau \nI. Phạt tiền từ 1000 triệu đến 2000 triệu \nII. Phạt tiền từ 2500 triệu đến 3000 triệu \nIII. Tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính là giấy tờ giả mạo đối với hành vi vi phạm này \nIV. Buộc nộp lại số lợi bất hợp pháp thu được từ hành vi này',
         choices: [
@@ -1126,7 +1124,6 @@ const questionBank = [
         ],
         answer: 'II, III'
     },
-    //end 120
     {
         question: 'Tài liệu nào sau đây KHÔNG thuộc hồ sơ đăng ký chào mua công khai:',
         choices: [
@@ -1219,7 +1216,6 @@ const questionBank = [
         ],
         answer: 'Chứng khoán được phát hành cùng với việc phát hành trái phiếu hoặ cổ phiếu ưu đãi, cho phép người sở hữu được quyền mua một số cổ phiếu phổ thông nhất định theo mức giá đã được xác định trong khoảng thời gian xác định'
     },
-    //end 130
     {
         question: 'Nhà đầu tư nước ngoài là cá nhân được sở hữu bao nhiêu vốn điều lệ của công ty chứng khoán',
         choices: [
@@ -1305,7 +1301,86 @@ const questionBank = [
         ],
         answer: '50% tổng số phiếu biểu quyết'
     },
-    //140 
+    {
+        question: 'Nhiệm kỳ của Kiểm soát viên là 05 năm và có thể được bầu lại với số nhiệm kỳ',
+        choices: [
+            'Không hạn chế', '02 nhiệm kỳ', '03 nhiệm kỳ', '05 nhiệm kỳ'
+        ],
+        answer: 'Không hạn chế'
+    }, 
+    {
+        question: 'Tổ chức hoặc cá nhân khi trở thành hoặc không còn là cổ đông lớn của công ty đại chúng, công ty chứng khoán đại chúng phải công bố thông tin kể từ ngày trở thành hoặc không còn là cổ đông lớn trong thời hạn',
+        choices: [
+            '3 ngày làm việc' , 
+            '5 ngày làm việc' ,
+            '7 ngày làm việc' ,
+            '10 ngày làm việc'
+        ],
+        answer: '5 ngày làm việc'
+    },
+    {
+        question: 'Thời hạn tối đa có thể mà Công ty quản lý quỹ thực hiện huy động vốn của quỹ đại chúng kể từ ngày Giấy chứng nhận chào bán chứng chỉ quỹ ra công chúng có hiệu lực',
+        choices: [
+            '30 ngày', '60 ngày', '90 ngày', '120 ngày'
+        ],
+        answer: '120 ngày'
+    },
+    {
+        question: 'Thành viên lập quỹ của ETF có thể là: \nI. Công ty quản lý quỹ \nII. Công ty chứng khoán \nIII. Ngân hàng lưu ký \nIV. Tất cả các phương án trên',
+        choices: [
+            'I và II', 'II và III', 'I và III', 'IV'
+        ],
+        answer: 'II và III'
+    },
+    {
+        question: 'Lựa chọn đáp án sai trong những phương án dưới đây.\n Công ty đầu tư chứng khoán:',
+        choices: [
+            'Là quỹ đầu tư chứng khoán được tổ chức theo loại hình công ty cổ phần để đầu tư chứng khoán',
+            'Phải uỷ thác vốn cho một công ty quản lý quỹ quản lý',
+            'Không được thành lập chi nhánh văn phòng đại diện',
+            'Được sử dụng trụ sở của công ty quản lý quỹ làm trụ sở chính'
+        ],
+        answer: 'Phải uỷ thác vốn cho một công ty quản lý quỹ quản lý'
+    },
+    {
+        question: 'Theo quy định hiện hành của pháp luật chứng khoán, khi đầu tư vào chứng khoán phái sinh, công ty quản lý quỹ \nI. Không bị hạn chế khi đầu tư vào chứng khoán phái sinh \nII. Chỉ được đầu tư từ nguồn vốn uỷ thác \nIII. Chỉ được đầu tư nhằm mục đích phòng ngừa rủi ro \nIV. Chỉ được đầu tư nhằm mục đích phòng ngừa rủi ro cho danh mục chứng khoán cơ sở đang nắm giữ \nV. Đảm bảo tuân thủ quy định pháp luật điều chỉnh hoạt động quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán',
+        choices: [  
+            'I', 'II', 'II, IV, V', 'II, III, V'
+        ],
+        answer: 'II, IV, V'
+    },
+    {
+        question: 'Trong hoạt động quản lý quỹ đầu tư chứng khoán, công ty quản lý quỹ có thể nhận được thưởng hoạt động, ngoại trừ',
+        choices: [
+            'Quản lý quỹ đóng',
+            'Quản lý quỹ thành viên',
+            'Quản lý quỹ đầu tư bất động sản',
+            'Quản lý quỹ hoán đổi danh mục'
+        ],
+        answer: 'Quản lý quỹ thành viên'
+    },
+    {
+        question: 'Trong trường hợp được vay ngắn hạn theo quy định pháp luật, thời hạn tối đa công ty quản lý quỹ được vay để trang trải các chi phí cần thiết của quỹ đại chúng hoặc để thực hiện thanh toán các giao dịch chứng chỉ quỹ với nhà đầu tư',
+        choices: [
+            '15 ngày', '30 ngày', '45 ngày', '90 ngày'
+        ],
+        answer: '30 ngày'
+    },
+    {
+        question: 'Trường hợp quỹ đóng, quỹ mở được đầu tư vào quỹ đại chúng khác hoặc công ty đầu tư chứng toán đại chúng khác, công ty quản lý quỹ phải đảm bảo: \nI. Không được đầu tư quá 15% tổng giá trị tài sản của quỹ vào chứng chỉ quỹ của một quỹ đại chúng, cổ phiếu của một công ty đầu tư chứng khoán đại chúng \nII. Không được đầu tư quá 20% tổng giá trị tài sẵn của quỹ vào chứng chỉ quỹ của một quỹ đại chúng, cổ phiếu của một công ty đầu tư chứng khoán đại chúng. \nIII. Không được đầu tư quá 30% tổng giá trị tài sản của quỹ vào chứng chỉ quỹ của một quỹ đại chúng, cổ phiếu của một công ty đầu tư chứng khoán đại chúng \nIV. Không được đầu tư quá 35% tổng giá trị tài sản của quỹ vào chứng chỉ quỹ của một quỹ đại chúng, cổ phiếu của một công ty đầu tư chứng khoán đại chúng',
+        choices: [
+            'I, III', 'I, IV', 'II, III', 'II, IV'
+        ],
+        answer: 'II, III'
+    },
+    {
+        question: 'Quỹ hoán đổi danh mục dựa trên tham chiếu chỉ số cổ phiếu phải đáp ứng điều kiện cơ bản sau \nI. Danh mục có tối thiểu 8 cổ phiếu \nII. Danh mục có tối thiểu 10 cổ phiếu \nIII. Tỷ trọng của 1 cổ phiếu bất kỳ trong danh mục tối đa là 20% giá trị của chỉ số \nIV. Tỷ trọng của 1 cổ phiếu bất kỳ trong danh mục tối đa là 25% giá trị của chỉ số',
+        choices: [
+            'I và II', 'I và IV', 'II và III' , 'II và IV'
+        ],
+        answer: 'II và III'
+    },
+    //150
 ]
 export default questionBank
 
