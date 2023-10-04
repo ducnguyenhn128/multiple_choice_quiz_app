@@ -1127,6 +1127,99 @@ const questionBank = [
         answer: 'II, III'
     },
     //end 120
+    {
+        question: 'Tài liệu nào sau đây KHÔNG thuộc hồ sơ đăng ký chào mua công khai:',
+        choices: [
+            'Văn bản của công ty chứng khoán xác nhận làm đại lý chào mua công khai',
+            'Quyết định của cấp có thẩm quyền của tổ chức đăng ký chào mua công khai thông qua việc chào mua công khai',
+            'Giấy xác nhận bảo lãnh thanh toán của tổ chức tín dụng đối với tổ chức, cá nhân, chào mua công khai hoặc giấy xác nhận phong tỏa tài khoản ngân hàng của tổ chức cá nhân chào mua công khai đảm bảo tổ chức, cá nhân có đủ tiền để thực hiện chào mua công khai ',
+            'Báo cáo tài chính năm gần nhất được kiểm toán của tổ chức chào mua'
+        ],
+        answer: 'Báo cáo tài chính năm gần nhất được kiểm toán của tổ chức chào mua'
+    },
+    {
+        question: 'Nguyên tắc xác định giá chào mua công khai đối với trường hợp chào mua công khai thanh toán bằng tiền bao gồm: \nI. Giá chào mua không được thấp hơn bình quân giá tham chiếu của 60 ngày giao dịch liền trước ngày gửi giấy đăng ký chào mua công khai và không thấp hơn giá mua cao nhất của các đợt chào mua công khai đối với cổ phiếu, chứng chỉ quỹ của công ty mục tiêu, quỹ đầu tư mục tiêu trong thời gian này \nII. Trong quá trình chào mua công khai, tổ chức, cá nhân công khai, không được điều chính giảm giá mua công khai \nIII. Trong quá trình chào mua công khai, tổ chức, cá nhân công khai, không được điều chỉnh tăng giá mua công khai \nIV. Giá chào mua không dược thấp hơn bình quân giá tham chiếu của 30 ngày giao dịch liền trước ngày gửi giấy đăng ký chào mua công khai và không thấp hơn giá mua cao nhất của các đợt chào mua công khai đối với cổ phiếu, chứng chỉ quỹ của công ty mục tiêu, quỹ đầu tư mục tiêu trong thời gian này.',
+        choices: [
+            'I, II', 'III, IV', 'I', 'I, III'
+        ],
+        answer: 'I, II'
+    },
+    {
+        question: 'Các câu sau đây mô tả về cổ phiếu quỹ, NGOẠI TRỪ:',
+        choices: [
+            'Cổ phiếu quỹ là cổ phiếu đã phát hành bởi công ty cổ phần và được mua lại bởi chính công ty đó',
+            'Công ty đại chúng có cổ phiếu quỹ đã mua trước thời điểm Luật chứng khoản số 54/2019/QH14 có hiệu lực được bán cổ phiếu quỹ, dùng cổ phiếu quỹ làm cổ phiếu thưởng theo quy định tại Luật Chứng khoán số 70/2006/QH111 đã được sửa đổi, bổ sung một số điều theo Luật Chứng khoán số 62/2010/Q1112 và các văn bản quy định chi tiết thì hành các văn bản trên. Các công ty trên không được mua lại cổ phiếu của chính mình cho đến khi hoàn thành việc xử lý số cổ phiếu quỹ dã mua trước đó.',
+            'Kể từ thời điểm Luật chứng khoán số 54/2019/QH14 có hiệu lực, công ty đại chúng không được phép bán có phiếu quỹ và phải làm thủ tục giảm vốn điều lệ tương ứng với tổng giá trị tính theo mệnh giá của cổ phiếu cũ hiện có.',
+            'Công ty đại chúng thực hiện mua lại cổ phiếu của chính mình theo quy định của Luật chứng khoán số 54/2019/QH14 phải làm thủ tục giảm vốn điều lệ tương ứng với tổng giá trị tính theo mệnh giá của cổ phiểu được công ty mua lại trong thời hạn 10 ngày kể từ ngày hoàn thành việc thanh toán mua lại cổ phiếu.'
+        ],
+        answer: 'Kể từ thời điểm Luật chứng khoán số 54/2019/QH14 có hiệu lực, công ty đại chúng không được phép bán có phiếu quỹ và phải làm thủ tục giảm vốn điều lệ tương ứng với tổng giá trị tính theo mệnh giá của cổ phiếu cũ hiện có.'
+        
+    },
+    {
+        question: 'Công ty bị chia tách chấm dứt hoạt động trong trường hợp nào',
+        choices: [
+            'Được cơ quan có thẩm quyền chấp nhận',
+            'Được cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký kinh doanh',
+            'Được cơ quan đăng ký kinh doanh cập nhật tình trạng pháp lý của công ty bị chia',
+            'Công ty mới được cấp giấy chứng nhận đăng ký kinh doanh'
+        ],
+        answer: 'Được cơ quan đăng ký kinh doanh cập nhật tình trạng pháp lý của công ty bị chia'
+    },
+    {
+        question: 'Tổ chức nào được quyền nắm giữ cổ phần ưu đãi có quyền biểu quyết',
+        choices: [  
+            'Tổ chức được Chính phủ uỷ quyền và cổ đông sáng lập',
+            'Tổ chức được Chính phủ cấp giấy phép và cổ đông phổ thông',
+            'Tổ chức được Chính phủ chỉ định và cổ đông sáng lập',
+            'Tổ chức được Chính phủ uỷ quyền và cổ đông phổ thông'
+        ],
+        answer: 'Tổ chức được Chính phủ uỷ quyền và cổ đông sáng lập'
+    },
+    {
+        question: 'Công ty cổ phần chỉ được trả cổ tức của cổ phần phổ thông khi có đủ các điều kiện nào dưới đây',
+        choices: [
+            'Đã hoàn thành nghĩa vụ thuế',
+            'Đã trích lập các quỹ công ty và bù đắp lỗ trước đó theo quy định của pháp luật và điều kiện công ty',
+            'Đã hoàn thành nghĩa vụ tài chính khác',
+            'Đã thanh toán đủ các khoản nợ'
+        ],
+        answer: 'Đã trích lập các quỹ công ty và bù đắp lỗ trước đó theo quy định của pháp luật và điều kiện công ty'
+    },
+    {
+        question: 'Công ty cổ phần thực hiện đăng ký thay đổi vốn điều lệ trong thời hạn bao nhiêu ngày kể từ ngày hoàn thành đợt chào bán',
+        choices: [  
+            '10 ngày', '15 ngày', '20 ngày', '30 ngày'
+        ],
+        answer: '10 ngày'
+    },
+    {
+        question: 'Các cổ đông sáng lập phải cùng nhau đăng ký mua ít nhất bao nhiêu số cổ phần phổ thông được quyền chào bán khi đăng ký thành lập doanh nghiệp',
+        choices: [
+            '10%', '20%', '30%', '35%'
+        ],
+        answer: '20%'
+    },
+    {
+        question: 'Cổ đông sở hữu cổ phần ưu đãi cổ tức có quyền nào sau đây',
+        choices: [  
+            'Nhận phần tài sản còn lại tương ứng với tỷ lệ sở hữu cổ phần tại công ty sau khi công ty đã thanh toán hết các khoản nợ, cổ phần ưu đãi hoàn lại khi công ty giải thể hoặc phá sản',
+            'Tham gia phát biểu trong cuộc họp ĐHĐCĐ và thực hiện quyền biểu quyết trực tiếp hoặc thông qua người đại diện theo uỷ quyền hoặc hình thức khác do Điều lệ công ty, pháp luật quy định',
+            'Ưu tiên mua cổ phần mới tương ứng với tỷ lệ cổ phần sở hữu trong công ty',
+            'Biểu quyết các vấn đề thuộc thẩm quyền ĐHĐCĐ'
+        ],
+        answer: 'Nhận phần tài sản còn lại tương ứng với tỷ lệ sở hữu cổ phần tại công ty sau khi công ty đã thanh toán hết các khoản nợ, cổ phần ưu đãi hoàn lại khi công ty giải thể hoặc phá sản'
+    },
+    {
+        question: 'Chứng quyền là loại chứng khoán nào sau đây',
+        choices: [
+            'Chứng khoán được phát hành cùng với việc phát hành trái phiếu hoặ cổ phiếu ưu đãi, cho phép người sở hữu được quyền mua một số cổ phiếu phổ thông nhất định theo mức giá đã được xác định trong khoảng thời gian xác định',
+            'Chứng khoán có tài sản đảm bảo',
+            'Chứng khoán do công ty cổ phần phát hành',
+            'Chứng khoán được phát hành trên cơ sở chứng khoán khác của tổ chức được thành lập và hoạt động tại Việt Nam'
+        ],
+        answer: 'Chứng khoán được phát hành cùng với việc phát hành trái phiếu hoặ cổ phiếu ưu đãi, cho phép người sở hữu được quyền mua một số cổ phiếu phổ thông nhất định theo mức giá đã được xác định trong khoảng thời gian xác định'
+    },
+    //end 130
 ]
 export default questionBank
 
