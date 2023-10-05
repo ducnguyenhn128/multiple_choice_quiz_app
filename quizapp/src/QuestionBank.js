@@ -501,7 +501,7 @@ const questionBank = [
         answer: 'chính phủ thống nhất quản lý nhà nước về CK và TTCK'
     },
     {
-        question: 'Khẳng định nào sau đây đúng nhất về người hành nghề chứng khoán \nI. Người làm việc tại CTCK, công ty quản lý quỹ đầu tư CK, chi nhánh công ty CK nước ngoại tại VN, chi nhánh công ty quản lý quỹ nước ngoài tại VN, công ty đầu tư CK \nII. Người làm việc cho công ty đầu tư CK và được UBCK cấp chứng chỉ hành nghề chứng khoán \nIII. Người được UBCK cấp chứng chỉ hành nghề CK',
+        question: 'Khẳng định nào sau đây đúng nhất về người hành nghề chứng khoán \nI. Người làm việc tại CTCK, công ty quản lý quỹ đầu tư CK, chi nhánh công ty CK nước ngoài tại VN, chi nhánh công ty quản lý quỹ nước ngoài tại VN, công ty đầu tư CK \nII. Người làm việc cho công ty đầu tư CK và được UBCK cấp chứng chỉ hành nghề chứng khoán \nIII. Người được UBCK cấp chứng chỉ hành nghề CK',
         choices: [
             'I, III', 'I, II', 'II', 'III'
         ],
@@ -553,7 +553,7 @@ const questionBank = [
         choices: [
             'thực hiện quản lý tách biệt tài sản của từng khách hàng', 
             'bảo đảm tối thiểu 03 nhân viên làm việc tại bộ phận nghiệp vụ phải có chứng chỉ hành nghề phù hợp với nghiệp vụ thực hiện',
-            'Ký hợp đồng bằng văn ban với khách hàng khi thực hiện dịch vụ cho khách hàng',
+            'Ký hợp đồng bằng văn bản với khách hàng khi thực hiện dịch vụ cho khách hàng',
             'Thu thập thông tin về tình hình tài chính, khả năng chấp nhận rủi ro của khách hàng'
         ],
         answer: 'bảo đảm tối thiểu 03 nhân viên làm việc tại bộ phận nghiệp vụ phải có chứng chỉ hành nghề phù hợp với nghiệp vụ thực hiện'
@@ -869,10 +869,10 @@ const questionBank = [
         answer: 'Cả a, b, c'
     },
     {
-        question: 'Người nội bộ của công ty đại chúng, công ty đầu tư chứng khoán dại chúng, quỹ đại chúng và người có liên quan của các đối tượng này phải công bố thông tin:',
+        question: 'Người nội bộ của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng và người có liên quan của các đối tượng này phải công bố thông tin:',
         choices: [
             'Trước khi giao dịch cổ phiếu, quyền mua cổ phiếu trái phiếu chuyển đổi, quyền trải phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng',
-            'Sau khi giao dịch cổ phiếu trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chi quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán dại chúng, quỹ đại chúng',
+            'Sau khi giao dịch cổ phiếu trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chi quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng',
             'Khi có thay dổi sở hữu đối với cổ phiếu, quyền mua cổ phiếu, trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có đảm bảo dựa trên chứng khoán của công ty đại chúng, công ty dầu tư chứng khoán đại chúng, quỹ đại chúng',
             'Cả  a, b',
             'Cả a, b, c'
