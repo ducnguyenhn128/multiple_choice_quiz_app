@@ -1097,9 +1097,9 @@ const questionBank = [
     {
         question: 'Công ty đại chúng chào bán cổ phiếu riêng lẻ với giá trị thấp hơn mệnh giá:',
         choices: [
-            'Đối tượng tham gia đợt chào bán chỉ bao gồm nhà dầu tư chứng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợi chào bán' ,
+            'Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chứng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợi chào bán' ,
             'Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chiến lược và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợt chào bán' ,
-            'Đối tượng tham gia đợt chào bán có thể là nhà dầu tư chiến lược và/hoặc nhà đầu tư chứng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợt chào bán',
+            'Đối tượng tham gia đợt chào bán có thể là nhà đầu tư chiến lược và/hoặc nhà đầu tư chứng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợt chào bán',
             ' Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chúng khoán chuyên nghiệp và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 1 năm kể từ ngày kết thúc đợt chào bán'
         ],
         answer: 'Đối tượng tham gia đợt chào bán chỉ bao gồm nhà đầu tư chiến lược và việc chuyển nhượng cổ phiếu bị hạn chế tối thiểu là 3 năm kể từ ngày kết thúc đợt chào bán'
@@ -1389,7 +1389,7 @@ const questionBank = [
             'Dịnh kỳ hàng tuần vào ngày thứ 6',
             'Định kỳ 1 tháng 2 lần'
         ],
-        answer: 'Định kỳ hàng tuần vào ngày thứ 2'
+        answer: 'Định kỳ hàng tuần vào ngày thứ 2 '
     },
     {
         question: 'Trong trường hợp quỹ mở, quỹ chỉ số đầu tư được đầu tư vào trái phiếu doanh nghiệp phát hành riêng lẻ, trái phiếu phải đáp ứng quy định sau: \nI. Có cam kết mua lại của doanh nghiệp phát hành tối thiểu 1 lần trong 12 tháng \nII. Có cam kết mua lại của doanh nghiệp phát hành tối thiểu 1 lần trong 18 tháng \nIII. Mỗi lần cam kết mua lại tối thiểu 20% giá trị đợt phát hành \nIV. Mỗi lần cam kết mua lại tối thiểu 30% giá tri đợt phát hành',
@@ -1501,6 +1501,57 @@ const questionBank = [
         answer: 'Công ty TNHH một thành viên'
     },
     //162
+        {
+        question: 'Cơ cấu tổ chức của công ty quản lý quỹ quản lý quỹ đại chúng khác biệt so với công ty đại chúng ở điểm nào sau đây',
+        choices: [
+            'Phải có người điều hành quỹ',
+            'Phải có tối thiểu 2 người điều hành quỹ có chứng chỉ hành nghề quản lý quỹ',
+            'Phải có tối thiểu 2 người điều hành quỹ có chứng chỉ hành nghề quản lý quỹ và có kinh nghiệm quản lý tài sản, quản lý quỹ 5 năm trở lên' ,
+            'Phải có tối thiểu 2 người điều hành quỹ có chứng chỉ hành nghề quản lý quỹ và có kinh nghiệm quản lý tài sản, quản lý quỹ 4 năm trở lên' ,
+            'Phải có tối thiểu 2 người điều hành quỹ có chứng chỉ hành nghề quản lý quỹ và có kinh nghiệm quản lý tài sản, quản lý quỹ 2 năm trở lên' 
+        ],
+        answer: 'Phải có tối thiểu 2 người điều hành quỹ có chứng chỉ hành nghề quản lý quỹ và có kinh nghiệm quản lý tài sản, quản lý quỹ 2 năm trở lên' 
+    },
+    {
+        question: 'Trong hoạt động quản lý quỹ, việc giám sát và tuân thủ các quy định điều lệ quỹ là trách nhiệm của tổ chức nào dưới đây:',
+        choices: [
+            'Việc giám sát và tuân thủ các quy định điều lệ là trách nhiệm của công ty quản lý quỹ ',
+            'Việc giảm sát và tuân thủ các quy định điều lệ là trách nhiệm của ngân hàng lưu ký ' ,
+            'Việc giám sát và tuân thủ các quy định điều lệ là trách nhiệm của công ty quản lý quỹ, ngân hàng giám sát' ,
+            'Việc giám sát và tuân thủ các quy định điều lệ là trách nhiệm của ngân hàng lưu ký giám sát'
+        ],
+        answer: 'Việc giám sát và tuân thủ các quy định điều lệ là trách nhiệm của ngân hàng lưu ký giám sát'
+    },
+    {
+        question: 'Đối với hoạt động của quỹ hoán đổi danh mục (quỹ ETF), khi mức sai lệch giữa giá trị tài sản ròng trên một lô chúng chỉ quỹ so với chỉ số tham chiếu của quỹ ETF vượt ngưỡng nào sau đây thì công ty phải báo cáo UBCKNN:',
+        choices: [
+            '50%' , '60%' ,'70%' , '80%', '90%'
+        ],
+        answer: '90%'
+    },
+    {
+        question: 'Các tổ chức nào sau đây được phép làm thành viên lập quỹ của quỹ hoán đổi danh mục:',
+        choices: [
+            'Công ty chứng khoán có đầy đủ các nghiệp vụ kinh doanh trừ nghiệp vụ môi giới chứng khoán' ,
+            'Công ty quản lý quỹ' ,
+            'Ngân hàng thương mại chưa đăng ký làm thành viên lưu ký' ,
+            'Ngân hàng lưu ký',
+            'Công ty đại chúng'
+        ],
+        answer: 'Ngân hàng lưu ký'
+    },
+    {
+        question: 'Trong các khái niệm sau đây, khái niệm nào là đúng nhất theo quy định pháp luật hiện hành khi xác định giá trị rủi ro thị trường để tính tỷ lệ an toàn tài chính của công ty quản lý quỹ:',
+        choices: [
+            'Là giá trị tương ứng với mức độ tổn thấy có thể xảy ra khi giá trị thị trưởng của tài sản đang sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng thuận lợi' ,
+            'Là giá trị tương ứng với mức độ lợi nhuận có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng bất lợi' ,
+            'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng bất lợi' ,
+            'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu thay đổi giá trị',
+            'Tất cả các phương án trên'
+        ],
+        answer: 'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng bất lợi'
+    },
+    //167
 ]
 export default questionBank
 
