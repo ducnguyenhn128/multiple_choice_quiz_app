@@ -8,7 +8,7 @@ const questionBank_slice = questionBank.slice(120, 171)
 const ShuffleQuestion = shuffleArray(questionBank)
 
 const ShuffleQuestion1 = shuffleArray(questionBank_slice)
-const AllQuestion = ShuffleQuestion1.slice(0,30)
+const AllQuestion = ShuffleQuestion.slice(0,30)
 
 const Test = () =>  {
 
