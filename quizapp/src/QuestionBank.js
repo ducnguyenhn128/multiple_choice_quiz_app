@@ -1552,6 +1552,61 @@ const questionBank = [
         answer: 'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng bất lợi'
     },
     //167
+    {
+        question: 'Trong các khái niệm sau đây, khái niệm nào là đúng nhất theo quy định pháp luật hiện hành khi xác định giá trị rủi ro hoạt động để tính tỷ lệ an toàn tài chính của công ty quản lý quỹ',
+        choices: [
+            'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra do lỗi kỹ thuật, lỗi hệ thống' ,
+            'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra do lỗi hệ thống và quy trình nghiệp vụ, lỗi con người trong quy trình tác nghiệp, do thiếu vốn kinh doanh phải sinh từ các khoản chi phí, lỗ từ hoạt động đầu tư, do các nguyên nhân khách quan khác' ,
+            'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra do lỗi con người trong quy trình tác nghiệp, do thiếu vốn kinh doanh phát sinh từ các khoản chi phi, lỗ tử hoạt động đầu tư, do các nguyên nhân khách quan khác' ,
+            'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra do kỹ thuật, lỗi hệ thống và quy trình nghiệp vụ, lỗi con người trong quy trình tác nghiệp, do thiếu vốn kinh doanh phải sinh từ các khoản chi phi, lễ tử hoạt động đầu tư do các nguyên nhân khách quan khác' ,
+            'Tất cả các phương án trên'
+        ],
+        answer: 'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra do kỹ thuật, lỗi hệ thống và quy trình nghiệp vụ, lỗi con người trong quy trình tác nghiệp, do thiếu vốn kinh doanh phải sinh từ các khoản chi phi, lễ tử hoạt động đầu tư do các nguyên nhân khách quan khác' 
+    },
+    {
+        question: 'Trong các loại thông tin phải công bố định kỳ của quỹ đại chúng, loại thông tin nào không phải công bố theo quy định:',
+        choices: [
+            'Báo cáo tài chính năm đã được kiểm toán' ,
+            'Báo cáo tài chính bản niên đã được soát xét hoặc kiểm toán',
+            'Báo cáo giao dịch của quỹ qua các công ty chứng khoán' ,
+            'Báo cáo giá trị tài sản ròng' ,
+            'Báo các thay đổi người điều hành quỹ'
+        ],
+        answer: 'Báo các thay đổi người điều hành quỹ'
+    },
+    {
+        question: 'Trong các loại thông tin phải công bố bất thường của quỹ đại chúng, loại thông tin nào không phải công bố theo quy định:',
+        choices: [
+            'Quyết định thay đổi vốn điều lệ của quỹ đóng',
+            'Sửa dổi Điều lệ, Bản cáo bạch',
+            'Định giá sai giá trị tài sản rộng',
+            'Vượt mức các hạn chế đầu tư và diều chỉnh sai lệch của danh mục đầu tư' ,
+            'Dự kiến thay đổi ngân hàng lưu ký'
+        ],
+        answer: 'Dự kiến thay đổi ngân hàng lưu ký'
+    },
+    {
+        question: 'Quy định nào dưới đây không phù hợp với quy định pháp luật hiện hành:',
+        choices: [
+            'Công ty đầu tư chứng khoán riêng lẻ là công ty có tối đa 30 nhà đầu tư tổ chức',
+            'Công ty đầu tư chứng khoán riêng lẻ tự quản lý là công ty tự minh ra các quyết định đầu tư tài sản của công ty và không cần phải ủy thác qua một công ty quản lý quỹ để quản lý tài sản',
+            'Công ty đầu tư chứng khoán riêng lẽ tự quản lý là công ty dầu tư chứng khoản tối da 99 cổ đông, trong đó giá trị góp vốn đầu tư mỗi cổ đông tổ chức tối thiểu là 3 tỷ dồng và của mỗi cá nhân tối thiểu là 01 tỷ đồng',
+            'Công ty đầu tư chứng khoán đại chúng là công ty đầu tư chứng khoản đã thực hiện việc chào bán thành công cổ phiếu lần đầu ra công chứng',
+            'Sản phẩm tài chính là loại chứng khoán có tài sản bảo đảm do công ty chứng khoản phát hành được dựa trên chứng khoán cơ sở theo hướng dẫn của Bộ Tài chính'
+        ],
+        answer: 'Công ty đầu tư chứng khoán riêng lẻ là công ty có tối đa 30 nhà đầu tư tổ chức'
+    },
+    {
+        question: 'Quy định nào dưới đây phù hợp nhất theo quy định hiện hành với đổi tượng là ngân hàng thanh toán và ngân hàng lưu ký',
+        choices: [
+            'Là tổ chức tín dụng do Ngân hàng nhà nước cấp phép',
+            'Chỉ được thanh toán tiền giao dịch chứng khoán',
+            'Có vốn điều lệ trên 50.000 tỷ đồng',
+            'Được Uỷ ban chứng khoán nhà nước chấp thuận sau khi đã thực hiện thủ tục đăng ký',
+            'Là ngân hàng đáp ứng tỷ lệ an toàn vốn tối thiểu theo quy định pháp luật ngân hàng'
+        ],
+        answer: 'Được Uỷ ban chứng khoán nhà nước chấp thuận sau khi đã thực hiện thủ tục đăng ký'
+    },
 ]
 export default questionBank
 
