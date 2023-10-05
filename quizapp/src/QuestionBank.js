@@ -1381,6 +1381,71 @@ const questionBank = [
         answer: 'II và III'
     },
     //150
+    {
+        question: 'Trong thời gian có quyết định đặt công ty quản lý quỹ đầu từ chứng khoán vào tình trạng kiểm soát, Công ty thực hiện chế độ báo cáo tỷ lệ vốn khả dụng theo tần suất như sau:',
+        choices: [
+            'Định kỳ hàng tháng',
+            'Định kỳ hàng tuần vào ngày thứ 2 ',
+            'Dịnh kỳ hàng tuần vào ngày thứ 6',
+            'Định kỳ 1 tháng 2 lần'
+        ],
+        answer: 'Định kỳ hàng tuần vào ngày thứ 2'
+    },
+    {
+        question: 'Trong trường hợp quỹ mở, quỹ chỉ số đầu tư được đầu tư vào trái phiếu doanh nghiệp phát hành riêng lẻ, trái phiếu phải đáp ứng quy định sau: \nI. Có cam kết mua lại của doanh nghiệp phát hành tối thiểu 1 lần trong 12 tháng \nII. Có cam kết mua lại của doanh nghiệp phát hành tối thiểu 1 lần trong 18 tháng \nIII. Mỗi lần cam kết mua lại tối thiểu 20% giá trị đợt phát hành \nIV. Mỗi lần cam kết mua lại tối thiểu 30% giá tri đợt phát hành',
+        choices: [
+            'I, II', 'I, IV', 'II, III', 'II, IV'
+        ],
+        answer: 'I, IV'
+    },
+    {
+        question: 'Lựa chọn phương án sai về mô tả hoạt động quản lý vốn và tài sản quỹ đầu tư chứng khoán:',
+        choices: [
+            'Công ty quản lý quỹ không được sử dụng vốn và tài sản của quỹ để cho vay hoặc bảo lãnh cho bất kỳ khoản vay nào' ,
+            'Công ty quản lý quỹ không được phép vay để tài trợ cho hoạt động của quỹ đại chúng' ,
+            'Công ty quản lý quỹ không được sử dụng tài sản của quỹ để thực hiện các giao dịch ký quỹ',
+            'Công ty quản lý quỹ không được sử dụng tài sản của quỹ để thực hiện các giao dịch bán khống, cho vay chứng khoán'
+        ],
+        answer: 'Công ty quản lý quỹ không được phép vay để tài trợ cho hoạt động của quỹ đại chúng'
+    },
+    {
+        question: 'Khi thực hoạt động nghiệp vụ kinh doanh trong nước, Công ty quản lý quỹ được ủy quyền, thuê ngoài để cung cấp một phần hoặc toàn bộ các dịch vụ:',
+        choices: [
+            'Quản lý quỹ đầu tư chứng khoán',
+            'Quản lý danh mục đầu tư CK',
+            'Tư vấn đầu tư chứng khoán',
+            'Tất cả các phương án trên đều sai'
+        ],
+        answer: 'Quản lý quỹ đầu tư chứng khoán'
+    },
+    {
+        question: 'Trong hoán đổi danh mục, danh mục chứng khoán cơ cấu phải đáp ứng các điều kiện sau \nI.Bao gồm tối thiếu 35% số chứng khoán cơ sở hình thành chỉ số tham chiếu \nII. Bao gồm tối thiếu 50% số chứng khoán cơ sở hình thành chỉ số tham chiếu \nIII. Giá trị danh mục chứng khoán cơ cấu không thấp hơn 80% giá trị của danh mục chứng khoán tương ứng của chỉ số tham chiếu \nIV. Giá trị danh mục chứng khoán cơ cấu không thấp hơn 95% giá trị của danh mục chứng khoán tương ứng của chỉ số tham chiếu',
+        choices: [
+            'I, III',
+            'I, IV' ,
+            'II, III' ,
+            'II, IV'
+        ],
+        answer: 'II, IV'
+    },
+    {
+        question: 'Tất cả các câu sau đều mô tả hoạt động của quỹ đầu tư chứng khoán dạng mở, ngoại trừ:',
+        choices: [
+            'Chứng chỉ quỹ mở không được niêm yết trên Sở giao dịch chứng khoán' ,
+            'Chứng chỉ quỹ mở được phát hành/ mua lại bởi công ty quản lý quỹ',
+            'Được thưởng hoạt động cho quản lý quỹ trong mọi trường hợp' ,
+            'Vốn điều lệ quỹ mở liên tục thay đổi' 
+        ],
+        answer: 'Được thưởng hoạt động cho quản lý quỹ trong mọi trường hợp'
+    },
+    {
+        question: 'Trong hoạt động quản lý tài sản ủy thác, công ty quản lý quỹ có thể: \nI. Dùng tài sản của quỹ, của công ty đầu tư chứng khoán để đầu tư vào chính quỹ, công ty đầu tư chứng khoản đó \n II. Dùng tài sản của khách hàng ủy thác từ công ty quản lý danh mục, quản lý quỹ/ công ty chứng khoán do minh quản lý vào quỹ/ công ty đầu tư chứng khoán khác do mình quản lý. \nIII. Dùng tài sản của quỹ đại chúng, công ty đầu tư chứng khoán đại chúng để đầu tư vào chính công ty quản lý quỹ. \nIV. Tất cả đều sai ',
+        choices: [
+            'I, II', 'I, III', 'II, III', 'IV'
+        ],
+        answer: 'II, III'
+    },
+    //157
 ]
 export default questionBank
 
