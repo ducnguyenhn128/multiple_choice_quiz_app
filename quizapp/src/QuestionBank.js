@@ -1446,6 +1446,61 @@ const questionBank = [
         answer: 'II, III'
     },
     //157
+    {
+        question: 'Công ty quản lý quỹ có quyền không đáp ứng một phần lệnh bán, lệnh mua, lệnh chuyển đổi của nhà đầu tư khi xảy ra một trong các trường hợp sau:',
+        choices: [
+            'Tổng giá trị các lệnh bán (kể cả lệnh bán từ hoạt động chuyển đổi) trừ tổng giá trị các lệnh mua (kể cả lệnh mua từ hoạt động chuyển đổi) tại ngày giao dịch chứng chỉ quỹ lớn hơn 10% giá trị tài sản ròng của quỹ' ,
+            'Giá trị tài sản ròng của quỹ thấp hơn 50 tỷ đồng' ,
+            'Giá trị phần đơn vị quỹ hoặc số đơn vị quỹ còn lại trên tài khoản của nhà đầu tư thấp hơn giá trị tối thiểu hoặc số lượng đơn vị quỹ tối thiểu để duy trì tài khoản của nhà đầu tư theo quy định tại Điều lệ quỹ và Bản cáo bạch' ,
+            'Số lượng đơn vị quỹ lưu hành vượt quá khối lượng tối đa quy định tại Điểu lệ quỹ và Bản cáo bạch; ',
+            'Tổng giá trị các lệnh bản (kể cả lệnh bán từ hoạt động chuyển đổi) trừ tổng giá trị các lệnh mua (kể cả lệnh mua từ hoạt động chuyển đổi) tại ngày giao dịch chứng chỉ quỹ lớn hơn 5% và nhỏ hơn 10% giá trị tài sản ròng của quỹ'
+        ],
+        answer: 'Tổng giá trị các lệnh bản (kể cả lệnh bán từ hoạt động chuyển đổi) trừ tổng giá trị các lệnh mua (kể cả lệnh mua từ hoạt động chuyển đổi) tại ngày giao dịch chứng chỉ quỹ lớn hơn 5% và nhỏ hơn 10% giá trị tài sản ròng của quỹ'
+    },
+    {
+        question: 'Trong các nhiệm vụ sau đây, nhiệm vụ nào không thuộc chức năng của kiểm soát nội bộ trong công ty quản lý quỹ đại chúng theo quy định pháp luật hiện hành:',
+        choices: [
+            'Tham gia xây dựng quy trình, tổ chức thực hiện công tác quản trị rủi ro của công ty và cho từng khách hàng ủy thác; kịp thời nhận diện, đánh giá mức độ rủi ro, thiết lập hạn mức đầu tư và có biện pháp ngăn ngừa, quản lý các rủi ro tiềm ẩn trong hoạt động dầu tư của công ty và của khách hàng ủy thác; ', 
+            'Giám sát bảo dảm giá trị tài sản ràng của danh mục ủy thác, quỹ đầu tư chứng khoán. công ty đầu tư chứng khoán được định giá phù hợp với quy định của pháp luật và quy định nội bộ; tài sản và các nguồn lực của công ty dược quản lý an toàn, hiệu quả; tài sản khách hàng ủy thác được quản lý tách biệt, đọc lập; báo cáo tài chính, báo cáo hoạt động, bảo các về các chi tiêu an toàn tài chính và các báo khác của công ty được lập rung thực, chính xác, kịp thời, cập nhật dầy dù theo quy định của pháp luật; ' ,
+            'Giám sát, bảo dảm hệ thống thông tin tài chính và quản lý trung thực, dây dù, kịp thời và chính xác; có hệ thống thông tin dự phòng để kịp thời xử lý những sự cố phát sinh như thiên tai, chạy nổ, đảm bảo duy trì hoạt động liên tục của công ty;' ,
+            'Thực hiện chức năng kiểm soát nội bộ trong trường hợp công ty quản lý quỹ không phải thành lập bộ phân kiểm toán nội bộ'
+        ],
+        answer: 'Thực hiện chức năng kiểm soát nội bộ trong trường hợp công ty quản lý quỹ không phải thành lập bộ phân kiểm toán nội bộ'
+    },
+    {
+        question: 'Nguyên tắc nào sau đây không phải nguyên tắc của kiểm toán nội bộ:',
+        choices: [
+            'Độc lập; bộ phận kiểm toán nội bộ và hoạt động của bộ phận này dọc lập với các bộ phận và hoạt động khác của công ty quản lý quỹ, không chịu sự quản lý của Ban điều hành công ty quản lý quỹ. Nhân viên bộ phận kiểm toán nội bộ không được kiêm nhiệm làm việc tại các bộ phận khác của công ty quản lý quỹ: ', 
+            'Khách quan; kiểm toán nội bộ phải khách quan, công bằng, không định kiển, không tác động, không bị can thiệp khi thực hiện nhiệm vụ của mình; ' ,
+            'Trung thực; công tác kiểm toán nội bộ phải được thực hiện một cách trung thực, cần trọng và có trách nhiệm; ' ,
+            'Phối hợp; bộ phận kiểm toán nội bộ được toàn quyển tiếp cận không hạn chế các thông tin, tài liệu của công ty. Thành viên Ban điều hành và toàn bộ nhân viên của công ty quản lý quỹ có trách nhiệm phối hợp, cung cấp dầy đủ, kịp thời, trung thực, chính xác toàn bộ thông tin, tài liệu liên quan, theo yêu cầu của kiểm toán nội bộ. Các bộ phận trong công ty có trách nhiệm thông báo cho kiểm toán nội bộ khi phát hiện những yếu kém, tồn tại, các sai phạm, rủi ro hoặc thất thoát lớn về tài sản của công ty hoặc của khách hàng ' ,
+            'Công khai; bộ phận kiểm toán nội bộ, nhân viên kiểm toán nội bộ phải công khai các nội dung thực hiện kiểm toán trước khi tiến hành các bước thực hiện theo quy định. ' 
+        ],
+        answer:'Công khai; bộ phận kiểm toán nội bộ, nhân viên kiểm toán nội bộ phải công khai các nội dung thực hiện kiểm toán trước khi tiến hành các bước thực hiện theo quy định. '
+    },
+    {
+        question: 'Nhân sự bộ phận kiểm toán nội bộ khi được bổ nhiệm không phải đảm bảo điều kiện nào trong các điều kiện sau:',
+        choices: [
+            'Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành hình phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; ' ,
+            'Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoản trong thời hạn 6 tháng gần nhất tính đến thời diễm được bổ nhiệm ' ,
+            'Có chứng chỉ hành nghề quản lý tài sản tại các quốc gia là thành viên của Tổ chức hợp tác và phát triển kinh tế (OECD) hoặc đã thi đạt chứng chi quốc tế về phân tích đầu tư CFA từ bậc II trở lên (Chartered Finanial Analyst level II) hoặc CHA (Certified International Investment Analyst - Final Level); ' ,
+            'Có chứng chỉ hành nghề chứng khoán ' , 
+            'Có chứng chỉ chuyên môn về Quản lý tài sản và chứng chỉ Pháp luật về chứng khoán và thị trưởng chứng khoán'
+        ],
+        answer: 'Có chứng chỉ chuyên môn về Quản lý tài sản và chứng chỉ Pháp luật về chứng khoán và thị trưởng chứng khoán'
+    },
+    
+    {
+        question: 'Trong các loại hình tổ chức sau của công ty quản lý quỹ, nhân sự bộ phận kiểm toán được thực hiện kiêm nhiệm: ',
+        choices: [
+            'Công ty cổ phần' ,
+            'Công ty TNHH 2 thành viên trở lên',
+            'Công ty hợp danh',
+            'Công ty TNHH một thành viên'
+        ],
+        answer: 'Công ty TNHH một thành viên'
+    },
+    //162
 ]
 export default questionBank
 
