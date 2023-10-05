@@ -4,9 +4,11 @@ import questionBank from '../../QuestionBank';
 import { useState, useEffect } from 'react';
 import shuffleArray from '../../util/shuffleArray';
 // Select 7 question from question bank
-
+const questionBank_slice = questionBank.slice(100, 149)
 const ShuffleQuestion = shuffleArray(questionBank)
-const AllQuestion = ShuffleQuestion.slice(0,30)
+
+const ShuffleQuestion1 = shuffleArray(questionBank_slice)
+const AllQuestion = ShuffleQuestion1.slice(0,30)
 
 const Test = () =>  {
 
