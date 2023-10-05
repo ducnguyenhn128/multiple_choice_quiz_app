@@ -1333,7 +1333,7 @@ const questionBank = [
         answer: 'II và III'
     },
     {
-        question: 'Lựa chọn đáp án sai trong những phương án dưới đây.\n Công ty đầu tư chứng khoán:',
+        question: 'Lựa chọn đáp án sai trong những phương án dưới đây.\nCông ty đầu tư chứng khoán:',
         choices: [
             'Là quỹ đầu tư chứng khoán được tổ chức theo loại hình công ty cổ phần để đầu tư chứng khoán',
             'Phải uỷ thác vốn cho một công ty quản lý quỹ quản lý',
@@ -1461,8 +1461,8 @@ const questionBank = [
         question: 'Trong các nhiệm vụ sau đây, nhiệm vụ nào không thuộc chức năng của kiểm soát nội bộ trong công ty quản lý quỹ đại chúng theo quy định pháp luật hiện hành:',
         choices: [
             'Tham gia xây dựng quy trình, tổ chức thực hiện công tác quản trị rủi ro của công ty và cho từng khách hàng ủy thác; kịp thời nhận diện, đánh giá mức độ rủi ro, thiết lập hạn mức đầu tư và có biện pháp ngăn ngừa, quản lý các rủi ro tiềm ẩn trong hoạt động dầu tư của công ty và của khách hàng ủy thác; ', 
-            'Giám sát bảo dảm giá trị tài sản ràng của danh mục ủy thác, quỹ đầu tư chứng khoán. công ty đầu tư chứng khoán được định giá phù hợp với quy định của pháp luật và quy định nội bộ; tài sản và các nguồn lực của công ty dược quản lý an toàn, hiệu quả; tài sản khách hàng ủy thác được quản lý tách biệt, đọc lập; báo cáo tài chính, báo cáo hoạt động, bảo các về các chi tiêu an toàn tài chính và các báo khác của công ty được lập rung thực, chính xác, kịp thời, cập nhật dầy dù theo quy định của pháp luật; ' ,
-            'Giám sát, bảo dảm hệ thống thông tin tài chính và quản lý trung thực, dây dù, kịp thời và chính xác; có hệ thống thông tin dự phòng để kịp thời xử lý những sự cố phát sinh như thiên tai, chạy nổ, đảm bảo duy trì hoạt động liên tục của công ty;' ,
+            'Giám sát bảo đảm giá trị tài sản ràng của danh mục ủy thác, quỹ đầu tư chứng khoán. công ty đầu tư chứng khoán được định giá phù hợp với quy định của pháp luật và quy định nội bộ; tài sản và các nguồn lực của công ty dược quản lý an toàn, hiệu quả; tài sản khách hàng ủy thác được quản lý tách biệt, đọc lập; báo cáo tài chính, báo cáo hoạt động, bảo các về các chi tiêu an toàn tài chính và các báo khác của công ty được lập rung thực, chính xác, kịp thời, cập nhật dầy dù theo quy định của pháp luật; ' ,
+            'Giám sát, bảo đảm hệ thống thông tin tài chính và quản lý trung thực, dây dù, kịp thời và chính xác; có hệ thống thông tin dự phòng để kịp thời xử lý những sự cố phát sinh như thiên tai, chạy nổ, đảm bảo duy trì hoạt động liên tục của công ty;' ,
             'Thực hiện chức năng kiểm soát nội bộ trong trường hợp công ty quản lý quỹ không phải thành lập bộ phân kiểm toán nội bộ'
         ],
         answer: 'Thực hiện chức năng kiểm soát nội bộ trong trường hợp công ty quản lý quỹ không phải thành lập bộ phân kiểm toán nội bộ'
@@ -1485,9 +1485,9 @@ const questionBank = [
             'Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoản trong thời hạn 6 tháng gần nhất tính đến thời diễm được bổ nhiệm ' ,
             'Có chứng chỉ hành nghề quản lý tài sản tại các quốc gia là thành viên của Tổ chức hợp tác và phát triển kinh tế (OECD) hoặc đã thi đạt chứng chi quốc tế về phân tích đầu tư CFA từ bậc II trở lên (Chartered Finanial Analyst level II) hoặc CHA (Certified International Investment Analyst - Final Level); ' ,
             'Có chứng chỉ hành nghề chứng khoán ' , 
-            'Có chứng chỉ chuyên môn về Quản lý tài sản và chứng chỉ Pháp luật về chứng khoán và thị trưởng chứng khoán'
+            'Có chứng chỉ chuyên môn về Quản lý tài sản và chứng chỉ Pháp luật về chứng khoán và thị trường chứng khoán'
         ],
-        answer: 'Có chứng chỉ chuyên môn về Quản lý tài sản và chứng chỉ Pháp luật về chứng khoán và thị trưởng chứng khoán'
+        answer: 'Có chứng chỉ chuyên môn về Quản lý tài sản và chứng chỉ Pháp luật về chứng khoán và thị trường chứng khoán'
     },
     
     {
@@ -1543,7 +1543,7 @@ const questionBank = [
     {
         question: 'Trong các khái niệm sau đây, khái niệm nào là đúng nhất theo quy định pháp luật hiện hành khi xác định giá trị rủi ro thị trường để tính tỷ lệ an toàn tài chính của công ty quản lý quỹ:',
         choices: [
-            'Là giá trị tương ứng với mức độ tổn thấy có thể xảy ra khi giá trị thị trưởng của tài sản đang sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng thuận lợi' ,
+            'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra khi giá trị thị trưởng của tài sản đang sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng thuận lợi' ,
             'Là giá trị tương ứng với mức độ lợi nhuận có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng bất lợi' ,
             'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu theo cam kết bảo lãnh phát hành theo chiều hướng bất lợi' ,
             'Là giá trị tương ứng với mức độ tổn thất có thể xảy ra khi giá trị thị trường của tài sản đang sở hữu và dự kiến sẽ sở hữu thay đổi giá trị',
@@ -1579,8 +1579,8 @@ const questionBank = [
         choices: [
             'Quyết định thay đổi vốn điều lệ của quỹ đóng',
             'Sửa dổi Điều lệ, Bản cáo bạch',
-            'Định giá sai giá trị tài sản rộng',
-            'Vượt mức các hạn chế đầu tư và diều chỉnh sai lệch của danh mục đầu tư' ,
+            'Định giá sai giá trị tài sản ròng',
+            'Vượt mức các hạn chế đầu tư và điều chỉnh sai lệch của danh mục đầu tư' ,
             'Dự kiến thay đổi ngân hàng lưu ký'
         ],
         answer: 'Dự kiến thay đổi ngân hàng lưu ký'
