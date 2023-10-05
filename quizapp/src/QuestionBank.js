@@ -969,7 +969,7 @@ const questionBank = [
         answer: 'I, III'
     },
     {
-        question: 'Hành vi thực hiện một hoặc một số dung dịch nhằm che dấu thông tin về quyền sở hữu thực sự đối với một chứng khoán để trốn tránh hoặc để hỗ trợ người khác trốn tránh nghĩa vụ công bố thông tin theo quy định hoặc nghĩa vụ phải tuân thủ trong thực hiện chào mua công khai hoặc quy định phải tuân thủ về tỷ lệ sở hữu nước ngoài trên thị trường chứng khoán Việt Nam bị xử lý ra sao \nI. Cảnh cáo \nII. Phạt tiền từ 400 triệu đến 500 triệu đồng \nIII. Phạt tiền từ 500 triệu đến 600 triệu đồng \nIV. Tước quyền sử dụng chứng chỉ hành nghề chứng khoán trong thời hạn từ 18 đến 24 tháng \nV. Buộc nộp lại số lợi ích bất hợp pháp có được do hành vi vi phạm nói trên',
+        question: 'Hành vi thực hiện một hoặc một số giao dịch nhằm che dấu thông tin về quyền sở hữu thực sự đối với một chứng khoán để trốn tránh hoặc để hỗ trợ người khác trốn tránh nghĩa vụ công bố thông tin theo quy định hoặc nghĩa vụ phải tuân thủ trong thực hiện chào mua công khai hoặc quy định phải tuân thủ về tỷ lệ sở hữu nước ngoài trên thị trường chứng khoán Việt Nam bị xử lý ra sao \nI. Cảnh cáo \nII. Phạt tiền từ 400 triệu đến 500 triệu đồng \nIII. Phạt tiền từ 500 triệu đến 600 triệu đồng \nIV. Tước quyền sử dụng chứng chỉ hành nghề chứng khoán trong thời hạn từ 18 đến 24 tháng \nV. Buộc nộp lại số lợi ích bất hợp pháp có được do hành vi vi phạm nói trên',
         choices: [
             'III, IV', 'II, IV, V', 'III, IV, V', 'IV, V'
         ],
@@ -1078,7 +1078,7 @@ const questionBank = [
         answer: 'Lấy ý kiến Đại hội cổ động căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 60 ngày giao dịch liên tiếp liền trước ngày chốt danh sách cổ động hoặc họp Đại hội cổ đông thông qua phương án phát hành có xác nhận của tổ chức tư vấn hồ sơ đăng ký chào bán cổ phiếu ra công chúng'
     },
     {
-        question: 'Khi đăng ký chào bán trái phiếu ra công chúng. Tổ chức phát hành hoặc trái phiếu dăng ký chào bán phải được xếp hạng tín nhiệm bởi tổ chức xếp hạng tín nhiệm được Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh trong các trường hợp nào? \nI. Tổng giá trị trái phiếu theo mệnh giá huy động trong mỗi 12 tháng lớn hơn 1 tỷ đồng và lớn hơn 100% vốn chủ sở hữu căn cứ trên báo cáo tài chính kỳ gần nhất \nII. Tổng giá trị trái phiếu theo mệnh giá huy động trong mỗi 12 tháng lớn hơn 500 tỷ đồng và lớn hơn 50% vốn chủ sở hữu căn cứ trên báo cáo tài chính kỳ gần nhất \nIII. Tổng dư nợ trái phiếu theo mệnh giá tính đến thời điểm 100% vốn chủ sở hữu căn cứ trên báo cáo tài chính gần nhất \nIV. Tổng dư nợ trái phiếu theo mệnh giá tính đến thời điểm 50% vốn chủ sở hữu căn cứ trên báo cáo tài chính gần nhất',
+        question: 'Khi đăng ký chào bán trái phiếu ra công chúng. Tổ chức phát hành hoặc trái phiếu đăng ký chào bán phải được xếp hạng tín nhiệm bởi tổ chức xếp hạng tín nhiệm được Bộ Tài chính cấp Giấy chứng nhận đủ điều kiện kinh doanh trong các trường hợp nào? \nI. Tổng giá trị trái phiếu theo mệnh giá huy động trong mỗi 12 tháng lớn hơn 1 tỷ đồng và lớn hơn 100% vốn chủ sở hữu căn cứ trên báo cáo tài chính kỳ gần nhất \nII. Tổng giá trị trái phiếu theo mệnh giá huy động trong mỗi 12 tháng lớn hơn 500 tỷ đồng và lớn hơn 50% vốn chủ sở hữu căn cứ trên báo cáo tài chính kỳ gần nhất \nIII. Tổng dư nợ trái phiếu theo mệnh giá tính đến thời điểm 100% vốn chủ sở hữu căn cứ trên báo cáo tài chính gần nhất \nIV. Tổng dư nợ trái phiếu theo mệnh giá tính đến thời điểm 50% vốn chủ sở hữu căn cứ trên báo cáo tài chính gần nhất',
         choices: [
             'I hoặc II', 'II hoặc III', 'I hoặc IV', 'II hoặc IV'
         ],
@@ -1219,7 +1219,7 @@ const questionBank = [
     {
         question: 'Nhà đầu tư nước ngoài là cá nhân được sở hữu bao nhiêu vốn điều lệ của công ty chứng khoán',
         choices: [
-            'DƯới 49%',
+            'Dưới 49%',
             '49%',
             'Trên 49%',
             '51%'
@@ -1239,10 +1239,10 @@ const questionBank = [
     {
         question: 'Theo quy định của Luật Chứng khoán, tổng công ty lưu kỳ và bù trừ chứng khoán Việt Nam có các quyền và nghĩa vụ sau đây, ngoại trừ',
         choices: [
-            'Ban hành các quy chế dăng ký, lưu ký, bù trừ và thanh toán chứng khoán và các quy ché nghiệp vụ khác sau khi được UBCKNN chấp thuận;',
+            'Ban hành các quy chế đăng ký, lưu ký, bù trừ và thanh toán chứng khoán và các quy ché nghiệp vụ khác sau khi được UBCKNN chấp thuận;',
             'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu kỳ. bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
             'Chấp thuận, thay đổi, hủy bỏ tư cách thành viên lưu ký của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam; đình chỉ hoạt động lưu ký chứng khoán của thành viên lưu ký; ',
-            'Cung cấp dịch vụ đăng ký, lưu ký, bù trừ và thanh toán chứng khoán; dăng ký biện pháp dám bao đối với chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam theo yêu cầu theo yêu cầu của khách hàng; cung cấp dịch vụ khác theo quy định tại Điều lệ của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam'
+            'Cung cấp dịch vụ đăng ký, lưu ký, bù trừ và thanh toán chứng khoán; đăng ký biện pháp đảm bao đối với chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam theo yêu cầu theo yêu cầu của khách hàng; cung cấp dịch vụ khác theo quy định tại Điều lệ của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam'
         ],
         answer: 'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu kỳ. bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
     },
