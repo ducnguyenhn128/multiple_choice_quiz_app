@@ -1050,9 +1050,9 @@ const questionBank = [
     {
         question: 'Khi được Đại hội đồng cổ đông ủy quyền và theo quy định tại điều lệ công ty, Hội đồng quản trị chỉ được thay đối phương án sử dụng vốn, số tiền thu được từ đợt chào bán, đợt phát hành với giá trị thay đổi là bao nhiêu? (trừ trường hợp chào bán trái phiếu không chuyển đổi, không kèm chứng quyền theo phương ăn được Hội đồng quản trị thông qua)',
         choices: [
-            'Giá trị thay đổi nhỏ hơn 70% số vốn, số tiền thu dược từ đợt chào bản, đợt phát hành',
+            'Giá trị thay đổi nhỏ hơn 70% số vốn, số tiền thu dược từ đợt chào bán, đợt phát hành',
             'Giá trị thay đổi nhỏ hơn 50% số vốn, số tiền thu được từ đợt chào bán, đợt phát hành',
-            'Khi được Đại hội cổ đông ủy quyền, Hội đồng quản trị được thay đổi toàn bộ phương án sử dụng số tiền thu được từ đợt chào bản và thực hiện báo cáo Đại hội đồng cổ đông tại cuộc họp gần nhất',
+            'Khi được Đại hội cổ đông ủy quyền, Hội đồng quản trị được thay đổi toàn bộ phương án sử dụng số tiền thu được từ đợt chào bán và thực hiện báo cáo Đại hội đồng cổ đông tại cuộc họp gần nhất',
             'Hội đồng quản trị không được thay đổi phương án sử dụng vốn, số tiền thu được từ dợi chào bán, phát hành sau khi hoàn thành đợt chào bán, phát hành'
         ],
         answer: 'Giá trị thay đổi nhỏ hơn 50% số vốn, số tiền thu được từ đợt chào bán, đợt phát hành'
@@ -1060,18 +1060,18 @@ const questionBank = [
     {
         question: 'Tất cả các câu sau đều mô tả đúng việc xử lý cổ phiếu nhà đầu tư không đăng ký mua, không nộp tiền mua, số cổ phiếu lẻ, ngoại trừ',
         choices: [
-            'Tổ chức phát hành hiện thực phân phối số cổ phiếu nhà đầu tư không đăng ký, không nộp tiền mua số cổ phiếu lẻ cho một hoặc một số nhà đầu tư xác định phải bảo đảm điều kiện chào bản, diều kiện về quyền, nghĩa vụ của nhà đầu tư không thuận lợi hơn so với điều kiện chào bản cho cổ đông hiện hữu, trừ trường hợp Đại hội cổ đông có chấp thuận khác' ,
+            'Tổ chức phát hành hiện thực phân phối số cổ phiếu nhà đầu tư không đăng ký, không nộp tiền mua số cổ phiếu lẻ cho một hoặc một số nhà đầu tư xác định phải bảo đảm điều kiện chào bán, diều kiện về quyền, nghĩa vụ của nhà đầu tư không thuận lợi hơn so với điều kiện chào bán cho cổ đông hiện hữu, trừ trường hợp Đại hội cổ đông có chấp thuận khác' ,
             'Đại hội cổ đông hoặc Hội đồng quản trị phải xác định tiêu chí, danh sách nhà đầu tư được mua cổ phiếu, Số cổ phiếu này bị hạn chế chuyển nhượng trong thời hạn tối thiểu I năm kể từ ngày kết thúc đợt chào bán' ,
             'Việc phân phối cổ phiếu cho tổ chức, cá nhân và người có liên quan dẫn đến tỷ lệ sở hữu của các đối tượng này vượt mức sở hữu theo quy định của Luật Chứng khoán về chào mua công khai phải được Đại hội cổ đông thông qua;' ,
-            'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng vẫn nhất'
+            'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng gần nhất'
         ],
-        answer: 'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng vẫn nhất'
+        answer: 'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng gần nhất'
     },
     {
         question: 'Công ty đại chúng đăng ký chào bán thêm cổ phiếu ra công chúng với giá thấp hơn mệnh giá, giá dự kiến chào bán được xác định như thế nào?',
         choices: [
             'Lấy ý kiến Đại hội cổ đông căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 30 ngày giao dịch liên tiếp trước ngày chốt danh sách cổ đông',
-            'Giá dự kiến chào bản là giá tham chiếu cổ phiếu trong tối thiểu 30 ngày và tối da 60 ngày giao dịch liên tiếp liên tiếp ngày chốt danh sách cổ đông',
+            'Giá dự kiến chào bán là giá tham chiếu cổ phiếu trong tối thiểu 30 ngày và tối da 60 ngày giao dịch liên tiếp liên tiếp ngày chốt danh sách cổ đông',
             'Lấy ý kiến Đại hội cổ động căn cứ trên bảng thống kê giá tham chiếu cổ phiếu của 60 ngày giao dịch liên tiếp liền trước ngày chốt danh sách cổ động hoặc họp Đại hội cổ đông thông qua phương án phát hành có xác nhận của tổ chức tư vấn hồ sơ đăng ký chào bán cổ phiếu ra công chúng' ,
             'Tất cả các phương án trên không đúng'
         ],
@@ -1229,22 +1229,22 @@ const questionBank = [
     {
         question: 'Trường hợp xác định được ứng cử viên Hội đồng quản trị, Công ty đại chúng phải công bố thông tin liên quan đến các ứng cử viên tối thiểu bao nhiêu ngày',
         choices: [
-            '3 ngày trước ngày gửi thông bào mời họp',
+            '3 ngày trước ngày gửi thông báo mời họp',
             '5 ngày trước ngày khai mạc họp ĐHĐCĐ',
-            '10 ngày trước ngày gửi thông bào mời họp',
+            '10 ngày trước ngày gửi thông báo mời họp',
             '10 ngày trước ngày khai mạc họp ĐHĐCĐ',
         ],
         answer: '10 ngày trước ngày khai mạc họp ĐHĐCĐ'
     },
     {
-        question: 'Theo quy định của Luật Chứng khoán, tổng công ty lưu kỳ và bù trừ chứng khoán Việt Nam có các quyền và nghĩa vụ sau đây, ngoại trừ',
+        question: 'Theo quy định của Luật Chứng khoán, tổng công ty lưu ký và bù trừ chứng khoán Việt Nam có các quyền và nghĩa vụ sau đây, ngoại trừ',
         choices: [
             'Ban hành các quy chế đăng ký, lưu ký, bù trừ và thanh toán chứng khoán và các quy ché nghiệp vụ khác sau khi được UBCKNN chấp thuận;',
-            'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu kỳ. bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
+            'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu ký, bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
             'Chấp thuận, thay đổi, hủy bỏ tư cách thành viên lưu ký của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam; đình chỉ hoạt động lưu ký chứng khoán của thành viên lưu ký; ',
             'Cung cấp dịch vụ đăng ký, lưu ký, bù trừ và thanh toán chứng khoán; đăng ký biện pháp đảm bao đối với chứng khoán đã đăng ký tập trung tại Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam theo yêu cầu theo yêu cầu của khách hàng; cung cấp dịch vụ khác theo quy định tại Điều lệ của Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam'
         ],
-        answer: 'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu kỳ. bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
+        answer: 'Làm trung gian hòa giải khi có các tranh chấp liên quan đến hoạt động đăng ký, lưu ký, bù trừ và thanh toán chứng khoán của các thành viên lưu ký',
     },
     {
         question: 'Trách nhiệm xác định Nhà đầu tư chứng khoán chuyên nghiệp tham gia mua chứng khoán khi thực hiện chào bán riêng lẻ, đăng ký lập quỹ thành viên thuộc về: ',
