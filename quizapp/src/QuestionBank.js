@@ -873,14 +873,14 @@ const questionBank = [
         choices: [
             'Trước khi giao dịch cổ phiếu, quyền mua cổ phiếu trái phiếu chuyển đổi, quyền trải phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng',
             'Sau khi giao dịch cổ phiếu trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chi quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có dám bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng',
-            'Khi có thay dổi sở hữu đối với cổ phiếu, quyền mua cổ phiếu, trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có đảm bảo dựa trên chứng khoán của công ty đại chúng, công ty dầu tư chứng khoán đại chúng, quỹ đại chúng',
+            'Khi có thay đổi sở hữu đối với cổ phiếu, quyền mua cổ phiếu, trái phiếu chuyển đổi, quyển trái phiếu chuyển đổi, chứng chỉ quỹ, quyền mua chứng chỉ quỹ hoặc chứng quyền có đảm bảo dựa trên chứng khoán của công ty đại chúng, công ty đầu tư chứng khoán đại chúng, quỹ đại chúng',
             'Cả  a, b',
             'Cả a, b, c'
         ],
         answer: 'Cả a, b, c'
     },
     {
-        question: 'Theo quy định hiện nay, người hành nghề CK có hành vi vi phạm quy định về nhận lệnh và thực hiện lệnh giao dịch của KH sẽ bị phạt: \nI. 70 - 100 triệu VNĐ \n II. 100 - 150 triệu VNĐ \nIII. 150 - 200 triệu VNĐ \nIV. Tước quyền sử dụng CCHNCK trong thời hạn từ 1 - 3 tháng \nV. Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán của tổ chức kinh doanh chứng khoán trong thời gian từ 1 - 3 tháng',
+        question: 'Theo quy định hiện nay, người hành nghề CK có hành vi vi phạm quy định về nhận lệnh và thực hiện lệnh giao dịch của KH sẽ bị phạt: \nI. 70 - 100 triệu VNĐ \nII. 100 - 150 triệu VNĐ \nIII. 150 - 200 triệu VNĐ \nIV. Tước quyền sử dụng CCHNCK trong thời hạn từ 1 - 3 tháng \nV. Đình chỉ hoạt động kinh doanh, dịch vụ chứng khoán của tổ chức kinh doanh chứng khoán trong thời gian từ 1 - 3 tháng',
         choices: [
             'I, IV',
             'II, V',
@@ -1570,9 +1570,9 @@ const questionBank = [
             'Báo cáo tài chính bản niên đã được soát xét hoặc kiểm toán',
             'Báo cáo giao dịch của quỹ qua các công ty chứng khoán' ,
             'Báo cáo giá trị tài sản ròng' ,
-            'Báo các thay đổi người điều hành quỹ'
+            'Báo cáo thay đổi người điều hành quỹ'
         ],
-        answer: 'Báo các thay đổi người điều hành quỹ'
+        answer: 'Báo cáo thay đổi người điều hành quỹ'
     },
     {
         question: 'Trong các loại thông tin phải công bố bất thường của quỹ đại chúng, loại thông tin nào không phải công bố theo quy định:',
