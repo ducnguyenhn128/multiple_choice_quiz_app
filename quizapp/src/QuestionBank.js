@@ -395,7 +395,7 @@ const questionBank = [
         question: 'Tổ chức niêm yết không phải công bố thông tin trong 24 giờ kể từ khi xảy ra sự kiện nào' ,
         choices: [
             'có quyết định mua lại CP của chính mình', 
-            'có quyểt định thay đổi DN kiểm toán', 
+            'có quyết định thay đổi DN kiểm toán', 
             'có quyết định của cơ quan thuế v/v vi phạm luật thuế',
             'khi giá cổ phiếu tăng trần hoặc giảm sàn 10 phiên liên tiếp'
         ],
@@ -1063,9 +1063,9 @@ const questionBank = [
             'Tổ chức phát hành hiện thực phân phối số cổ phiếu nhà đầu tư không đăng ký, không nộp tiền mua số cổ phiếu lẻ cho một hoặc một số nhà đầu tư xác định phải bảo đảm điều kiện chào bán, diều kiện về quyền, nghĩa vụ của nhà đầu tư không thuận lợi hơn so với điều kiện chào bán cho cổ đông hiện hữu, trừ trường hợp Đại hội cổ đông có chấp thuận khác' ,
             'Đại hội cổ đông hoặc Hội đồng quản trị phải xác định tiêu chí, danh sách nhà đầu tư được mua cổ phiếu, Số cổ phiếu này bị hạn chế chuyển nhượng trong thời hạn tối thiểu I năm kể từ ngày kết thúc đợt chào bán' ,
             'Việc phân phối cổ phiếu cho tổ chức, cá nhân và người có liên quan dẫn đến tỷ lệ sở hữu của các đối tượng này vượt mức sở hữu theo quy định của Luật Chứng khoán về chào mua công khai phải được Đại hội cổ đông thông qua;' ,
-            'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng gần nhất'
+            'Khi được Đại hội cổ đông ủy quyền, Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng gần nhất'
         ],
-        answer: 'Khi được Đại hội cổ đông ủy quyền Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng gần nhất'
+        answer: 'Khi được Đại hội cổ đông ủy quyền, Hội đồng quản trị được phân phối tiếp cổ phiếu cho nhà đầu tư bao gồm cả chào bán cho tổ chức, cá nhân và người có liên quan từ 10% vốn điều lệ trở lên của tổ chức phát hành trong một đợt chào bán hoặc trong các đợt chào bán, phát hành trong 12 tháng gần nhất'
     },
     {
         question: 'Công ty đại chúng đăng ký chào bán thêm cổ phiếu ra công chúng với giá thấp hơn mệnh giá, giá dự kiến chào bán được xác định như thế nào?',
@@ -1439,7 +1439,7 @@ const questionBank = [
         answer: 'Được thưởng hoạt động cho quản lý quỹ trong mọi trường hợp'
     },
     {
-        question: 'Trong hoạt động quản lý tài sản ủy thác, công ty quản lý quỹ có thể: \nI. Dùng tài sản của quỹ, của công ty đầu tư chứng khoán để đầu tư vào chính quỹ, công ty đầu tư chứng khoản đó \n II. Dùng tài sản của khách hàng ủy thác từ công ty quản lý danh mục, quản lý quỹ/ công ty chứng khoán do minh quản lý vào quỹ/ công ty đầu tư chứng khoán khác do mình quản lý. \nIII. Dùng tài sản của quỹ đại chúng, công ty đầu tư chứng khoán đại chúng để đầu tư vào chính công ty quản lý quỹ. \nIV. Tất cả đều sai ',
+        question: 'Trong hoạt động quản lý tài sản ủy thác, công ty quản lý quỹ có thể: \nI. Dùng tài sản của quỹ, của công ty đầu tư chứng khoán để đầu tư vào chính quỹ, công ty đầu tư chứng khoản đó \nII. Dùng tài sản của khách hàng ủy thác từ công ty quản lý danh mục, quản lý quỹ/ công ty chứng khoán do minh quản lý vào quỹ/ công ty đầu tư chứng khoán khác do mình quản lý. \nIII. Dùng tài sản của quỹ đại chúng, công ty đầu tư chứng khoán đại chúng để đầu tư vào chính công ty quản lý quỹ. \nIV. Tất cả đều sai ',
         choices: [
             'I, II', 'I, III', 'II, III', 'IV'
         ],
