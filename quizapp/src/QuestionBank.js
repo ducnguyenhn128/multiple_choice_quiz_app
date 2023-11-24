@@ -604,7 +604,7 @@ const questionBank = [
         answer: 'Số lượng thành viên HĐQT không ít hơn 5 người và nhiều nhất 11 người'
     },
     {
-        question: ' Với tư cách là nhân viên một công ty chứng khoán, được khách hàng là ngân hàng thương mại đồng thời là công ty đại chúng yêu cầu tư vấn về việc bầu thành viên HĐQT tại đại hội đồng cổ đông thường niên sắp tới hạn sẽ tư vẫn liên quan đến số lượng thành viên HĐQT như thế nào?',
+        question: 'Với tư cách là nhân viên một công ty chứng khoán, được khách hàng là ngân hàng thương mại đồng thời là công ty đại chúng yêu cầu tư vấn về việc bầu thành viên HĐQT tại đại hội đồng cổ đông thường niên sắp tới hạn sẽ tư vẫn liên quan đến số lượng thành viên HĐQT như thế nào?',
         choices: [
             'cơ cấu thành viên HĐQT phải đảm bảo tối thiểu 17 tổng số thành viên HĐQT là thành viên độc lập',
             'cơ cấu thành viên HĐQT phải đảm bảo có tối thiểu 01 thành viên độc lập nếu HĐQT có từ 03 đến 05 thành viên hoặc tối thiểu 02 thành viên cộc lập nếu HĐQT có từ 6 đến 8 thành viên hoặc tối thiểu 03 thành viên độc lập nếu HĐQT có từ 6 đến 11 thành viên',
@@ -910,7 +910,7 @@ const questionBank = [
         answer: 'III, IV, V'
     },
     {
-        question: 'Theo quy định hiện nay, khi có hành vi môi giới giao dịch vay, mượn tài sản giữa các khách hàng hoặc giữa khách hàng và bên thứ ba, trừ trường hợp vay chứng khoán để sửa lỗi giao dịch hoặc vay để thực hiện các giao dịch hoán đổi chứng chỉ quỹ hoán đổi danh mục, người hành nghề chứng khoán sẽ bị phạt: \nI. 150 - 200 triệu đồng \nII. 200 - 250 triệu đồng \nIII. 300 - 400 triệu đồng \nIV. Tước quyền sử dụng chững chỉ hành nghề chứng khoán trong thời hạn từ 06 tháng đến 12 tháng \nV. Buộc hoàn trả chứng khoản, tiền thuộc sở hữu của khách hàng thời gian tối đa 60 ngày kể từ ngày quyết định áp dụng biện pháp này có hiệu lực thi hành đối với hành vi vi phạm nói trên',
+        question: 'Theo quy định hiện nay, khi có hành vi môi giới giao dịch vay, mượn tài sản giữa các khách hàng hoặc giữa khách hàng và bên thứ ba, trừ trường hợp vay chứng khoán để sửa lỗi giao dịch hoặc vay để thực hiện các giao dịch hoán đổi chứng chỉ quỹ hoán đổi danh mục, người hành nghề chứng khoán sẽ bị phạt: \nI. 150 - 200 triệu đồng \nII. 200 - 250 triệu đồng \nIII. 300 - 400 triệu đồng \nIV. Tước quyền sử dụng chứng chỉ hành nghề chứng khoán trong thời hạn từ 06 tháng đến 12 tháng \nV. Buộc hoàn trả chứng khoán, tiền thuộc sở hữu của khách hàng thời gian tối đa 60 ngày kể từ ngày quyết định áp dụng biện pháp này có hiệu lực thi hành đối với hành vi vi phạm nói trên',
         choices: [
             'I, IV',
             'II, IV, V',
